@@ -1,0 +1,30 @@
+[
+  {
+    "match": "start_game",
+    "value": "Iniciar juego"
+  },
+  {
+    "match": "settings",
+    "value": "Opciones"
+  },
+  {
+    "match": "quit_game",
+    "value": "Salir del juego"
+  },
+  {
+    "match": "language",
+    "value": "Idioma"
+  },
+  {
+    "match": "back",
+    "value": "Volver"
+  },
+  {
+    "match": "full_screen",
+    "value": "Pantalla completa"
+  },
+  {
+    "match": "leave_quiz",
+    "value": "Abandonar quiz"
+  }
+]

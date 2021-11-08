@@ -1,0 +1,488 @@
+[
+  {
+    "id": "7-0",
+    "title": "¿Qué tipo de instrumento es una cítara?",
+    "options": "De cuerda, De viento, De percusión",
+    "lore": ""
+  },
+  {
+    "id": "7-1",
+    "title": "¿Quién pintó el “Guernica”?",
+    "options": "Picasso, Rubens, Rembrandt",
+    "lore": ""
+  },
+  {
+    "id": "7-2",
+    "title": "¿Quién escribió “La Guerra de los Mundos”?",
+    "options": "H.G. Wells, Shakespeare, Ernest Hemingway",
+    "lore": ""
+  },
+  {
+    "id": "7-3",
+    "title": "¿Qué italiano puso música al Othelo de Shakespeare?",
+    "options": "Verdi, Vivaldi, Rossini",
+    "lore": ""
+  },
+  {
+    "id": "7-4",
+    "title": "¿Con qué nombre firmaba Van Gogh sus obras?",
+    "options": "Vincent, Willian, Van Gogh",
+    "lore": ""
+  },
+  {
+    "id": "7-5",
+    "title": "¿Quién escribió “Sueño de una noche de verano”?",
+    "options": "William Shakespeare, Cervantes, Hemingway",
+    "lore": ""
+  },
+  {
+    "id": "7-6",
+    "title": "¿Cómo se llama el caballo de Don Quijote de la Mancha?",
+    "options": "Rocinante, Eustace, Veloz",
+    "lore": ""
+  },
+  {
+    "id": "7-7",
+    "title": "¿Qué animal mitológico da nombre a un libro de Thomas Hobbe?",
+    "options": "Leviatan, Minotauro,Mantícora",
+    "lore": ""
+  },
+  {
+    "id": "7-8",
+    "title": "¿Qué colores tiene la bandera de México?",
+    "options": "verde blanco y rojo, verde blanco y azul, verde amarillo y rojo",
+    "lore": ""
+  },
+  {
+    "id": "7-9",
+    "title": "¿Cómo se denomina el resultado de la multiplicación?",
+    "options": "Producto, Resto, División",
+    "lore": ""
+  },
+  {
+    "id": "7-10",
+    "title": "¿Qué producto se cultiva más en Guatemala?",
+    "options": "Café, Azucar, Arroz, Tomates",
+    "lore": ""
+  },
+  {
+    "id": "7-11",
+    "title": "Si 50 es el 100%, ¿cuánto es el 90%?",
+    "options": "45,55,60, Rojo",
+    "lore": ""
+  },
+  {
+    "id": "7-12",
+    "title": "¿Cuál es el color que representa la esperanza?",
+    "options": "El verde, El amarillo, El azúl, El rosa",
+    "lore": ""
+  },
+  {
+    "id": "7-13",
+    "title": "¿Cómo se llama el himno nacional de Francia?",
+    "options": "La Marsellesa,Le Collete,La Nuit",
+    "lore": ""
+  },
+  {
+    "id": "7-14",
+    "title": "¿De qué estilo arquitectónico es la Catedral de Notre Dame en París?",
+    "options": "Gótico, Jónico, Corintio",
+    "lore": ""
+  },
+  {
+    "id": "7-15",
+    "title": "¿En qué país se encuentra el famoso monumento Taj Mahal?",
+    "options": "India, China, Taiwan, Malasia",
+    "lore": ""
+  },
+  {
+    "id": "7-16",
+    "title": "¿Qué órgano del cuerpo humano consume más energía?",
+    "options": "El cerebro, El corazón, Los intestinos",
+    "lore": ""
+  },
+  {
+    "id": "7-17",
+    "title": "¿Cómo se llama la lengua oficial en china?",
+    "options": "Mandarín, Chino, Mongólico",
+    "lore": ""
+  },
+  {
+    "id": "7-18",
+    "title": "¿Cómo se llamaba la hija de Sigmund Freud que dedicó su vida a la psicología infantil?",
+    "options": "Anna, Eva, Mary, Flora",
+    "lore": ""
+  },
+  {
+    "id": "7-19",
+    "title": "¿Quién descubrió la penicilina?",
+    "options": "Alexander Fleming,Edward Jenner,Robert Koch",
+    "lore": ""
+  },
+  {
+    "id": "7-20",
+    "title": "¿En qué año fue sucedió el desastre de Chernobyl?",
+    "options": "1986, 1988, 1990",
+    "lore": ""
+  },
+  {
+    "id": "7-21",
+    "title": "¿Qué es el umami?",
+    "options": "Un sabor, Un vegetal, Una idioma africano,",
+    "lore": ""
+  },
+  {
+    "id": "7-22",
+    "title": "¿Cuántos dientes tiene un ser humano adulto?",
+    "options": "32,36,40,30",
+    "lore": ""
+  },
+  {
+    "id": "7-23",
+    "title": "¿Qué colores tiene la bandera de Alemania?",
+    "options": "Negro con rojo y amarillo, Negro con azul y rojo, rojo con azul y amarillo",
+    "lore": ""
+  },
+  {
+    "id": "7-24",
+    "title": "¿Qué es un narval?",
+    "options": "Un cetáceto, Un tipo de embarcación, Un tubérculo",
+    "lore": ""
+  },
+  {
+    "id": "7-25",
+    "title": "¿Cuántas teclas tiene un piano?",
+    "options": "88,66,78",
+    "lore": ""
+  },
+  {
+    "id": "7-26",
+    "title": "¿Qué movimiento tiene el caballo en ajedrez?",
+    "options": "En L, En N,En E",
+    "lore": ""
+  },
+  {
+    "id": "7-27",
+    "title": "¿Cuánto dura un partido de fútbol?",
+    "options": "90 minutos, 80 minutos, 95 minutos",
+    "lore": ""
+  },
+  {
+    "id": "7-28",
+    "title": "¿Cuál era el verdadero nombre de Marilyn Monroe?",
+    "options": "Norma, Irma, Enma",
+    "lore": ""
+  },
+  {
+    "id": "7-29",
+    "title": "¿Quién escribió la famosa novela de Drácula publicada en 1897?",
+    "options": "Bram Stoker,Florence Balcombe,Oscar Wilde",
+    "lore": ""
+  },
+  {
+    "id": "7-30",
+    "title": "¿Qué novela de Stephen King se desarrolla principalmente en el Hotel Overlook?",
+    "options": "El resplandor, Niebla, Misery, El visitante",
+    "lore": ""
+  },
+  {
+    "id": "7-31",
+    "title": "¿Cuál es el único mamífero que no puede saltar?",
+    "options": "El elefante, La girafa, El rinoceronte",
+    "lore": ""
+  },
+  {
+    "id": "7-32",
+    "title": "¿Cuál es el metal más caro del mundo?",
+    "options": "Rodio, Titánio, Plata, Oro",
+    "lore": ""
+  },
+  {
+    "id": "7-33",
+    "title": "¿Quién escribió el libro Breve historia del tiempo: del Big Bang a los agujeros negros?",
+    "options": "Stephen Hawking,Elaine Mason, Albert Einstein",
+    "lore": ""
+  },
+  {
+    "id": "7-34",
+    "title": "¿Cuál es el edificio más alto del mundo?",
+    "options": "El Burj Khalifa,Torre de Shanghái,Lotte World Tower",
+    "lore": ""
+  },
+  {
+    "id": "7-35",
+    "title": "¿Cuál es el país con menos habitantes del mundo?",
+    "options": "El Vaticano, Mónaco,Tuvalu",
+    "lore": ""
+  },
+  {
+    "id": "7-36",
+    "title": "¿Qué día es la fiesta nacional de los Estados Unidos?",
+    "options": "4 de Julio, 21 de Junio, 31 de Octubre",
+    "lore": ""
+  },
+  {
+    "id": "7-37",
+    "title": "¿Cuál es el himno de la Unión Europea?",
+    "options": "Oda a la Alegría, La Marsellesa, Las cuatro estaciones de Vivaldi",
+    "lore": ""
+  },
+  {
+    "id": "7-38",
+    "title": "¿Cuántos lados tiene un heptágono?",
+    "options": "7 lados, 6 lados, 9 lados",
+    "lore": ""
+  },
+  {
+    "id": "7-39",
+    "title": "¿Cuál es el animal que más muertes provoca cada año?",
+    "options": "El mosquito, El cocodrilo, El elefante, El tiburón",
+    "lore": ""
+  },
+  {
+    "id": "7-40",
+    "title": "¿Cuál es el nombre de especie de los seres humanos?",
+    "options": "Homo sapiens sapiens, Homo Sapiens, Homo Erecto, Homo habilis",
+    "lore": ""
+  },
+  {
+    "id": "7-41",
+    "title": "¿Qué religión tiene la Torá como su libro sagrado?",
+    "options": "El judaismo, El Islam, El budismo, El cristianismo",
+    "lore": ""
+  },
+  {
+    "id": "7-42",
+    "title": "¿Cuántas estrellas hay en la bandera estadounidense?",
+    "options": "50, 41, 37",
+    "lore": ""
+  },
+  {
+    "id": "7-43",
+    "title": "¿Quién ganó el mundial de fútbol de 2010?",
+    "options": "España, Brasil, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "7-44",
+    "title": "¿Cuántas notas musicales existen?",
+    "options": "Doce, Siete, Nueve",
+    "lore": ""
+  },
+  {
+    "id": "7-45",
+    "title": "¿Dónde está la Universidad de Harvard?",
+    "options": "Estados Unidos, Reino Unido, Canadá, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "7-46",
+    "title": "¿Dónde está la Universidad de Oxford?",
+    "options": "Reino Unido, Estados Unidos, Canadá, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "7-47",
+    "title": "¿Quién ideó las leyes de la herencia genética?",
+    "options": "Gregor Mendel,Louis Pasteur,Dmitri Mendeléyev",
+    "lore": ""
+  },
+  {
+    "id": "7-48",
+    "title": "¿Cuál es el mineral más duro del planeta?",
+    "options": "El diamante, El feldespato,El corindón,El cuarzo",
+    "lore": ""
+  },
+  {
+    "id": "7-49",
+    "title": "¿Qué enfermedad provocó la muerte de Stephen Hawking?",
+    "options": "ELA,SIDA, Parkinson",
+    "lore": ""
+  },
+  {
+    "id": "7-50",
+    "title": "¿Cuántos días tiene un año bisiesto?",
+    "options": "366, 365,367",
+    "lore": ""
+  },
+  {
+    "id": "7-51",
+    "title": "¿Cuál es la universidad más antigua del mundo?",
+    "options": "Bolonia, Oxford, Harvard",
+    "lore": ""
+  },
+  {
+    "id": "7-52",
+    "title": "¿Cuál es el idioma más antiguo de Europa que sigue usándose?",
+    "options": "El vasco, El latín, El griego, el búlgaro",
+    "lore": ""
+  },
+  {
+    "id": "7-53",
+    "title": "¿Cuántos años son un lustro?",
+    "options": "5, 10, 12",
+    "lore": ""
+  },
+  {
+    "id": "7-54",
+    "title": "¿Cuál es el libro sagrado del Islam?",
+    "options": "El Corán, La Torá, La Biblia",
+    "lore": ""
+  },
+  {
+    "id": "7-55",
+    "title": "¿De qué isla son endémicos los lemures?",
+    "options": "Madagascar, Nueva Ghinea,Borneo",
+    "lore": ""
+  },
+  {
+    "id": "7-56",
+    "title": "¿Cuál es el deporte más practicado del mundo?",
+    "options": "La natación, El fútbol, El, baloncesto",
+    "lore": ""
+  },
+  {
+    "id": "7-57",
+    "title": "¿Cuándo se extinguieron los dinosaurios?",
+    "options": "Hace 66 millones de años, Hace 80 millones de años, Hace 45 millones de años",
+    "lore": ""
+  },
+  {
+    "id": "7-58",
+    "title": "¿Qué pigmento permite a las plantas hacer la fotosíntesis?",
+    "options": "La clorofila, Los carotenos, Las Xantofilas",
+    "lore": ""
+  },
+  {
+    "id": "7-59",
+    "title": "¿Qué pigmento da color a nuestra piel?",
+    "options": "La melanina, la cianina,La quinacridona",
+    "lore": ""
+  },
+  {
+    "id": "7-60",
+    "title": "¿Cuál es la ciudad que nunca duerme?",
+    "options": "New York, París, Benidorm",
+    "lore": ""
+  },
+  {
+    "id": "7-61",
+    "title": "¿En qué año murió Freddie Mercury?",
+    "options": "1991,1987,1994",
+    "lore": ""
+  },
+  {
+    "id": "7-62",
+    "title": "¿Qué cantante tiene como pseudónimo, \"The Boss\"?",
+    "options": "Bruce Springsteen, Elvis Presley,Ray Charles",
+    "lore": ""
+  },
+  {
+    "id": "7-63",
+    "title": "¿Cuál era la ciudad más cercana a la central nuclear de Chernóbil?",
+    "options": "Pripiat,Slavutich,Opachichi",
+    "lore": ""
+  },
+  {
+    "id": "7-64",
+    "title": "¿Cuál es la lengua más hablada del mundo?",
+    "options": "Chino, Inglés, Español, Frances",
+    "lore": ""
+  },
+  {
+    "id": "7-65",
+    "title": "¿Además del alemán, el italiano y el francés, ¿qué otro idioma es hablado en Suiza?",
+    "options": "El Romanche, Español, Portugués",
+    "lore": ""
+  },
+  {
+    "id": "7-66",
+    "title": "¿Cuál es el país europeo del que provienen las familias de la mayor parte de los habitantes de Argentina?",
+    "options": "Italia, España, Francia",
+    "lore": ""
+  },
+  {
+    "id": "7-67",
+    "title": "¿Cómo se llama el plato típico de Hungría hecho a partir de carne, cebolla y pimientos?",
+    "options": "Gulash,Currywurst,Colcannon",
+    "lore": ""
+  },
+  {
+    "id": "7-68",
+    "title": "¿Qué montaña es uno de los símbolos nacionales de Armenia?",
+    "options": "Monte Ararat,Monte Aragats,Monte Vardenis",
+    "lore": ""
+  },
+  {
+    "id": "7-69",
+    "title": "¿De qué grupo es la canción “Smells like a teen spirit”?",
+    "options": "Nirvana,Red Hot Chili Peppers,Metallica",
+    "lore": ""
+  },
+  {
+    "id": "7-70",
+    "title": "¿De qué país es originario el tipo de poesía conocido como haiku?",
+    "options": "Japón, Corea del Sur, China, Taiwan",
+    "lore": ""
+  },
+  {
+    "id": "7-71",
+    "title": "¿Cómo se llama el ave rapaz que se alimenta de huesos?",
+    "options": "Buitre,Águila real,Halcón peregrino",
+    "lore": ""
+  },
+  {
+    "id": "7-72",
+    "title": "¿Quién fue la primera mujer en ganar una medalla olímpica?",
+    "options": "Charlotte Cooper,Larisa Latynina,Katie Ledecky",
+    "lore": ""
+  },
+  {
+    "id": "7-73",
+    "title": "¿Cuál es el oso más famoso del parque nacional de Yellowstone?",
+    "options": "El oso Yogui,Winnie the Pooh, El oso amoroso",
+    "lore": ""
+  },
+  {
+    "id": "7-74",
+    "title": "¿Cuál de los cinco sentidos se desarrolla el primero?",
+    "options": "El olfato, El oído, La vista",
+    "lore": ""
+  },
+  {
+    "id": "7-75",
+    "title": "¿A qué le tiene miedo una persona que sufre vértigo?",
+    "options": "A las alturas, A los espacios cerrados, A los perros",
+    "lore": ""
+  },
+  {
+    "id": "7-76",
+    "title": "¿Cuál es el dedo más sensible de la mano?",
+    "options": "Índica, Anular, Pulgar, Meñique",
+    "lore": ""
+  },
+  {
+    "id": "7-77",
+    "title": "¿Cuál es el pájaro símbolo de la paz?",
+    "options": "La Paloma, El Gorrión, El Águila",
+    "lore": ""
+  },
+  {
+    "id": "7-78",
+    "title": "¿Qué deporte practican los Harlem Globetrotters?",
+    "options": "Baloncesto,Fútbol, Beisbol",
+    "lore": ""
+  },
+  {
+    "id": "7-79",
+    "title": "¿En qué país se encuentra el circuito de Le Mans?",
+    "options": "Francia, Mónaco, Italia",
+    "lore": ""
+  },
+  {
+    "id": "7-80",
+    "title": "¿Cuantas palabras hay en el idioma Inglés?",
+    "options": "1 millón de palabras,16.000 palabras, 500.000 palabras",
+    "lore": ""
+  }
+]

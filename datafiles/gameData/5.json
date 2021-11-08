@@ -1,0 +1,566 @@
+[
+  {
+    "id": "5-0",
+    "title": "¿Cuál es la denominación química del agua?",
+    "options": "H2O,C3PO,Na2O",
+    "lore": ""
+  },
+  {
+    "id": "5-1",
+    "title": "¿Cuantos átomos de oxígeno hay en una molécula de agua?",
+    "options": "1,2,3,Elche",
+    "lore": ""
+  },
+  {
+    "id": "5-2",
+    "title": "¿Cuál es el valor del número Pi?",
+    "options": "3.14,6,21,78",
+    "lore": ""
+  },
+  {
+    "id": "5-3",
+    "title": "¿Qué es un triángulo isósceles?",
+    "options": "Aquel cuyos 2 de sus lados miden lo mismo, Aquel cuyos lados miden lo mismo, Isósceles era un filósofo griego,Un triángulo con lados desiguales",
+    "lore": ""
+  },
+  {
+    "id": "5-4",
+    "title": "¿Cuántos corazones tiene un pulpo?",
+    "options": "3,4,8",
+    "lore": ""
+  },
+  {
+    "id": "5-5",
+    "title": "¿Cuál es la velocidad de la luz?",
+    "options": "300.000 km/2,12 km/s, 4000 km/s, 150 km/2",
+    "lore": ""
+  },
+  {
+    "id": "5-6",
+    "title": "¿Cual es el nombre en latín de la cucaracha?",
+    "options": "Blatomea,Cucarachensis, Ledicóptera,Formicidae",
+    "lore": ""
+  },
+  {
+    "id": "5-7",
+    "title": "¿Cual es el nombre en latín de la hormiga?",
+    "options": "Formicidae,Blatomea,Caelifera, Agaenensis",
+    "lore": ""
+  },
+  {
+    "id": "5-8",
+    "title": "¿Qué descubrió Marie Curie?",
+    "options": "La radioactividad, La penicilina, La anestesia",
+    "lore": ""
+  },
+  {
+    "id": "5-9",
+    "title": "¿En qué dirección apunta la aguja de una brújula?",
+    "options": "Norte,Este,Oeste,Sur",
+    "lore": ""
+  },
+  {
+    "id": "5-10",
+    "title": "¿Qué mineral se encuentra en una solución salina?",
+    "options": "Socio, Calcio, Potasio",
+    "lore": ""
+  },
+  {
+    "id": "5-11",
+    "title": "¿Qué término describe un grupo de organismos y su entorno físico?",
+    "options": "Ecosistema,Mutualismo, Nicho, Simbiosis",
+    "lore": ""
+  },
+  {
+    "id": "5-12",
+    "title": "¿Qué le pasa al hierro cuándo se le expone al oxígeno?",
+    "options": "Se oxida,Se convierte lentamente en magnesio, Comienza a burbujear",
+    "lore": ""
+  },
+  {
+    "id": "5-13",
+    "title": "¿Qué contiene el núcleo de una célula?",
+    "options": "ADN,El átomo, Orgánulos",
+    "lore": ""
+  },
+  {
+    "id": "5-14",
+    "title": "¿A qué se refiere la palabra hábitat?",
+    "options": "El lugar donde vive un organismo,Un área grande y abierta,Un ecosistema",
+    "lore": ""
+  },
+  {
+    "id": "5-15",
+    "title": "Con la misma presión, ¿qué tipo de aire tiene la densidad más grande?",
+    "options": "Caliente, Húmeda, Fría",
+    "lore": ""
+  },
+  {
+    "id": "5-16",
+    "title": "¿Cuál es la capa más caliente de nuestro planeta?",
+    "options": "Núcleo, Manto, Corteza",
+    "lore": ""
+  },
+  {
+    "id": "5-17",
+    "title": "¿Cuantos metros cuadrados caben en una hectarea?",
+    "options": "10.000,100, 1000,100.000",
+    "lore": ""
+  },
+  {
+    "id": "5-18",
+    "title": "¿Cuál es el órgano más grande del cuerpo?",
+    "options": "La piel,El hígado, El cerebro, El corazón",
+    "lore": ""
+  },
+  {
+    "id": "5-19",
+    "title": "En el cuerpo humano ¿a qué sistema pertenece el Píloro?",
+    "options": "Sistema digestivo,Sistema nervioso, Sistema inmunitario",
+    "lore": ""
+  },
+  {
+    "id": "5-20",
+    "title": "",
+    "options": "",
+    "lore": ""
+  },
+  {
+    "id": "5-21",
+    "title": "¿Qué es el tejido adiposo?",
+    "options": "La grasa del cuerpo,El tejido de las paredes intestinales,  El cerebro",
+    "lore": ""
+  },
+  {
+    "id": "5-22",
+    "title": "¿Cómo se llaman las células nerviosas?",
+    "options": "Neuronas, Enterocitos,Células madre",
+    "lore": ""
+  },
+  {
+    "id": "5-23",
+    "title": "¿Quién dejó caer un martillo y una pluma en la Luna para demostrar que sin aire caen al mismo ritmo?",
+    "options": "David R. Scott, Albert Einstein, Roger Penrose",
+    "lore": ""
+  },
+  {
+    "id": "5-24",
+    "title": "¿A qué mamífero le es físicamente imposible mirar al cielo?",
+    "options": "Cerdo,Girafa, Elefante",
+    "lore": ""
+  },
+  {
+    "id": "5-25",
+    "title": "¿Cuantos dientes poseé un tiburon ballena?",
+    "options": "Más de 4000,Más de 100, Más de 3000",
+    "lore": ""
+  },
+  {
+    "id": "5-26",
+    "title": "¿Qué animales son incapaces de vomitar?",
+    "options": "Las ranas, Los cerdos, Los gansos",
+    "lore": ""
+  },
+  {
+    "id": "5-27",
+    "title": "¿Qué animal tiene un periodo de gestación de entre 2 y 4 años?",
+    "options": "Tiburón, Orcas, Delfines",
+    "lore": ""
+  },
+  {
+    "id": "5-28",
+    "title": "¿Qué simio se contagia de la risa con mucha facilidad?",
+    "options": "Los orangutanes,Los gorilas,Los chimpancés",
+    "lore": ""
+  },
+  {
+    "id": "5-29",
+    "title": "¿Cuál es el único mamífero de todo el reino animal que puede volar?",
+    "options": "Los murciélagos,Los gansos, El albatros",
+    "lore": ""
+  },
+  {
+    "id": "5-30",
+    "title": "¿Cuánto dura el embarazo de un elefante hembra?",
+    "options": "Más de 1 año,9 meses, 1 año",
+    "lore": ""
+  },
+  {
+    "id": "5-31",
+    "title": "¿Qué animal tiene más de 10 corazones?",
+    "options": "La lombríz, La medusa,El pulpo",
+    "lore": ""
+  },
+  {
+    "id": "5-32",
+    "title": "¿Cuál es el animal más grande de la tierra?",
+    "options": "La ballena azul, El elefante,El cachalote, La girafa",
+    "lore": ""
+  },
+  {
+    "id": "5-33",
+    "title": "¿A qué grupo pertenecen el cloro y el fluor?",
+    "options": "Halógenos, Gases nobles, Alcalinos",
+    "lore": ""
+  },
+  {
+    "id": "5-34",
+    "title": "¿Cómo se llama el cambio de estado de sólido a gaseoso sin pasar  por el estado líquido?",
+    "options": "Sublimación,Deposición, Licuefacción",
+    "lore": ""
+  },
+  {
+    "id": "5-35",
+    "title": "¿Quién elaboró la ley de conservación de la materia?",
+    "options": "Antoine Lavoisier, Mijaíl Lomonósov, Alexander Grischuk",
+    "lore": ""
+  },
+  {
+    "id": "5-36",
+    "title": "¿Cuál es el símbolo del hierro?",
+    "options": "Fe, He, Ox",
+    "lore": ""
+  },
+  {
+    "id": "5-37",
+    "title": "¿Qué carga tiene un neutrón?",
+    "options": "Sin carga,Positiva, Negativa",
+    "lore": ""
+  },
+  {
+    "id": "5-38",
+    "title": "¿Qué carga tiene un protón?",
+    "options": "Positiva, Negativa, Sin carga",
+    "lore": ""
+  },
+  {
+    "id": "5-39",
+    "title": "¿Qué carga tiene un electrón?",
+    "options": "Negativa,Positiva, Sin carga",
+    "lore": ""
+  },
+  {
+    "id": "5-40",
+    "title": "¿Cómo se llama a la ausencia total de materia?",
+    "options": "Vacio,Nulo, Cuanto",
+    "lore": ""
+  },
+  {
+    "id": "5-41",
+    "title": "¿Como se llama a un cambio en la velocidad o dirección de la luz?",
+    "options": "Refracción,Infracción, Exfracción",
+    "lore": ""
+  },
+  {
+    "id": "5-42",
+    "title": "¿Qué es lo que mide un ohmio?",
+    "options": "Resistencia eléctrica,Resistencia del aire,Volumen de un gas",
+    "lore": ""
+  },
+  {
+    "id": "5-43",
+    "title": "¿Cómo se llama al cambio de tono de una sirena cuando la ambulancia está en movimiento?",
+    "options": "Doppler,Bohr, Copton",
+    "lore": ""
+  },
+  {
+    "id": "5-44",
+    "title": "¿Cómo se llama a la capacidad de una sustancia de volver a su forma después de ser deformada?",
+    "options": "Elasticidad,Metaflex, Integridad, Flexibilidad",
+    "lore": ""
+  },
+  {
+    "id": "5-45",
+    "title": "¿Qué es lo que bloquea la jaula de Faraday?",
+    "options": "Campos electromagnéticos,Calor, Sonido",
+    "lore": ""
+  },
+  {
+    "id": "5-46",
+    "title": "¿Cuál es lo opuesto de fuerza centrífuga?",
+    "options": "Fuerza centrípeta,Fuerza centríciga,Fuerza centrimedal",
+    "lore": ""
+  },
+  {
+    "id": "5-47",
+    "title": "¿Cuántas leyes básicas de la física formuló Newton?",
+    "options": "3,2,1",
+    "lore": ""
+  },
+  {
+    "id": "5-48",
+    "title": "En física nuclear, ¿qué es lo opuesto de fusión?",
+    "options": "Fisión,Partición, Replicación",
+    "lore": ""
+  },
+  {
+    "id": "5-49",
+    "title": "¿Cómo se llama a la física de cuerpos y fenómenos más allá de la Tierra?",
+    "options": "Astrofísica,Astronomía, Astrología, Física estelar",
+    "lore": ""
+  },
+  {
+    "id": "5-50",
+    "title": "¿Cuántas leyes de la termodinámica existen?",
+    "options": "4,3,1",
+    "lore": ""
+  },
+  {
+    "id": "5-51",
+    "title": "¿Cuál de estos colores tiene la longitud de onda más corta? azul, rojo, violeta o amarillo",
+    "options": "Violeta,Amarillo, Azul, Rojo",
+    "lore": ""
+  },
+  {
+    "id": "5-52",
+    "title": "¿Cómo se llama la rama de la física que estudia la luz?",
+    "options": "Óptica,Física espectral, Radiofísica",
+    "lore": ""
+  },
+  {
+    "id": "5-53",
+    "title": "¿Cómo se llama la fuerza que ejerce hacia arriba el agua sobre los objetos?",
+    "options": "Flotabilidad, Resistencia, Presión",
+    "lore": ""
+  },
+  {
+    "id": "5-54",
+    "title": "¿De qué producto básico moderno es la clave el principio de Bernoulli?",
+    "options": "Aviones,Teléfono, Microondas",
+    "lore": ""
+  },
+  {
+    "id": "5-55",
+    "title": "¿Cómo se llama el proceso hipotético en el que las reacciones nucleares podrían ocurrir a temperatura ambiente?",
+    "options": "Fusión fría,Fisión, Hipofusión",
+    "lore": ""
+  },
+  {
+    "id": "5-56",
+    "title": "¿Cuánto pesa un \"newton\" en medidas estándar?",
+    "options": "102 gramos, 28 gramos,1 kilogramo",
+    "lore": ""
+  },
+  {
+    "id": "5-57",
+    "title": "¿Hay fracturas (huesos rotos) que NO necesiten atención médica?",
+    "options": "No,Si,Sólo si duele",
+    "lore": ""
+  },
+  {
+    "id": "5-58",
+    "title": "¿Dime una especie de serpiente norteamericana que NO sea venenosa?",
+    "options": "Serpiente Thamnophis,Víbora de cascabel, Serpiente coral",
+    "lore": ""
+  },
+  {
+    "id": "5-59",
+    "title": "Si te quemas la piel, ¿Cuando debes ir al médico?",
+    "options": "Si la quemadura es blanca,Si duele, Si tengo la piel roja, Si me salen ampollas",
+    "lore": ""
+  },
+  {
+    "id": "5-60",
+    "title": "Si te muerde una serpiente en Norte América, ¿cómo puedes determinar si la serpiente es venenosa?",
+    "options": "Si tiene ojos como rendijas, Si mide más de 180 cm, No hay serpientes venenosas en Norteamérica",
+    "lore": ""
+  },
+  {
+    "id": "5-61",
+    "title": "Un cerdo se ha metido algo en el oído, ¿que hay que hacer?",
+    "options": "Inclinar la cabeza,Llenar la oreja con agua, Soplar",
+    "lore": ""
+  },
+  {
+    "id": "5-62",
+    "title": "¿Cuales son síntomas de un golpe de calor?",
+    "options": "Ritmo acelerado,Sudoración, Sangrar por la nariz",
+    "lore": ""
+  },
+  {
+    "id": "5-63",
+    "title": "¿Son comestibles los saltamontes?",
+    "options": "Si, No",
+    "lore": ""
+  },
+  {
+    "id": "5-64",
+    "title": "¿Se puede comer un cactus nopal?",
+    "options": "Si,No",
+    "lore": ""
+  },
+  {
+    "id": "5-65",
+    "title": "¿Es comestible la cáscara de naranja?",
+    "options": "Si, No",
+    "lore": ""
+  },
+  {
+    "id": "5-66",
+    "title": "¿Cuál es el símbolo de la plata en la tabla periódica?",
+    "options": "Ag,Sr, Si, Po",
+    "lore": ""
+  },
+  {
+    "id": "5-67",
+    "title": "¿Cuál es el tipo de sangre menos común?",
+    "options": "AB-,0+,A-",
+    "lore": ""
+  },
+  {
+    "id": "5-68",
+    "title": "¿Cuáles son las celulas del ojos responsables de la percepción del color?",
+    "options": "Conos, Bastones, Señales",
+    "lore": ""
+  },
+  {
+    "id": "5-69",
+    "title": "¿Cuanto puede llegar a medir el intestino delgado?",
+    "options": "7 metros,5 metros, 12 metros",
+    "lore": ""
+  },
+  {
+    "id": "5-70",
+    "title": "¿Que órgano del cuerpo es el encargado de fabricar la bilis?",
+    "options": "Hígado, Páncreas, Duodeno",
+    "lore": ""
+  },
+  {
+    "id": "5-71",
+    "title": "¿Cuantas vértebras dorsales tiene la columna vertebral?",
+    "options": "12,24,7",
+    "lore": ""
+  },
+  {
+    "id": "5-72",
+    "title": "¿Cómo se llaman las dos cámaras superiores del corazón humano?",
+    "options": "Aurículas, Ventrílocuos, Ventrículos",
+    "lore": ""
+  },
+  {
+    "id": "5-73",
+    "title": "¿Por qué tenemos menos huesos cuando somos adultos que cuando nacemos?",
+    "options": "Se fusionan con los años, Algunos se disuelven con el tiempo, Aún no se sabe",
+    "lore": ""
+  },
+  {
+    "id": "5-74",
+    "title": "¿En qué lado del cuerpo se encuentra el apéndice?",
+    "options": "Derecho,Izquierdo",
+    "lore": ""
+  },
+  {
+    "id": "5-75",
+    "title": "Según la ciencia, ¿existen los fantasmas?",
+    "options": "No,Si",
+    "lore": ""
+  },
+  {
+    "id": "5-76",
+    "title": "¿Qué número viene después del 14 en los decimales del Pi?",
+    "options": "1,2,3,4",
+    "lore": ""
+  },
+  {
+    "id": "5-77",
+    "title": "¿Cuántos elementos tiene la tabla periódica?",
+    "options": "118,115,121",
+    "lore": ""
+  },
+  {
+    "id": "5-78",
+    "title": "¿Qué gas de la atmósfera nos protege de la radiación ultravioleta?",
+    "options": "Ozono, Nitrógeno, Oxígeno, Higrógeno",
+    "lore": ""
+  },
+  {
+    "id": "5-79",
+    "title": "¿Qué elemento está presente en absolutamente todas las moléculas orgánicas?",
+    "options": "El carbono, El sodio, El oxígeno",
+    "lore": ""
+  },
+  {
+    "id": "5-80",
+    "title": "¿Cómo se llaman las células con un núcleo diferenciado?",
+    "options": "Eucariotas, Procariotas, Multinúcleo",
+    "lore": ""
+  },
+  {
+    "id": "5-81",
+    "title": "¿A partir de qué planta se elabora el tequila?",
+    "options": "Agabe, Aloe Vera, Tulipan",
+    "lore": ""
+  },
+  {
+    "id": "5-82",
+    "title": "¿Qué período tuvo lugar entre Devónico y el Pérmico?",
+    "options": "El Carbonífero, El Cámbrico, El Ordovícico, El Silúrico",
+    "lore": ""
+  },
+  {
+    "id": "5-83",
+    "title": "¿Cuál es el único mes que puede tener menos de 4 fases lunares?",
+    "options": "Febrero, Enero, Diciembre, Mayo",
+    "lore": ""
+  },
+  {
+    "id": "5-84",
+    "title": "¿En qué lugar del cuerpo se produce la insulina?",
+    "options": "En el páncreas, En el hígado, En el riñón",
+    "lore": ""
+  },
+  {
+    "id": "5-85",
+    "title": "¿Qué unidad mide la relación entre la velocidad de una aeronave y la de la atmósfera por la que transita?",
+    "options": "Match, Match Point,Velocidad relativa",
+    "lore": ""
+  },
+  {
+    "id": "5-86",
+    "title": "¿Quién es el autor de la teoría sobre el origen de las especies?",
+    "options": "Charles Darwin,Alfred Russel Wallace,Galileo Galilei",
+    "lore": ""
+  },
+  {
+    "id": "5-87",
+    "title": "¿Cuál es el símbolo químico del oro?",
+    "options": "AU,AE,AG,AH",
+    "lore": ""
+  },
+  {
+    "id": "5-88",
+    "title": "¿Cuántas válvulas tiene el corazón?",
+    "options": "4,6,2",
+    "lore": ""
+  },
+  {
+    "id": "5-89",
+    "title": "¿Qué nombre técnico reciben los bigotes de los gatos?",
+    "options": "Vibrisas, Fibras, Veturilos,Mustache",
+    "lore": ""
+  },
+  {
+    "id": "5-90",
+    "title": "¿Cuántos corazones tiene un gusano de tierra?",
+    "options": "5,4,8,3",
+    "lore": ""
+  },
+  {
+    "id": "5-91",
+    "title": "¿Qué gas liberan las plantas al hacer la fotosíntesis?",
+    "options": "Oxígeno, Nitrógeno, Dióxido de carbono",
+    "lore": ""
+  },
+  {
+    "id": "5-92",
+    "title": "¿Cuál es el primer elemento de la tabla periódica?",
+    "options": "Hidrógeno, Sodio, Oxígeno, Potasio",
+    "lore": ""
+  },
+  {
+    "id": "5-93",
+    "title": "¿Quién postuló las leyes del movimiento?",
+    "options": "Isaac Newton,Johannes Kepler,Gottfried Leibniz",
+    "lore": ""
+  }
+]

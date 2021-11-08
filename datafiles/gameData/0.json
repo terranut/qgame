@@ -1,0 +1,728 @@
+[
+  {
+    "id": "0-0",
+    "title": "¿Entre que siglos está comprendida la Edad Moderna?",
+    "options": "Siglo XV y el XVIII, Siglo XX y el XXI, Siglo X y el XV",
+    "lore": "La Edad Moderna es el tercero de los periodos históricos en los que se divide convencionalmente la historia universal."
+  },
+  {
+    "id": "0-1",
+    "title": "¿Qué eventos se atribuyen al inicio de la Edad Moderna?",
+    "options": "La caída de Constantinopla, El descubrimiento de América,La Ilustración",
+    "lore": "La Edad Moderna está comprendida entre el siglo XV y el XVIII."
+  },
+  {
+    "id": "0-2",
+    "title": "¿En qué año comenzó la revolución Francesa?",
+    "options": "1789,1898,1945",
+    "lore": ""
+  },
+  {
+    "id": "0-3",
+    "title": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
+    "options": "1776,1655,1770",
+    "lore": ""
+  },
+  {
+    "id": "0-4",
+    "title": "¿Que dinastía gobernó China antes de la República Popular?",
+    "options": "Dinastía Ming,Dinastía Wing, Dinastía Lu",
+    "lore": ""
+  },
+  {
+    "id": "0-5",
+    "title": "¿En que país nace el Humanismo?",
+    "options": "Italia,Francia, España",
+    "lore": "El Humanismo es una corriente intelectual y cultural que rompe con la idea teológica de que Dios es el centro del universo, pasando a serlo el ser humano, sus cualidades y valores."
+  },
+  {
+    "id": "0-6",
+    "title": "Es un homínido extinto que vivió entre 1.9 millones de años y 117.000 años antes del presente. ¿Cual es su denominación correcta?",
+    "options": "Homo erectus,Homo erecto, Homo eructo",
+    "lore": ""
+  },
+  {
+    "id": "0-7",
+    "title": "¿Cuál es el equivalente griego del dios Júpiter?",
+    "options": "Zeus, Prometeo, Ares, Hefesto",
+    "lore": ""
+  },
+  {
+    "id": "0-8",
+    "title": "¿Quién fue Platón?",
+    "options": "Filósofo griego,Filósofo indio,Dios romano,Dios griego",
+    "lore": ""
+  },
+  {
+    "id": "0-9",
+    "title": "¿Quién fue Julian Asange?",
+    "options": "Periodista y activista, Carpintero y escultor,Actor y director de cine",
+    "lore": ""
+  },
+  {
+    "id": "0-10",
+    "title": "¿Quien fué Neil Alden Armstrong?",
+    "options": "El primer hombre en pisar la Luna,El primer rey de Inglaterra,  El primer piloto de avión",
+    "lore": ""
+  },
+  {
+    "id": "0-11",
+    "title": "¿Por qué se conoce a los hermanos Wright?",
+    "options": "Construyeron y volaron en el primer aeroplano,Inventaron el primer ordenador,Fueron los inventores del teléfono",
+    "lore": ""
+  },
+  {
+    "id": "0-12",
+    "title": "¿Qué era un telégrafo?",
+    "options": "Era un aparato para enviar mensajes a distancia,Era un tipo de ordenador antiguo,Es un aparato para medir la distancia recorrida",
+    "lore": ""
+  },
+  {
+    "id": "0-13",
+    "title": "¿De qué otra manera se le puede llamar a la Edad de Cobre?",
+    "options": "Calcolítico,Eneolítico,Luridílico",
+    "lore": ""
+  },
+  {
+    "id": "0-14",
+    "title": "¿Cuál de los siguientes es un dios vikingo?",
+    "options": "Thor,Júpiter, Hefesto",
+    "lore": ""
+  },
+  {
+    "id": "0-15",
+    "title": "¿A qué edad los espartanos dejaban su casa para entrenar su fortaleza y resolución?",
+    "options": "Con 7 años,Con 4 años,Con 10 años",
+    "lore": ""
+  },
+  {
+    "id": "0-16",
+    "title": "En la civilización occidental, ¿en qué periodo histórico vivieron los caballeros templarios?",
+    "options": "Edad Media,Edad Antigua, Edad Contemporánea",
+    "lore": ""
+  },
+  {
+    "id": "0-17",
+    "title": "¿La Guerra Fría empezó después de qué conflicto?",
+    "options": "Segunda Guerra Mundial,Guerra de Vietnan, Primera Guerra Mundial",
+    "lore": ""
+  },
+  {
+    "id": "0-18",
+    "title": "¿Por qué la Guerra Fría se llamó así?",
+    "options": "Porque EE.UU. y la URSS nunca llegaron a enfrentarse, Porque empezó en invierno,Porque tuvo inicio en la ciudad de Cold",
+    "lore": ""
+  },
+  {
+    "id": "0-19",
+    "title": "¿Cómo se llamó la reunión en la que surgieron numerosas discrepancias y fue la antesala de la Guerra Fría?",
+    "options": "Conferencia de Yalta,Conferencia de Berlín,Conferencia de Teherán",
+    "lore": ""
+  },
+  {
+    "id": "0-20",
+    "title": "¿Qué arma fue usada por EE.UU. por primera vez al final de la Segunda Guerra Mundial y se convirtió en una de las piezas centrales de la Guerra Fría?",
+    "options": "Bomba atómica,Armas químicas,Bazooka",
+    "lore": ""
+  },
+  {
+    "id": "0-21",
+    "title": "¿Quién era el líder de la URSS al inicio de la Guerra Fría?",
+    "options": "Stalin,Brezhnev,Jrushchov",
+    "lore": ""
+  },
+  {
+    "id": "0-22",
+    "title": "¿Qué presidente declaró el objetivo de llevar a un estadounidense a la Luna?",
+    "options": "Kennedy,Eisenhower,Truman",
+    "lore": ""
+  },
+  {
+    "id": "0-23",
+    "title": "¿Qué se construyó en 1961 que aumentó las tensiones durante la Guerra Fría?",
+    "options": "El muro de Berlín,El cohete Saturn V,El Canal de Suez",
+    "lore": ""
+  },
+  {
+    "id": "0-24",
+    "title": "¿Cómo se llamaba la línea imaginaria que dividía la Europa capitalista del oeste y la comunista del este?",
+    "options": "Telón de acero, Linea roja, Salto de Adagny",
+    "lore": ""
+  },
+  {
+    "id": "0-25",
+    "title": "¿Qué país inició la Guerra Fría aliado con la Unión Soviética y se acercó más a Estados Unidos a medida que pasaba el tiempo?",
+    "options": "China,Cuba,Vietnan",
+    "lore": ""
+  },
+  {
+    "id": "0-26",
+    "title": "En japonés se dice “shinobi no mono”, ¿Cómo se los conoce en Occidente?",
+    "options": "Ninjas,Luchadores de sumo, Samuráis",
+    "lore": ""
+  },
+  {
+    "id": "0-27",
+    "title": "Alejandro Magno llegó hasta la India, donde sus ejércitos se enfrentaron a una terrible arma de combate. ¿De que arma se trataba?",
+    "options": "Elefantes de guerra, Monos que tiraban heces, Catapultas que lanzaban fuego",
+    "lore": ""
+  },
+  {
+    "id": "0-28",
+    "title": "¿Cómo se llamaba el soldado raso de infantería romano?",
+    "options": "Legionario,Cónsul,Centurión",
+    "lore": ""
+  },
+  {
+    "id": "0-29",
+    "title": "¿Cómo se llamaba a la guardia personal de los sultanes otomanos?",
+    "options": "Jenízaros,Templarios,Mamelucos",
+    "lore": ""
+  },
+  {
+    "id": "0-30",
+    "title": "¿Por qué se hizo famoso el rey Minos de la Isla de Creta?",
+    "options": "Por construir un laberinto,Por luchar en la guerra de Troya, Por robar las manzanas",
+    "lore": ""
+  },
+  {
+    "id": "0-31",
+    "title": "¿Cuál era el oráculo más famoso de la antigua Grecia?",
+    "options": "El de Apolo en Delfos,El de Zeus en Dodona, El de Afrodita en Pafos",
+    "lore": ""
+  },
+  {
+    "id": "0-32",
+    "title": "¿Qué es una estatua criselefantina?",
+    "options": "Una estatua hecha de marfil y oro,Una estatua hecha de mármol y oro, Una estatua hecha de marfil y mármol",
+    "lore": ""
+  },
+  {
+    "id": "0-33",
+    "title": "¿Cómo bebían el vino los griegos?",
+    "options": "Lo rebajaban con agua, Lo mezclaban con miel, Le añadían sal",
+    "lore": ""
+  },
+  {
+    "id": "0-34",
+    "title": "¿Cuál es la flor nacional de Japón?",
+    "options": "Flor de Cerezo,Margarita, Tulipan, Flor de Paz",
+    "lore": ""
+  },
+  {
+    "id": "0-35",
+    "title": "¿Cuántas franjas tiene la bandera de Estados Unidos?",
+    "options": "13,26,40,31",
+    "lore": ""
+  },
+  {
+    "id": "0-36",
+    "title": "¿Cómo se llamaba Istanbul antes de 1923?",
+    "options": "Constantinopla,Cartagena, Somosierra,Roma",
+    "lore": ""
+  },
+  {
+    "id": "0-37",
+    "title": "¿Qué artista de graffiti famoso nació en Bristol?",
+    "options": "Bansky,Frida Kahlo, Vang Gogh",
+    "lore": ""
+  },
+  {
+    "id": "0-38",
+    "title": "¿Cuál era el segundo nombre de Vicent Vang Gogh?",
+    "options": "William,Alan, Edgar, Elver",
+    "lore": ""
+  },
+  {
+    "id": "0-39",
+    "title": "¿Cuál es la obra más famosa de Edvard Munch?",
+    "options": "El Grito,La Mona Lisa, El hombre de Vitrubio",
+    "lore": ""
+  },
+  {
+    "id": "0-40",
+    "title": "¿Qué artista pinto el techo de la Capilla Sixtina en Roma?",
+    "options": "Miguel Angel, Rubens,Leonaro Da Vinci",
+    "lore": ""
+  },
+  {
+    "id": "0-41",
+    "title": "¿En la antigua Grecia quién era el dios de la guerra?",
+    "options": "Ares,Hefesto, Zeus",
+    "lore": ""
+  },
+  {
+    "id": "0-42",
+    "title": "¿En la antigua Grecia quién era el dios del sol?",
+    "options": "Apolo, Afrodita, Prometeo",
+    "lore": ""
+  },
+  {
+    "id": "0-43",
+    "title": "¿En la antigua Grecia quién era el dios del infierno?",
+    "options": "Hades,Ares, Apolo",
+    "lore": ""
+  },
+  {
+    "id": "0-44",
+    "title": "¿Quién fue el vicepresidente de George Washington?",
+    "options": "John Adams,Abrahan Mateo, Benjamin Franklin",
+    "lore": ""
+  },
+  {
+    "id": "0-45",
+    "title": "¿Con qué invento se asocia a Philo Farnsworth?",
+    "options": "Televisión,Telégrafo, Penicilina",
+    "lore": ""
+  },
+  {
+    "id": "0-46",
+    "title": "¿En qué año se descubrió América?",
+    "options": "1492,1539,1503,1645",
+    "lore": ""
+  },
+  {
+    "id": "0-47",
+    "title": "¿De quién era el eslógan 'Yes we can'?",
+    "options": "Barack Obama,David Cameron,  Donal Trump",
+    "lore": ""
+  },
+  {
+    "id": "0-48",
+    "title": "¿De qué partido era Margaret Tatcher?",
+    "options": "Conservador,Laborista, Liberal",
+    "lore": ""
+  },
+  {
+    "id": "0-49",
+    "title": "¿De qué especie era Lucy?",
+    "options": "Australopitecus Afarensis,Australopitecus Anamensis,Australopitecus Africanus",
+    "lore": ""
+  },
+  {
+    "id": "0-50",
+    "title": "¿A que puso fin el Tratado de Versalles?",
+    "options": "Primera Guerra Mundial, Revolución Francesa, Segunda Guerra Mundial",
+    "lore": ""
+  },
+  {
+    "id": "0-51",
+    "title": "¿Con qué apodo se conoce a Carlos II?",
+    "options": "El hechizado,El efímero, El niño",
+    "lore": ""
+  },
+  {
+    "id": "0-52",
+    "title": "¿En qué año se produjo la Caída de Constantinopla?",
+    "options": "1453,1505,1634,1345",
+    "lore": ""
+  },
+  {
+    "id": "0-53",
+    "title": "¿En qué ciudad se desarrolla la historia de 'Romeo y Julieta'?",
+    "options": "Verona, Nápoles, Génova",
+    "lore": ""
+  },
+  {
+    "id": "0-54",
+    "title": "¿Cuál fue el primer país en aprobar el sufragio femenino?",
+    "options": "Nueva Zelanda,Francia, Islandia, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "0-55",
+    "title": "¿Qué importante batalla tuvo lugar en 1815?",
+    "options": "La batalla de Waterloo, La batalla de Moscú, La batalla de Berlín",
+    "lore": ""
+  },
+  {
+    "id": "0-56",
+    "title": "¿Cuál era la ciudad hogar de Marco Polo?",
+    "options": "Venecia,Nápoles, Cartagena",
+    "lore": ""
+  },
+  {
+    "id": "0-57",
+    "title": "¿En qué año tuvo lugar el genocidio de Ruanda?",
+    "options": "1994,1995,1996,1997",
+    "lore": ""
+  },
+  {
+    "id": "0-58",
+    "title": "¿Qué reina británica fue hija de los Reyes Católicos?",
+    "options": "Catalina de Aragón, Isabel II, Cecilia Cavendish",
+    "lore": ""
+  },
+  {
+    "id": "0-59",
+    "title": "¿En qué año se disolvió la Unión Soviética?",
+    "options": "1991,1989,1990,1985",
+    "lore": ""
+  },
+  {
+    "id": "0-60",
+    "title": "¿Qué suceso marca el final de la Edad Antigua y el inicio de la Edad Media?",
+    "options": "La caída del imperio romano, El descubrimiento de América, La Revolución Francesa",
+    "lore": ""
+  },
+  {
+    "id": "0-61",
+    "title": "¿De qué país se independizó Eslovenia?",
+    "options": "Yugoslavia, Checoslovaquia, Hungría",
+    "lore": ""
+  },
+  {
+    "id": "0-62",
+    "title": "¿Qué presidente de la Unión Soviética instauró la Perestroika?",
+    "options": "Mijaíl Gorbachov, Dmitri Medvédev, Stalin",
+    "lore": ""
+  },
+  {
+    "id": "0-63",
+    "title": "¿Qué país africano fue fundado por esclavos americanos liberados en 1847?",
+    "options": "Liberia, Nigeria, Sudáfrica",
+    "lore": ""
+  },
+  {
+    "id": "0-64",
+    "title": "¿Cómo se conocía la Primera Guerra Mundial antes de que estallara la segunda?",
+    "options": "La Gran Guerra, Primera Guerra Mundial, La Guerra de los Mundos",
+    "lore": ""
+  },
+  {
+    "id": "0-65",
+    "title": "¿Cuál fue el segundo país americano en conseguir la independencia?",
+    "options": "Haití, Puerto Rico, Canadá",
+    "lore": ""
+  },
+  {
+    "id": "0-66",
+    "title": "¿Qué batalla marítima tuvo lugar en el año 1805?",
+    "options": "La Batalla de Trafalgar, La batalla de Stalingrado, La Noche Triste",
+    "lore": ""
+  },
+  {
+    "id": "0-67",
+    "title": "¿Quién dibujo al famoso Hombre de Vitruvio?",
+    "options": "Leonardo da Vinci, Miguel Angel, Rubens",
+    "lore": ""
+  },
+  {
+    "id": "0-68",
+    "title": "¿Qué famoso filósofo fue maestro de Alejandro Magno durante cinco años?",
+    "options": "Aristóteles, Sócrates, Platón",
+    "lore": ""
+  },
+  {
+    "id": "0-69",
+    "title": "¿Quién fue el último zar de Rusia?",
+    "options": "Nicolas II,Pedro I el Grande, Alejandro II",
+    "lore": ""
+  },
+  {
+    "id": "0-70",
+    "title": "¿Qué inició la Segunda Guerra Mundial?",
+    "options": "Alemania invadió Polonia,El asesinato del archiduque Francisco Fernando,Hitler invadió Austria",
+    "lore": ""
+  },
+  {
+    "id": "0-71",
+    "title": "¿Dónde se han encontrado, principalmente, pinturas del período Paleolítico?",
+    "options": "En cuevas, En vasijas decoradas, En árboles",
+    "lore": ""
+  },
+  {
+    "id": "0-72",
+    "title": "¿Cómo comenzó la Primera Guerra Mundial?",
+    "options": "Con el asesinato del archiduque Francisco Fernando,Con la batalla de Gallipoli,Con el intento de asesinato del príncipe belga Leopold",
+    "lore": ""
+  },
+  {
+    "id": "0-73",
+    "title": "¿De qué nacionalidad era Adolf Hitler?",
+    "options": "Nació en Austria,Nació en Polonia, Nació en Italia, Nació en Alemania",
+    "lore": ""
+  },
+  {
+    "id": "0-74",
+    "title": "¿A qué emperador romano asesinó un grupo de senadores?",
+    "options": "Julio Cesar, Nerón, Calígula",
+    "lore": ""
+  },
+  {
+    "id": "0-75",
+    "title": "¿Quién dijo que la tierra giraba alrededor del sol?",
+    "options": "Aristarco de Samos,Galileo Galilei,Nicolás Copérnico,Ninguno de los anteriores",
+    "lore": ""
+  },
+  {
+    "id": "0-76",
+    "title": "¿Qué institución eclesiástica mandó a la hoguera a hombres y mujeres por brujos, impuros y herejes?",
+    "options": "La Santa Inquisición,El tribunal de la Rota,La orden del temple",
+    "lore": ""
+  },
+  {
+    "id": "0-77",
+    "title": "¿Cuál es el antiguo nombre de San Petersburgo?",
+    "options": "Leningrado,Stalingrado,San Petersburgo",
+    "lore": ""
+  },
+  {
+    "id": "0-78",
+    "title": "¿Quién nació antes Jesucristo o Mahoma?",
+    "options": "Jesucristo, Mahoma",
+    "lore": ""
+  },
+  {
+    "id": "0-79",
+    "title": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "options": "George Wasghington,John Adams,Thomas Jefferson",
+    "lore": ""
+  },
+  {
+    "id": "0-80",
+    "title": "¿Qué isla generó un conflicto entre Reino Unido y Argentina?",
+    "options": "Las islas Malvinas,Islas Marianas, Gibraltar",
+    "lore": ""
+  },
+  {
+    "id": "0-81",
+    "title": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "options": "En el año 476,En el año 572, En el año 652",
+    "lore": ""
+  },
+  {
+    "id": "0-82",
+    "title": "¿Quién fue el primer explorador occidental en llegar a China?",
+    "options": "Los romanos, Marco Polo, Adam Josh",
+    "lore": ""
+  },
+  {
+    "id": "0-83",
+    "title": "¿A quién nombro senador Calígula?",
+    "options": "A su caballo, A su perro, A su gato, A su hamster",
+    "lore": ""
+  },
+  {
+    "id": "0-84",
+    "title": "¿En qué país se inició la Revolución Industrial?",
+    "options": "Gran Bretaña, Italia, Reino Unido, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "0-85",
+    "title": "¿Qué función tenían las pirámides de Egipto?",
+    "options": "Eran monumentos funerarios,Eran monumentos en honor a los dioses,Eran monumentos para honrar a sus faraones.",
+    "lore": ""
+  },
+  {
+    "id": "0-86",
+    "title": "¿Cuál era la capital de la República Federal Alemana?",
+    "options": "Bonn, Berlín, Munich",
+    "lore": ""
+  },
+  {
+    "id": "0-87",
+    "title": "¿Quién inició la Revolución cultural China?",
+    "options": "Mao Zedong,Deng Xiaoping,Jiang Zeng",
+    "lore": ""
+  },
+  {
+    "id": "0-88",
+    "title": "¿Quién fue el dictador italiano que lideraba Italia al comienzo de la Segunda Guerra Mundial?",
+    "options": "Benito Mussolini,Victor Manuel II,Humberto I",
+    "lore": ""
+  },
+  {
+    "id": "0-89",
+    "title": "¿Cómo se llamó al levantamiento que acabó con la dictadura de Salazar en Portugal?",
+    "options": "La Revolución de los Claveles,La Revolución de los Tulipanes,La Revolución de las Rosas",
+    "lore": ""
+  },
+  {
+    "id": "0-90",
+    "title": "¿Qué volcán devastó Pompeya?",
+    "options": "El Vesubio, El Etna, El Santa Helena",
+    "lore": ""
+  },
+  {
+    "id": "0-91",
+    "title": "¿Como se llamó al avión más rápido del mundo que dejó de volar tras un fatídico accidente aéreo?",
+    "options": "El Concorde, El Eurofighter,El Messerschmitt",
+    "lore": ""
+  },
+  {
+    "id": "0-92",
+    "title": "¿Dónde originaron los juegos olímpicos?",
+    "options": "En Grecia, En la Antigua Persia,En Italia",
+    "lore": ""
+  },
+  {
+    "id": "0-93",
+    "title": "¿Qué representaba el dios Thot en el antiguo Egipto?",
+    "options": "La sabiduría, La muerte, La naturaleza,El mar",
+    "lore": ""
+  },
+  {
+    "id": "0-94",
+    "title": "¿Qué pasó el 20 de julio de 1969?",
+    "options": "El Apolo 11 aterizó en la Luna, Se lanzó el primer satélite, Se firmo un acuerdo de paz entre Rusia y EEUU",
+    "lore": ""
+  },
+  {
+    "id": "0-95",
+    "title": "¿Cuál fue el primer metal que empleó el hombre?",
+    "options": "El cobre, El hierro, La plata, El oro",
+    "lore": ""
+  },
+  {
+    "id": "0-96",
+    "title": "¿Qué expresidente sudafricano estuvo encarcelado durante 27 años?",
+    "options": "Nelson Mandela, Cyril Ramaphosa,Yayi Boni,Muammar al-Gaddafi",
+    "lore": ""
+  },
+  {
+    "id": "0-97",
+    "title": "¿Cuánto duró “La Guerra de los Cien Años”?",
+    "options": "116 años, 100 años, 120 años, 10 años",
+    "lore": ""
+  },
+  {
+    "id": "0-98",
+    "title": "En la mitología griega, ¿quién mató a Aquiles?",
+    "options": "Paris, Apolo, Teseo, Príamo",
+    "lore": ""
+  },
+  {
+    "id": "0-99",
+    "title": "De acuerdo a la Biblia, ¿cuántos años vivió Matusalén?",
+    "options": "969, 821, 245, 78",
+    "lore": ""
+  },
+  {
+    "id": "0-100",
+    "title": "¿En que año sucedieron los atentados de las Torres Gemelas?",
+    "options": "2001,2004,2008",
+    "lore": ""
+  },
+  {
+    "id": "0-101",
+    "title": "¿Quién fue el último faraón de Egipto?",
+    "options": "Ramses III, Tutankamon,Amenofis III",
+    "lore": ""
+  },
+  {
+    "id": "0-102",
+    "title": "¿Qué faraón egipcio es conocido por intentar que su imperio pasase del politeísmo al monoteísmo a través del culto al dios Atón?",
+    "options": "Akenatón,Tutankamón, Amenofis",
+    "lore": ""
+  },
+  {
+    "id": "0-103",
+    "title": "¿Qué emperador romano es conocido por intentar someterse a operaciones de cambio de sexo?",
+    "options": "Marco Aurelio, Nerón, Tiberio,Vitelio",
+    "lore": ""
+  },
+  {
+    "id": "0-104",
+    "title": "¿Qué filósofo de la Antigua Grecia creía que el elemento del que están compuestas todas las cosas es el agua?",
+    "options": "Tales de Mileto,Heráclito,Esopo,Sócrates",
+    "lore": ""
+  },
+  {
+    "id": "0-105",
+    "title": "¿Qué isla sirvió de prisión para Napoleón tras su derrota en la batalla de Waterloo?",
+    "options": "Santa Elena, Mallorca, Creta",
+    "lore": ""
+  },
+  {
+    "id": "0-106",
+    "title": "¿Quién fundó la ciudad de Roma?",
+    "options": "Rómulo,Romano Aspas, Romualdo",
+    "lore": ""
+  },
+  {
+    "id": "0-107",
+    "title": "¿Cuál fue la primera ciudad en comprobar los efectos de una bomba atómica?",
+    "options": "Hiroshima,Hokaido, Nagasaki",
+    "lore": ""
+  },
+  {
+    "id": "0-108",
+    "title": "¿Quién fue la primera ministra de Gran Bretaña?",
+    "options": "Margaret Thatcher, Ana Bohuelo, Jane Austen, Florence Nightingale, Evita Pérez",
+    "lore": ""
+  },
+  {
+    "id": "0-109",
+    "title": "Aparte de Hiroshima, ¿qué otra ciudad japonesa fue bombardeada por las bombas atómicas en 1945?",
+    "options": "Nagasaki,Tokio, Osaka, Nagoya",
+    "lore": ""
+  },
+  {
+    "id": "0-110",
+    "title": "¿Quién fue el dictador que provocó y lideró la revolución cubana?",
+    "options": "Fidel Castro,Rafael Trujillo, Che Guevara,Augusto Pinochet",
+    "lore": ""
+  },
+  {
+    "id": "0-111",
+    "title": "¿Quién asesino a Abraham Lincoln?",
+    "options": "John Wilkes Booth,James Earl Ray, Terminator",
+    "lore": ""
+  },
+  {
+    "id": "0-112",
+    "title": "¿Qué continente fue devastado por la peste negra en el siglo XIV?",
+    "options": "Europa, América del norte,África",
+    "lore": ""
+  },
+  {
+    "id": "0-113",
+    "title": "¿Quién creó la primera imprenta funcional?",
+    "options": "Gutenberg,Benjamin Franklin,Nikola Tesla,Henry Ford",
+    "lore": ""
+  },
+  {
+    "id": "0-114",
+    "title": "¿En qué año comenzó la Primera Guerra Mundial?",
+    "options": "1914,2015,1818,1925",
+    "lore": ""
+  },
+  {
+    "id": "0-115",
+    "title": "¿Qué potencia mundial mandó el primer hombre al espacio?",
+    "options": "Unión Sovietica, Francia, Estados Unidos,China",
+    "lore": ""
+  },
+  {
+    "id": "0-116",
+    "title": "¿Cuál fue el nombre de la primera computadora?",
+    "options": "Eniac,Soviac, Wuoia, Caine",
+    "lore": ""
+  },
+  {
+    "id": "0-117",
+    "title": "¿Qué civilización estaba arraigada en la ciudad de Tenochtitlán?",
+    "options": "Aztecas,Olmecas,Incas, Mayas",
+    "lore": ""
+  },
+  {
+    "id": "0-118",
+    "title": "¿Quién pintó la \"Mona Lisa\"?",
+    "options": "Leonardo da Vinci,Pablo Picasso, Jordi Cruz, Miguel Ángel",
+    "lore": ""
+  },
+  {
+    "id": "0-119",
+    "title": "¿Quién era Frida Kahlo?",
+    "options": "Artista mexicana,Bailarina mexicana, Presidenta mexicana",
+    "lore": ""
+  },
+  {
+    "id": "0-120",
+    "title": "¿Qué teoría formuló Albert Einstein?",
+    "options": "Teoría de la relatividad,Teorema de Pitáforas,Teoría de la mecánica cuántica",
+    "lore": ""
+  }
+]

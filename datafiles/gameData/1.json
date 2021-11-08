@@ -1,0 +1,476 @@
+[
+  {
+    "id": "1-0",
+    "title": "¿Cual era el apodo del creador de Minecraft?",
+    "options": "Notch,Linch,Fulano",
+    "lore": "Minecraft es un videojuego de construcción, de tipo mundo abierto o sandbox creado originalmente por el sueco Markus Persson"
+  },
+  {
+    "id": "1-1",
+    "title": "¿En que año fue publicado el juego Minecraft?",
+    "options": "2009,2001,2016",
+    "lore": ""
+  },
+  {
+    "id": "1-2",
+    "title": "Dime un juego que haya sido desarrollado por Shigueru Miyamoto o que haya participado en su desarrollo",
+    "options": "Pikmin, Ninja Warrior,Street Fighter",
+    "lore": "Shigueru Miyamoto un diseñador y productor de videojuegos japonés que trabaja para Nintendo desde 1977."
+  },
+  {
+    "id": "1-3",
+    "title": "En Final Fantasy Crystal Chronicles, ¿Dime el nombre de una raza seleccionable en el juego?",
+    "options": "Selkie,Inuits,Hobbit",
+    "lore": "Final Fantasy Crystal Chronicles fue el primer y único videojuego de la serie Final Fantasy publicado para la videoconsola Nintendo GameCube."
+  },
+  {
+    "id": "1-4",
+    "title": "Artifact es un videojuego desarrollado y publicado por Valve. ¿Que tipo de juego es?",
+    "options": "Combate de cartas,MOBA,Puzzle,MMORPG",
+    "lore": ""
+  },
+  {
+    "id": "1-5",
+    "title": "¿Que significan las siglas MOBA?",
+    "options": "Multiplayer Online Battle Arena, Multiplayer Over Bastion Area ,Multiplayer Online Battle Area",
+    "lore": ""
+  },
+  {
+    "id": "1-6",
+    "title": "¿En que fecha de lanzó la consola Game Cube?",
+    "options": "14 Septiembre 2001,22 Enero 2002, 26 Junio 2012, 33 Septubre 1998",
+    "lore": ""
+  },
+  {
+    "id": "1-7",
+    "title": "¿Cuantos jugadores compiten en una partida tipica de league of legends?",
+    "options": "10,6,8",
+    "lore": ""
+  },
+  {
+    "id": "1-8",
+    "title": "¿En que cultura está hambientado el juego de construccion Valheim?",
+    "options": "Cultura vikinga,Cultura griega, Cultura india,",
+    "lore": ""
+  },
+  {
+    "id": "1-9",
+    "title": "En el juego ARK los jugadores llevan un implante en el cuerpo. ¿En que parte del cuerpo lo llevan?",
+    "options": "En el brazo,En el pecho,En la cabeza.",
+    "lore": ""
+  },
+  {
+    "id": "1-10",
+    "title": "¿Cuantos planetas puedes visitar en No Man Sky?",
+    "options": "18 trillones,Infinitos planetas,10 millones",
+    "lore": ""
+  },
+  {
+    "id": "1-11",
+    "title": "¿Cómo se llama el juego de CD Projekt Red que da nombre a una serie de Netflix?",
+    "options": "The Witcher 3,Ciberpunk, Gwent",
+    "lore": ""
+  },
+  {
+    "id": "1-12",
+    "title": "¿Cómo se llamaba la aprendiz de Geralt de Rivia en la escuela de brujeria?",
+    "options": "Cirila,Jennifer, Michaela",
+    "lore": ""
+  },
+  {
+    "id": "1-13",
+    "title": "¿Cómo se llama la princesa a la que Mario Bros rescata?",
+    "options": "Peach,Eva, Toad, Luigi",
+    "lore": ""
+  },
+  {
+    "id": "1-14",
+    "title": "¿Cómo se llama el mayordomo robótico de Fallout 4?",
+    "options": "Codsworth,Bender, Automatron",
+    "lore": ""
+  },
+  {
+    "id": "1-15",
+    "title": "¿Qué clases de personaje añadió al juego la expansión Lord of Destruction de Diablo 2?",
+    "options": "Asesina y druida,Nigromante y druida,Cazador y nigromante",
+    "lore": ""
+  },
+  {
+    "id": "1-16",
+    "title": "¿Cómo se llama la zona de inicio de los orcos en World of Warcraft?",
+    "options": "Durotar, Ventormenta, Los Baldíos",
+    "lore": ""
+  },
+  {
+    "id": "1-17",
+    "title": "¿Qué tipo de juego es Spore?",
+    "options": "Simulación y estrategia, Puzzle,Acción, Roguelike",
+    "lore": ""
+  },
+  {
+    "id": "1-18",
+    "title": "¿Qué compañía creó el primer juego de Los Sims?",
+    "options": "Maxis, Electronic Arts, Blizzard",
+    "lore": ""
+  },
+  {
+    "id": "1-19",
+    "title": "¿Qué tipo de juego es Black & White?",
+    "options": "Simulador,Acción, RPG",
+    "lore": ""
+  },
+  {
+    "id": "1-20",
+    "title": "¿Cómo se llamaba a la criatura más fuerte de Dungeon Keeper?",
+    "options": "Segador Astado, Warlocks, Damas,Héroes",
+    "lore": ""
+  },
+  {
+    "id": "1-21",
+    "title": "¿Qué sala era la preferida de las Damas en Dungeon Keeper?",
+    "options": "Sala de torturas, Sala de entrenamiento,Biblioteca",
+    "lore": ""
+  },
+  {
+    "id": "1-22",
+    "title": "¿Contra quién luchas en el juego Xcom?",
+    "options": "Aliens,Monos, Robots",
+    "lore": ""
+  },
+  {
+    "id": "1-23",
+    "title": "¿Cuál era el número de Pokemon disponibles en la primera versión?",
+    "options": "150,250,50",
+    "lore": ""
+  },
+  {
+    "id": "1-24",
+    "title": "¿Cuál fue el primer juego de Pokemon?",
+    "options": "Pokemon Rojo y Verde,Pokemon Amarillo, Pokemon Azul, Pokemon Violeta",
+    "lore": ""
+  },
+  {
+    "id": "1-25",
+    "title": "¿Cuantas pilas usaba la primera Game Boy?",
+    "options": "4 pilas, 2 pilas, 3 pilas",
+    "lore": ""
+  },
+  {
+    "id": "1-26",
+    "title": "¿Cuantas pantallas tenia la PSP?",
+    "options": "1,2,3",
+    "lore": ""
+  },
+  {
+    "id": "1-27",
+    "title": "¿Cuál era la virtud de Baleog en The Lost Vikings?",
+    "options": "Atacaba con espada, Saltaba muy alto,Se cubría con un escudo",
+    "lore": ""
+  },
+  {
+    "id": "1-28",
+    "title": "¿Qué poder destacaba en Blanka de Street Fighter?",
+    "options": "Descargas eléctricas, Fuerza descomunal,Podía lanzar fuego",
+    "lore": ""
+  },
+  {
+    "id": "1-29",
+    "title": "¿Cuántos luchadores hay en Street Fighter II?",
+    "options": "12,8,16,24",
+    "lore": ""
+  },
+  {
+    "id": "1-30",
+    "title": "¿Cuántas entradas para mandos tiene Nintendo 64?",
+    "options": "4,2,3",
+    "lore": ""
+  },
+  {
+    "id": "1-31",
+    "title": "¿Cómo se llama el enemigo de Sonic?",
+    "options": "Dr.Robotnik, Mr Malo, Dr.Mundo",
+    "lore": ""
+  },
+  {
+    "id": "1-32",
+    "title": "¿Cuál es el material de la primera espada que recibes en The Legend of Zelda?",
+    "options": "Madera,Hierro, Cobre, Acero",
+    "lore": ""
+  },
+  {
+    "id": "1-33",
+    "title": "¿Cómo se llama la ciudad en la que desenvuelve Resident Evil?",
+    "options": "Raccoon City,New York, Metrópolis",
+    "lore": ""
+  },
+  {
+    "id": "1-34",
+    "title": "¿Cómo de llama la protagonista de la saga Tom Raider?",
+    "options": "Lara Croft,Samus Aran,Brutus, Aloy",
+    "lore": ""
+  },
+  {
+    "id": "1-35",
+    "title": "¿Con que nombre se conoció por primera vez a Mario Bros?",
+    "options": "Jumpman,Chiquetete, Jimbo",
+    "lore": ""
+  },
+  {
+    "id": "1-36",
+    "title": "¿Quiénes crearon el Tetris?",
+    "options": "Los soviéticos,Los americanos, Los chinos, Los japoneses",
+    "lore": ""
+  },
+  {
+    "id": "1-37",
+    "title": "¿Cuál es la primera videoconsola doméstica de la historia?",
+    "options": "Magnabox Odyssey,Atari 2600, Colecovision",
+    "lore": ""
+  },
+  {
+    "id": "1-38",
+    "title": "¿Cuál es el personaje considerado más famoso de la historia de los videjuegos?",
+    "options": "Mario Bros, Sonic,Pac-man, Megaman",
+    "lore": ""
+  },
+  {
+    "id": "1-39",
+    "title": "¿Cuál fué la última consola de Sega?",
+    "options": "Dreamcast,Sega Saturn, Sega CD Ultimate, Sega Master System",
+    "lore": ""
+  },
+  {
+    "id": "1-40",
+    "title": "¿A qué se denomina \"lag\" en un videojuego?",
+    "options": "Conexión inestable de internet,Baja carga gráfica,Caerse del servidor",
+    "lore": ""
+  },
+  {
+    "id": "1-41",
+    "title": "¿Cuántos games hay actualmente en el mundo? casuales y habituales",
+    "options": "1.000 millones, 500 millones, 750 millones",
+    "lore": ""
+  },
+  {
+    "id": "1-42",
+    "title": "¿Qué plataforma tiene más jugadores?",
+    "options": "PC, Nintendo, XBOX, Play Station",
+    "lore": ""
+  },
+  {
+    "id": "1-43",
+    "title": "¿Qué actor ponía cara a Bond en Goldeneye de Nintendo 64?",
+    "options": "Pierce Brosnan,Antonio Banderas, Arnold Schwarzenegger,Roger Moore",
+    "lore": ""
+  },
+  {
+    "id": "1-44",
+    "title": "¿Cuál era el soporte principal para los juegos de la primera Xbox?",
+    "options": "DVD,Blue Ray, CD",
+    "lore": ""
+  },
+  {
+    "id": "1-45",
+    "title": "¿Cuál era el pokemon legendario principal en Pokemon Plata?",
+    "options": "Lugia, Articuno, Currupipi, Mewto",
+    "lore": ""
+  },
+  {
+    "id": "1-46",
+    "title": "¿A qué se dedicaba la compañía Nintendo cuando se fundó?",
+    "options": "Fabricaban naipes,Fabricaban dulces, Desarrollaban videojuegos",
+    "lore": ""
+  },
+  {
+    "id": "1-47",
+    "title": "En Mortal Kombat, ¿Por quién fue creado Blaze?",
+    "options": "Delia,Ashrah, Kabal,La magia de Quan-chi",
+    "lore": ""
+  },
+  {
+    "id": "1-48",
+    "title": "¿Qué Pókemon  aparecian en el primer Super Smash Bros?",
+    "options": "Pikachu y Jiglypuff, Gyarados y Snorlax,  Raichu y Pichu, Ekans y Nidorina",
+    "lore": ""
+  },
+  {
+    "id": "1-49",
+    "title": "¿Cómo se llama el perro de Franklin ( Grand Theft Auto)?",
+    "options": "Chop,Tipi, Jimbo",
+    "lore": ""
+  },
+  {
+    "id": "1-50",
+    "title": "¿Existen círculos en el tetris?",
+    "options": "No,Si",
+    "lore": ""
+  },
+  {
+    "id": "1-51",
+    "title": "En Minecraft, ¿qué  tipo de pico necesitas para minar diamante?",
+    "options": "Hierro,Cobre, Oro, Diamante",
+    "lore": ""
+  },
+  {
+    "id": "1-52",
+    "title": "¿Puede visitar la Luna en Minecraft?",
+    "options": "No,Si",
+    "lore": ""
+  },
+  {
+    "id": "1-53",
+    "title": "¿De que color es Sonic?",
+    "options": "Azul,Marrón, Rojo",
+    "lore": ""
+  },
+  {
+    "id": "1-54",
+    "title": "¿Cuál es el verdadero nombre de la chica en peligro de Donkey Kong (el clásico)?",
+    "options": "Pauline,Daisy, Peach",
+    "lore": ""
+  },
+  {
+    "id": "1-55",
+    "title": "¿En qué lugar se desarrollan las aventuras de Crash Bandicoot?",
+    "options": "Wumpa Islands, South Islands, Nublar Islands",
+    "lore": ""
+  },
+  {
+    "id": "1-56",
+    "title": "¿Cuál fue el jugador que consiguió una máxima puntuación de Pacman con 3.333.360 puntos en 1999?",
+    "options": "Billy Mitchel, Alan Quart, Evans Johnson",
+    "lore": ""
+  },
+  {
+    "id": "1-57",
+    "title": "¿Qué actriz interpretó la voz de Ellie en el videojuego Last Of Us?",
+    "options": "Ashley Johnson, Ellen Page, Viva Seifert",
+    "lore": ""
+  },
+  {
+    "id": "1-58",
+    "title": "¿Cuál es el nombre de la inteligencia artificial que ayuda al Master Chief en Halo?",
+    "options": "Cortana, Hal, Arbiter",
+    "lore": ""
+  },
+  {
+    "id": "1-59",
+    "title": "¿A qué famoso videojuego de peleas pertenece el personaje de Fei Long?",
+    "options": "Street Fighter, Mortal Kombat, Super Smash Bros",
+    "lore": ""
+  },
+  {
+    "id": "1-60",
+    "title": "¿Cuál es el nombre de la hermana de Chris Redfield en Resident Evil?",
+    "options": "Claire, Regina,Ciril",
+    "lore": ""
+  },
+  {
+    "id": "1-61",
+    "title": "De las siguientes bandas, Kasabian, Rush o Stone Temple Pilots ¿cuál no aparece en el videojuego Guitar Hero: Warriors Of Rock?",
+    "options": "Kasabian, Rush, Stone Temple Pilots",
+    "lore": ""
+  },
+  {
+    "id": "1-62",
+    "title": "¿Cuál fue el primer Mega Man que permitió cargar los disparos (Mega Buster)?",
+    "options": "Mega Man 4, Mega Man X, Mega Man 6",
+    "lore": ""
+  },
+  {
+    "id": "1-63",
+    "title": "¿Cuántos juegos basados en la franquicia Worms de Team17 existen?",
+    "options": "Más de 30,Más de 8, Más de 25, Más de 35",
+    "lore": ""
+  },
+  {
+    "id": "1-64",
+    "title": "¿Cómo se llama el protagonista de Adventure Island?",
+    "options": "Higgins, Islander, Robert",
+    "lore": ""
+  },
+  {
+    "id": "1-65",
+    "title": "¿Cuál de estos personajes estaba oculto en el Mortal Kombat original?",
+    "options": "Reptile, Smoke,Rain, Ermac",
+    "lore": ""
+  },
+  {
+    "id": "1-66",
+    "title": "¿Cómo se llama el luchador ruso de Punch-Out!!?",
+    "options": "Soda Popinski, Iván Drago,Zan Gief",
+    "lore": ""
+  },
+  {
+    "id": "1-67",
+    "title": "¿Cuál fue el primer videojuego en presentar el idioma Simlish?",
+    "options": "Simcopter,The Sims, Simcity",
+    "lore": ""
+  },
+  {
+    "id": "1-68",
+    "title": "¿Cuál fue la primer consola con CD's?",
+    "options": "3DO, CD Body, Play Station,Sega CD",
+    "lore": ""
+  },
+  {
+    "id": "1-69",
+    "title": "¿Quiénes aparecían en la portada de FIFA 2004?",
+    "options": "Henry con RonalDinho y Del Piero, Totti con RonalDihno y Messi, Del Piero con Shevchenko y Raúl",
+    "lore": ""
+  },
+  {
+    "id": "1-70",
+    "title": "¿Qué personaje planeaba usar Nintendo en 1981 antes de transformar su juego en Donkey Kong?",
+    "options": "Popeye,King Kong, Super Mario, Picachu",
+    "lore": ""
+  },
+  {
+    "id": "1-71",
+    "title": "Joust es un juego arcade en el controlas a un caballero que monta un animal volador. ¿Qué animal es ese?",
+    "options": "Un avestruz,Un caballo, Un unicornio, Un elefante",
+    "lore": ""
+  },
+  {
+    "id": "1-72",
+    "title": "¿Qué elemento hace que Mario sea invencible en Super Mario Bros?",
+    "options": "Una estrella,Un caparazón, Una moneda de oro",
+    "lore": ""
+  },
+  {
+    "id": "1-73",
+    "title": "¿Qué famoso videojuego fue creado por el programador conocido como Notch?",
+    "options": "Minecraft,Pac-Man, Rayman, Pikmin",
+    "lore": ""
+  },
+  {
+    "id": "1-74",
+    "title": "¿Qué personaje de Street Fighter se inspiró en la leyenda de las artes marciales Bruce Lee?",
+    "options": "Fei Long,Vega, Riu,Blanka",
+    "lore": ""
+  },
+  {
+    "id": "1-75",
+    "title": "¿Cómo se llama el sistema estelar que pertenece al universo Star Fox?",
+    "options": "Lylat, Cygni, Eridanne,Ciris",
+    "lore": ""
+  },
+  {
+    "id": "1-76",
+    "title": "¿Quién es el personaje principal de la serie Halo?",
+    "options": "Master Chief,The King of Light, The Guardian,Queen of Darkness",
+    "lore": ""
+  },
+  {
+    "id": "1-77",
+    "title": "¿En qué franquicia de videojuegos puedes encontrar a los personajes Magnolia, Juniper y Rowan?",
+    "options": "Pokémon,Lego, The Sims, Halo",
+    "lore": ""
+  },
+  {
+    "id": "1-78",
+    "title": "¿Cuál es el primer videojuego de la saga Donkey Kong que tenía imágenes en 3D?",
+    "options": "Donkey Kong 64, Donkey Kong Country, Super Donkey Kong",
+    "lore": ""
+  }
+]

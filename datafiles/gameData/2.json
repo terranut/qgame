@@ -1,0 +1,482 @@
+[
+  {
+    "id": "2-0",
+    "title": "¿Sabrías decir cuanto tarda la luz del Sol en llegar a la Tierra?",
+    "options": "8 minutos,3 minutos,12 minutos",
+    "lore": "Nuestro Sol es la estrella más cercana a nosotros. Está a 150 millones de kilómetros (93 millones de millas) de distancia."
+  },
+  {
+    "id": "2-1",
+    "title": "¿Cuantos planetas hay dentro del Sistema Solar?",
+    "options": "8 planetas, 9 planetas, 12 planetas",
+    "lore": ""
+  },
+  {
+    "id": "2-2",
+    "title": "¿Cual fué el primer robert que pisó la superficie de Marte?",
+    "options": "Sojourner,Opportunity, Curiosity,Spirit",
+    "lore": ""
+  },
+  {
+    "id": "2-3",
+    "title": "¿Cuál es la luna más grande de Saturno?",
+    "options": "Titán, Encélado, Tetis,Dafne",
+    "lore": ""
+  },
+  {
+    "id": "2-4",
+    "title": "¿Dime satélites de Marte?",
+    "options": "Deimos, Ceres,Tetis",
+    "lore": ""
+  },
+  {
+    "id": "2-5",
+    "title": "¿A qué temperatura está la supercie del planeta Venus?",
+    "options": "460ºC,32ºC, 2032ºC, -57ºC",
+    "lore": ""
+  },
+  {
+    "id": "2-6",
+    "title": "¿Cuantos planetas como la Tierra podrían entrar dentro de Júpiter?",
+    "options": "1300 planetas,500 planetas, 2100 planetas",
+    "lore": ""
+  },
+  {
+    "id": "2-7",
+    "title": "¿Cual es la velocidad de expansión del universo?",
+    "options": "70km/s por megaparsec,48km/s por megaparsec,12km/s por megaparsec,35km/s por megaparsec",
+    "lore": ""
+  },
+  {
+    "id": "2-8",
+    "title": "¿En que año pisó el primer hombre la Luna?",
+    "options": "1969,1880,2005,El hombre nunca llegó a la luna",
+    "lore": ""
+  },
+  {
+    "id": "2-9",
+    "title": "¿Cómo se llama la región que media entre las estrellas?",
+    "options": "Espacio interestelar, Vacío estelar, La nada",
+    "lore": ""
+  },
+  {
+    "id": "2-10",
+    "title": "¿Cuanto tarda la tierra en dar una vuelta al sol?",
+    "options": "1 año,6 meses, 1 década",
+    "lore": ""
+  },
+  {
+    "id": "2-11",
+    "title": "¿Cuanto tarda el sistema solar en dar una vuelta a la galaxia?",
+    "options": "225 millones de años,365 días, 24 años, 2 millones de años",
+    "lore": ""
+  },
+  {
+    "id": "2-12",
+    "title": "¿Cuál es la edad del universo?",
+    "options": "13.700 Millones de años,12.000 Millones años, 24 Millones de años, 800 Billones de años",
+    "lore": ""
+  },
+  {
+    "id": "2-13",
+    "title": "¿Cuál es la edad del planeta tierra?",
+    "options": "4500 Millones de años, 5000 Millones de años, 3500 Millones de años",
+    "lore": ""
+  },
+  {
+    "id": "2-14",
+    "title": "¿Cuál es el planeta más cercano al sol?",
+    "options": "Mercurio,Venus, Marte",
+    "lore": ""
+  },
+  {
+    "id": "2-15",
+    "title": "¿Cómo se llama la estrella más cercana al sol?",
+    "options": "Próxima Centauri,Pandora, Pegaso",
+    "lore": ""
+  },
+  {
+    "id": "2-16",
+    "title": "¿Cuál es el gas más abundante en la atmosfera de la Tierra?",
+    "options": "Nitrógeno,Metano, Oxígeno, Hidrógeno",
+    "lore": ""
+  },
+  {
+    "id": "2-17",
+    "title": "Dime el nombre de algun telescopio espacial",
+    "options": "Keppler, Anderson, Bubble",
+    "lore": ""
+  },
+  {
+    "id": "2-18",
+    "title": "¿Cuantos planetas extrasolares se han descubierto hasta el año 2020?",
+    "options": "Más de 4100, Más de 1 millón, Máas de 300, 5678 planetas",
+    "lore": ""
+  },
+  {
+    "id": "2-19",
+    "title": "¿Qué es un planeta errante?",
+    "options": "Un planeta que orbita la galaxia, Un planeta que orbita al sol, Un planeta que orbita al universo",
+    "lore": ""
+  },
+  {
+    "id": "2-20",
+    "title": "¿Qué hay en el centro de todas las galaxias?",
+    "options": "Un agujero negro,Un planeta, Una estrella de neutrones",
+    "lore": ""
+  },
+  {
+    "id": "2-21",
+    "title": "¿Qué diámetro, en años luz, tiene la vía láctea?",
+    "options": "100.000 años luz,50 años luz, 200 Millones de años luz,250.000 años luz",
+    "lore": ""
+  },
+  {
+    "id": "2-22",
+    "title": "¿Cuál es la galaxia más próxima a la vía láctea?",
+    "options": "Can Mayor,Andrómeda, Pegaso",
+    "lore": ""
+  },
+  {
+    "id": "2-23",
+    "title": "¿En qué galaxia está el Sistema Solar?",
+    "options": "Vía Láctea,Osa Mayor,Casiopea",
+    "lore": ""
+  },
+  {
+    "id": "2-24",
+    "title": "¿Cómo se llama el supercúmulo donde se ubica nuestra galaxia?",
+    "options": "Supercúmulo de Virgo,Supercúmulo de Aries, Supercúmulo de Sagitario",
+    "lore": ""
+  },
+  {
+    "id": "2-25",
+    "title": "¿En qué siglo se inventó el primer telescopio?",
+    "options": "Siglo XVII,Siglo IX, Siglo XX",
+    "lore": ""
+  },
+  {
+    "id": "2-26",
+    "title": "¿A qué corresponde una Unidad Astronómica (UA)?",
+    "options": "A la distancia entre la Tierra y el Sol,A un año luz,La distancia entre el Sol y el centro de la Vía Láctea",
+    "lore": ""
+  },
+  {
+    "id": "2-27",
+    "title": "¿Cómo se llama el proyecto destinado a la búsqueda de vida inteligente más allá de la Tierra?",
+    "options": "Proyecto SETI, Proyecto Isaac Asimov, Proyecto Área 51",
+    "lore": ""
+  },
+  {
+    "id": "2-28",
+    "title": "¿A qué fenómeno alude el término \"nova\"?",
+    "options": "Al nacimiento de una estrella,A la formación de nuevas galaxias,Al nacimiento de una estrella",
+    "lore": ""
+  },
+  {
+    "id": "2-29",
+    "title": "¿Cuál es el objeto fabricado por el hombre que actualmente se encuentra más alejado de la Tierra?",
+    "options": "Sonda espacial Voyager 1, Sonda espacial Cassini, Halcón Milenario",
+    "lore": ""
+  },
+  {
+    "id": "2-30",
+    "title": "¿Dónde se encuentra la montaña más alta del sistema solar?",
+    "options": "Marte,Plutón, Venus",
+    "lore": ""
+  },
+  {
+    "id": "2-31",
+    "title": "Si la Tierra se convirtiera en un agujero negro, ¿cuál sería el diámetro de su horizonte de eventos?",
+    "options": "20mm,1 metro, 2 kilómetros",
+    "lore": ""
+  },
+  {
+    "id": "2-32",
+    "title": "¿Cuántos planetas del Sistema Solar tienen anillos?",
+    "options": "4,2,5,8",
+    "lore": ""
+  },
+  {
+    "id": "2-33",
+    "title": "¿Cuál es el planeta más caliente del Sistema Solar?",
+    "options": "Venus,Marte, Mercurio",
+    "lore": ""
+  },
+  {
+    "id": "2-34",
+    "title": "¿Cuál es el planeta más frío del Sistema Solar?",
+    "options": "Neptuno,Urano, Júpiter",
+    "lore": ""
+  },
+  {
+    "id": "2-35",
+    "title": "¿En qué satélite natural se encuentra la Cuenca Aitken?",
+    "options": "La Luna, Calisto, Deimos",
+    "lore": ""
+  },
+  {
+    "id": "2-36",
+    "title": "¿Dónde se encuentra el cañón más grande del Sistema Solar?",
+    "options": "Marte, Júpiter, Venus",
+    "lore": ""
+  },
+  {
+    "id": "2-37",
+    "title": "¿Con qué otro nombre se conoce a la constelación de Orión?",
+    "options": "El Cazador,La Liebre, El Chófer",
+    "lore": ""
+  },
+  {
+    "id": "2-38",
+    "title": "¿Cuál es el el meteorito más grande y pesado?",
+    "options": "Hoba,Vilamette, Allende",
+    "lore": ""
+  },
+  {
+    "id": "2-39",
+    "title": "¿Hace cuánto tiempo aproximadamente se formó el Sol?",
+    "options": "4600 millones de años, 5800 millones de años, 3500 millones de años",
+    "lore": ""
+  },
+  {
+    "id": "2-40",
+    "title": "¿Cuál es la estrella más brillante de Canis Minor?",
+    "options": "Procyon,Sirio, Cassiopea",
+    "lore": ""
+  },
+  {
+    "id": "2-41",
+    "title": "¿Cuál es tercer planeta en el sistema solar?",
+    "options": "La Tierra, Marte, Venus, Mercurio",
+    "lore": ""
+  },
+  {
+    "id": "2-42",
+    "title": "¿Por qué la Luna nos muestra siempre la misma cara?",
+    "options": "Por la rotación síncrona,Por la rotación asíncrona, Por la fuerza centrífuga",
+    "lore": ""
+  },
+  {
+    "id": "2-43",
+    "title": "¿Qué significan las siglas del LHC?",
+    "options": "Large Hadron Collider,Large Hadron Center, Large High Circuit",
+    "lore": ""
+  },
+  {
+    "id": "2-44",
+    "title": "¿Cuantos días tiene un mes lunar?",
+    "options": "28,27,30,41",
+    "lore": ""
+  },
+  {
+    "id": "2-45",
+    "title": "¿Cuál es el planeta del Sistema Solar con más lunas conocidas hasta 2012?",
+    "options": "Júpiter, Saturno, Urano",
+    "lore": ""
+  },
+  {
+    "id": "2-46",
+    "title": "¿Cómo se denomina la explosión que originó la expansión del Universo hace unos 15.000 millones de años?",
+    "options": "Big Bang,Inflacción, Big Crunch",
+    "lore": ""
+  },
+  {
+    "id": "2-47",
+    "title": "¿Qué gran estrella roja poseé un diámetro superior a la órbita que la Tierra describe alrededor del Sol?",
+    "options": "Betelgeuse,Sirio, Altares",
+    "lore": ""
+  },
+  {
+    "id": "2-48",
+    "title": "¿De qué se compone principalmente el núcleo de un cometa?",
+    "options": "Hielo, Agua, Gas, Hielo",
+    "lore": ""
+  },
+  {
+    "id": "2-49",
+    "title": "¿Qué tipo de naves espaciales son las Ariane europeas?",
+    "options": "Lanzaderas, Cobetes, Sondas",
+    "lore": ""
+  },
+  {
+    "id": "2-50",
+    "title": "¿Qué nombre recibe una agrupación imaginaria de estrellas?",
+    "options": "Constelación,Galaxia, Cúmulo, Nebulosa",
+    "lore": ""
+  },
+  {
+    "id": "2-51",
+    "title": "¿Como se denomina a un grupo de estrellas que orbitan juntas, siguiendo un eje común?",
+    "options": "Galaxia,Sistema binario, Constelación",
+    "lore": ""
+  },
+  {
+    "id": "2-52",
+    "title": "¿Como se llama a las estrellas de mediana edad que convierten hidrógeno en helio?",
+    "options": "Enana amarilla, Gigante roja, Quasar",
+    "lore": ""
+  },
+  {
+    "id": "2-53",
+    "title": "¿Como se llama a la estrella cuyo brillo aumenta de repente hasta superar al de su galaxia?",
+    "options": "Supernova, Pulsar, Gigante azul, Quasar",
+    "lore": ""
+  },
+  {
+    "id": "2-54",
+    "title": "¿Qué es mayor que un planeta, pero no llega a ser una estrella?",
+    "options": "Enana marrón, Estrella de neutrones,Exoplaneta",
+    "lore": ""
+  },
+  {
+    "id": "2-55",
+    "title": "¿Cómo se llama la fase final de una estrella caracterizada por su altísima densidad?",
+    "options": "Agujero negro, Supernova, Quasar",
+    "lore": ""
+  },
+  {
+    "id": "2-56",
+    "title": "¿Cómo se llama una estrella capaz de girar sobre su eje cientos de veces por segundo?",
+    "options": "Pulsar, Supernova, Brazo estelar",
+    "lore": ""
+  },
+  {
+    "id": "2-57",
+    "title": "¿Cómo se denomina un cuerpo celeste que orbita a una estrella diferente del Sol?",
+    "options": "Exoplaneta, Nube de cometas, Satélite",
+    "lore": ""
+  },
+  {
+    "id": "2-58",
+    "title": "¿Cuál es el sistema solar más cercano a nuestro sol?",
+    "options": "Alfa Centauri,Sirio,Lalande",
+    "lore": ""
+  },
+  {
+    "id": "2-59",
+    "title": "¿Qué tipo de estrella es nuestro Sol?",
+    "options": "Enana amarilla, Enana marron, Enana blanca",
+    "lore": ""
+  },
+  {
+    "id": "2-60",
+    "title": "¿Qué término usan los astrónomos para describir las dos veces al año en que el día y la noche tienen la misma duración?",
+    "options": "Equinoccio,Solsticio,Sidéreo",
+    "lore": ""
+  },
+  {
+    "id": "2-61",
+    "title": "¿Cuál es la estrella más brillante de la constelación de la Osa Menor?",
+    "options": "Estrella Polar, Osa Mayor, Ursai Minoris",
+    "lore": ""
+  },
+  {
+    "id": "2-62",
+    "title": "¿Qué planeta tiene la atmósfera más fría del sistema solar?",
+    "options": "Neptuno, Urano, Saturno",
+    "lore": ""
+  },
+  {
+    "id": "2-63",
+    "title": "¿Cómo se llaman las nubes de gas y polvo situadas entre las estrellas?",
+    "options": "Nebulosas, Galaxias, Cometas",
+    "lore": ""
+  },
+  {
+    "id": "2-64",
+    "title": "¿Cómo se llama la superficie esférica que rodea a un agujero negro?",
+    "options": "Horizonte de sucesos, Superficie oscura, Límite real",
+    "lore": ""
+  },
+  {
+    "id": "2-65",
+    "title": "¿Qué planeta del sistema solar posee un año más corto que su día?",
+    "options": "Venus, Mercurio, Marte, Urano",
+    "lore": "Un año en Venus equivale a 225 días en la tierra, mientras que un día equivale a 243."
+  },
+  {
+    "id": "2-66",
+    "title": "¿Qué clase de materia no emite ni refleja radiación suficiente para ser observada?",
+    "options": "Materia ocura, Neutrinos, Materia bariónica",
+    "lore": ""
+  },
+  {
+    "id": "2-67",
+    "title": "¿Qué es la materia Bariónica?",
+    "options": "Materia normal, Materia oscura, La materia de la energía oscura",
+    "lore": "En cosmología, materia bariónica es toda forma de materia constituida por bariones y leptones. Es decir, es la materia que forma todo lo que nos rodea y podemos ver, incluidos nosotros mismos."
+  },
+  {
+    "id": "2-68",
+    "title": "¿A qué velocidad se aleja la Luna de la Tierra?",
+    "options": "4 cm/año, 8 cm/año, 12 cm/año",
+    "lore": ""
+  },
+  {
+    "id": "2-69",
+    "title": "¿Cómo se llama la parte visible del Sol?",
+    "options": "Fotosfera,Cromosfera, Corona",
+    "lore": ""
+  },
+  {
+    "id": "2-70",
+    "title": "¿Cuál es el planeta más pequeño del sistema solar?",
+    "options": "Mercurio, Venus, Marte",
+    "lore": ""
+  },
+  {
+    "id": "2-71",
+    "title": "¿Cómo se llaman las estrellas que varían su temperatura y brillo regularmente?",
+    "options": "Cefeidas, Púlsares, Estrella de neutrones",
+    "lore": ""
+  },
+  {
+    "id": "2-72",
+    "title": "¿Cuántos años dura el ciclo solar, relacionado con las manchas solares?",
+    "options": "11 años, 12 años, 13 años",
+    "lore": ""
+  },
+  {
+    "id": "2-73",
+    "title": "¿Qué objetos espaciales pueden crear cráteres en la superficie del planeta Tierra?",
+    "options": "Meteoritos, Cometas, Satélites",
+    "lore": ""
+  },
+  {
+    "id": "2-74",
+    "title": "¿Cuál es la estrella más brillante de la constelación de Escorpio?",
+    "options": "Antares, Cassiopea, Sirio, Pegaso",
+    "lore": ""
+  },
+  {
+    "id": "2-75",
+    "title": "¿Qué mantiene unidas a las galaxias en los cúmulos de galaxias?",
+    "options": "La gravedad, La materia oscura, La energía oscura",
+    "lore": ""
+  },
+  {
+    "id": "2-76",
+    "title": "¿Qué propiedades se toman para calcular la edad de una estrella?",
+    "options": "Luminosidad y temperatura, Temperatura, Luminosidad",
+    "lore": ""
+  },
+  {
+    "id": "2-77",
+    "title": "¿Cómo se llama la parte más externa de una galaxia?",
+    "options": "Halo, Brazo exterior, Heliosfera",
+    "lore": ""
+  },
+  {
+    "id": "2-78",
+    "title": "¿Qué satélite de Saturno se cree que puede ser viable para la vida humana?",
+    "options": "Titán,Encélado, Mimas",
+    "lore": ""
+  },
+  {
+    "id": "2-79",
+    "title": "¿Qué se produce cuando una enana blanca explota?",
+    "options": "Una nova, Un agujero negro, Un púlsar",
+    "lore": ""
+  }
+]

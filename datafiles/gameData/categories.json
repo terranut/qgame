@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Historia",
+    "total": 121
+  },
+  {
+    "id": 1,
+    "name": "Videojuegos",
+    "total": 79
+  },
+  {
+    "id": 2,
+    "name": "Astronomía",
+    "total": 80
+  },
+  {
+    "id": 3,
+    "name": "Tecnología e Internet",
+    "total": 68
+  },
+  {
+    "id": 4,
+    "name": "Cine y TV",
+    "total": 66
+  },
+  {
+    "id": 5,
+    "name": "Ciencias",
+    "total": 93
+  },
+  {
+    "id": 6,
+    "name": "Geografía",
+    "total": 80
+  },
+  {
+    "id": 7,
+    "name": "Cultura general",
+    "total": 81
+  }
+]

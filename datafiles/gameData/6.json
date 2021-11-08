@@ -1,0 +1,482 @@
+[
+  {
+    "id": "6-0",
+    "title": "¿Qué cuerpo de agua separa Norteamérica de Asia?",
+    "options": "El estrecho de Bering,El océano Atlántico,El océano Atlántico",
+    "lore": ""
+  },
+  {
+    "id": "6-1",
+    "title": "¿Cuál es el golfo más grande del mundo?",
+    "options": "Golfo de México,Golfo de Marruecos, Golfo de Madrid",
+    "lore": ""
+  },
+  {
+    "id": "6-2",
+    "title": "¿Qué cubre más del 70% de la superficie de la Tierra?",
+    "options": "Agua, Tierra, Hielo",
+    "lore": ""
+  },
+  {
+    "id": "6-3",
+    "title": "¿Cuál es el océano más grande y profundo del mundo?",
+    "options": "Pacífico,Atlántico,Cantábrico",
+    "lore": ""
+  },
+  {
+    "id": "6-4",
+    "title": "¿Donde se ubica el monte Kilimanjaro?",
+    "options": "Tanzania,Francia, Australia,China",
+    "lore": ""
+  },
+  {
+    "id": "6-5",
+    "title": "¿Cuál es el lago de agua dulce más grande del mundo?",
+    "options": "Lago Superior,Lago Victoria, Lago Grisly",
+    "lore": ""
+  },
+  {
+    "id": "6-6",
+    "title": "¿Cuantos paises hay en America Central?",
+    "options": "7,12,6,8",
+    "lore": ""
+  },
+  {
+    "id": "6-7",
+    "title": "¿Cuál es el lugar más seco del planeta?",
+    "options": "Desierto de Atacama, Desierto del Sahara,Desierto de Namibia",
+    "lore": ""
+  },
+  {
+    "id": "6-8",
+    "title": "¿Cuál es la ciudad más grande de China?",
+    "options": "Shanghai,Pekin, Hong Kong,",
+    "lore": ""
+  },
+  {
+    "id": "6-9",
+    "title": "Cuando en Estados Unidos es verano, ¿En qué estación del año están en Australia?",
+    "options": "Invierno,Primavera, Verano, Veroño",
+    "lore": ""
+  },
+  {
+    "id": "6-10",
+    "title": "¿De que país es capital Bucarest?",
+    "options": "Rumanía,Hungría, Bulgaria",
+    "lore": ""
+  },
+  {
+    "id": "6-11",
+    "title": "¿Qué línea imaginaria separa los dos hemisferios?",
+    "options": "El ecuador,El océano Atlántico,Polo Norte",
+    "lore": ""
+  },
+  {
+    "id": "6-12",
+    "title": "¿Cómo se llama la extensión de tierra rodeada de agua por tres lados?",
+    "options": "Península,Fiordo, Canal, Isla",
+    "lore": ""
+  },
+  {
+    "id": "6-13",
+    "title": "¿Qué continente tiene más población?",
+    "options": "Asia,América, Europa, África",
+    "lore": ""
+  },
+  {
+    "id": "6-14",
+    "title": "¿A qué cordillera se le conoce como la columna de Norteamérica?",
+    "options": "Montañas Rocosas,Monte Vesuvio,Montañas Mesa",
+    "lore": ""
+  },
+  {
+    "id": "6-15",
+    "title": "¿Qué río corre por la frontera de Estados Unidos y México?",
+    "options": "Río Bravo,El Misisipi, El Tajo, Río Nilo",
+    "lore": ""
+  },
+  {
+    "id": "6-16",
+    "title": "¿Cuál es el continente con menos población en el mundo?",
+    "options": "Antártida,Asia, Sudamérica",
+    "lore": ""
+  },
+  {
+    "id": "6-17",
+    "title": "¿Cuál es el país más grande del mundo?",
+    "options": "Rusia,China,Inglaterra, Perú",
+    "lore": ""
+  },
+  {
+    "id": "6-18",
+    "title": "¿Cuál es el punto más alto de la Tierra?",
+    "options": "Monte Everest,Monte Vesuvio, Monte Santa Elena, Monte Olimplo",
+    "lore": ""
+  },
+  {
+    "id": "6-19",
+    "title": "¿Cuál es el océano más cálido del mundo?",
+    "options": "Índico, Ártico, Pacífico, Atlántico",
+    "lore": ""
+  },
+  {
+    "id": "6-20",
+    "title": "¿Cuál es el punto más bajo en el mundo?",
+    "options": "El mar Muerto,El océano Pacífico,El desierto del Sahara",
+    "lore": ""
+  },
+  {
+    "id": "6-21",
+    "title": "¿Cuantas zonas horarias tiene Rusia?",
+    "options": "11,5,09",
+    "lore": ""
+  },
+  {
+    "id": "6-22",
+    "title": "¿Cuál es el animal nacional de Australia?",
+    "options": "Canguro,Koala, Orangután",
+    "lore": ""
+  },
+  {
+    "id": "6-23",
+    "title": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
+    "options": "Suecia, Grecia,Islandia",
+    "lore": ""
+  },
+  {
+    "id": "6-24",
+    "title": "¿Cuál es la capital de Canadá?",
+    "options": "Ottawa,Quebec,Toronto",
+    "lore": ""
+  },
+  {
+    "id": "6-25",
+    "title": "¿Cuál es la cordillera más larga (no más alta) del mundo?",
+    "options": "Los Andes,Los Alpes, Sierra Morena",
+    "lore": ""
+  },
+  {
+    "id": "6-26",
+    "title": "¿Cuál es la fosa más profunda del océano?",
+    "options": "Fosa de las Marianas,Fosa Nasal, Fosa de Sumerville",
+    "lore": ""
+  },
+  {
+    "id": "6-27",
+    "title": "¿Cuál es el río más largo del mundo?",
+    "options": "Nilo,Tamesis,Danucio,Rin",
+    "lore": ""
+  },
+  {
+    "id": "6-28",
+    "title": "¿Cuál es el país con mayor densidad de población?",
+    "options": "Mónaco,Singapur, Holanda",
+    "lore": ""
+  },
+  {
+    "id": "6-29",
+    "title": "¿Cuantos habitantes tiene aproximádamente la ciudad de París?",
+    "options": "8 millones,12 millones,18 millones",
+    "lore": ""
+  },
+  {
+    "id": "6-30",
+    "title": "¿Cuál es el río más grande de Colombia?",
+    "options": "Amazonas,Putumayo,Orinoco",
+    "lore": ""
+  },
+  {
+    "id": "6-31",
+    "title": "¿Cómo se llama el desierto más grande del mundo?",
+    "options": "Desierto del Sahara,Desierto Ártico,Desierto de Arabia",
+    "lore": ""
+  },
+  {
+    "id": "6-32",
+    "title": "¿Cuantos habitantes tiene aproximádamente la ciudad de Roma?",
+    "options": "3 millones,8 millones,12 millones",
+    "lore": ""
+  },
+  {
+    "id": "6-33",
+    "title": "¿Cuál es la capital de Filipinas?",
+    "options": "Manila,Makati, Cebú",
+    "lore": ""
+  },
+  {
+    "id": "6-34",
+    "title": "¿Cuál es el río más caudaloso del mundo?",
+    "options": "El Amazonas, El Nilo, El Po, El Danubio",
+    "lore": ""
+  },
+  {
+    "id": "6-35",
+    "title": "¿Qué país está entre Perú y Colombia?",
+    "options": "Ecuador, Venezuela, Panamá, Chile",
+    "lore": ""
+  },
+  {
+    "id": "6-36",
+    "title": "¿En qué país se encuentra el río Po?",
+    "options": "Italia, Francia, Alemania, Dinamarca",
+    "lore": ""
+  },
+  {
+    "id": "6-37",
+    "title": "¿Cuál es la montaña más alta de Europa?",
+    "options": "Monte Elbrus, Monte Escara, Monte Mulhacén",
+    "lore": ""
+  },
+  {
+    "id": "6-38",
+    "title": "¿Dónde se encuentra la Casa Rosada?",
+    "options": "Argentina, Uruguay, Eucuador, Bolivia",
+    "lore": ""
+  },
+  {
+    "id": "6-39",
+    "title": "¿A qué país pertenece la isla de Creta?",
+    "options": "Grecia, Turquía, Italia",
+    "lore": ""
+  },
+  {
+    "id": "6-40",
+    "title": "¿Qué océano baña las aguas de Sri Lanka?",
+    "options": "Índico, Pacífico, Atlántico",
+    "lore": ""
+  },
+  {
+    "id": "6-41",
+    "title": "¿Cómo se llama a día de hoy la antigua ciudad de Stalingrado?",
+    "options": "Volvogrado,Moscú,Kazán",
+    "lore": ""
+  },
+  {
+    "id": "6-42",
+    "title": "¿Cómo se llama la línea vertical imaginaria que divide el mundo en dos mitades?",
+    "options": "El meridiano de Greenwich, El ecuador, Paralela de Eisenhower",
+    "lore": ""
+  },
+  {
+    "id": "6-43",
+    "title": "¿En qué país de Europa se habla el magyar?",
+    "options": "Hungría, Bulgaria, Holanda, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "6-44",
+    "title": "¿En qué país se encuentra el pico Aconcagua?",
+    "options": "Argentina, Bolivia, Chile, Venezuela",
+    "lore": ""
+  },
+  {
+    "id": "6-45",
+    "title": "¿Cuál suele ser el país más visitado del mundo?",
+    "options": "Francia, Italia, España, Estados Unidos, Chipre",
+    "lore": ""
+  },
+  {
+    "id": "6-46",
+    "title": "¿Por cuántos estados está formado Estados Unidos?",
+    "options": "50, 57,45",
+    "lore": ""
+  },
+  {
+    "id": "6-47",
+    "title": "¿Dónde se encuentran las ruinas de Angkor?",
+    "options": "Camboya, Nicaragua, Libia, Egipto",
+    "lore": ""
+  },
+  {
+    "id": "6-48",
+    "title": "¿Cuál es el país del mundo con mayor población?",
+    "options": "China, India, Rusia, Estados Unidos",
+    "lore": ""
+  },
+  {
+    "id": "6-49",
+    "title": "¿En qué continente está Ecuador?",
+    "options": "América, Asia,Europa",
+    "lore": ""
+  },
+  {
+    "id": "6-50",
+    "title": "¿En qué país se encuentra la torre de Pisa?",
+    "options": "Italia, Alemania, Grecia, Francia",
+    "lore": ""
+  },
+  {
+    "id": "6-51",
+    "title": "¿Dónde se encuentra la Sagrada Familia?",
+    "options": "España, Francia, Alemania, Portugal",
+    "lore": ""
+  },
+  {
+    "id": "6-52",
+    "title": "¿Cuál es el país más pequeño del mundo?",
+    "options": "El Vaticano, Mónaco, Andorra, Gibraltar",
+    "lore": ""
+  },
+  {
+    "id": "6-53",
+    "title": "¿Cuál es la capital de Alemania?",
+    "options": "Berlín, Hamburgo,Düsseldorf",
+    "lore": ""
+  },
+  {
+    "id": "6-54",
+    "title": "¿Cuál es la capital de Perú?",
+    "options": "Lima,Cusco, Arequipa",
+    "lore": ""
+  },
+  {
+    "id": "6-55",
+    "title": "¿Cuál es la capital de Egipto?",
+    "options": "El Cairo,Guiza, Asuan",
+    "lore": ""
+  },
+  {
+    "id": "6-56",
+    "title": "¿Cuál es la capital de Pakistan?",
+    "options": "Islamabad,Karachi, Lahore",
+    "lore": ""
+  },
+  {
+    "id": "6-57",
+    "title": "¿Cuál es la capital de Taiwan?",
+    "options": "Taipéi, Magong,Taitung",
+    "lore": ""
+  },
+  {
+    "id": "6-58",
+    "title": "¿Cuál es la capital de Chile?",
+    "options": "Santiago,Concepción,Punta Arenas",
+    "lore": ""
+  },
+  {
+    "id": "6-59",
+    "title": "¿Cuál es la capital de Argelia",
+    "options": "Argel, Orán, Constantina",
+    "lore": ""
+  },
+  {
+    "id": "6-60",
+    "title": "¿Cuál es la capital de Finlandia?",
+    "options": "Helsinki, Tampere,Turku,Oulu",
+    "lore": ""
+  },
+  {
+    "id": "6-61",
+    "title": "¿Cuál es la capital de Marruecos?",
+    "options": "Rabat,Marrakech, Tánger",
+    "lore": ""
+  },
+  {
+    "id": "6-62",
+    "title": "¿Cuál es la capital de Bolivia?",
+    "options": "La Paz,Cochabamba, Sucre",
+    "lore": ""
+  },
+  {
+    "id": "6-63",
+    "title": "¿Cuál es la capital de Haití?",
+    "options": "Puerto Príncipe,Jacmel,Los Cayos",
+    "lore": ""
+  },
+  {
+    "id": "6-64",
+    "title": "¿Cuál es la lengua oficial de Haití?",
+    "options": "Frances, Español, Inglés",
+    "lore": ""
+  },
+  {
+    "id": "6-65",
+    "title": "¿En qué ciudad alemana se celebra el Oktoberfest?",
+    "options": "Munich,Berlín, Hamburgo",
+    "lore": ""
+  },
+  {
+    "id": "6-66",
+    "title": "¿Cuál es la capital de Islandia?",
+    "options": "Reikiavik,Akranes,Akureyri",
+    "lore": ""
+  },
+  {
+    "id": "6-67",
+    "title": "¿Cuántas teclas tiene un piano?",
+    "options": "88,66,78",
+    "lore": ""
+  },
+  {
+    "id": "6-68",
+    "title": "¿En qué país se encuentra el desierto de Atacama?",
+    "options": "Chile, Argentina, Venezuela, Colombia",
+    "lore": ""
+  },
+  {
+    "id": "6-69",
+    "title": "¿En qué país se encuentra el K2, la segunda montaña más alta del mundo?",
+    "options": "Pakistan, India, China",
+    "lore": ""
+  },
+  {
+    "id": "6-70",
+    "title": "¿Dónde está Transilvania?",
+    "options": "En Rumanía, En Hungría, En Bulgaria",
+    "lore": ""
+  },
+  {
+    "id": "6-71",
+    "title": "¿Qué río atraviesa la ciudad de Benarés, en la India?",
+    "options": "El río Ganges,El río Indo,El río Yamuna",
+    "lore": ""
+  },
+  {
+    "id": "6-72",
+    "title": "¿En qué país se encuentra la Riviera Maya?",
+    "options": "México, Perú, Colombia, Chile",
+    "lore": ""
+  },
+  {
+    "id": "6-73",
+    "title": "¿A qué país pertenece Groenlandia?",
+    "options": "Dinamarca, Holanda, Reino Unido",
+    "lore": ""
+  },
+  {
+    "id": "6-74",
+    "title": "¿En qué continente está Siria?",
+    "options": "Asia, África, Europa",
+    "lore": ""
+  },
+  {
+    "id": "6-75",
+    "title": "¿Cuál es la capital de Brasil?",
+    "options": "Brasilia, Rio de Janeiro, Sao Paulo",
+    "lore": ""
+  },
+  {
+    "id": "6-76",
+    "title": "¿Qué cordillera separa Europa de Asia?",
+    "options": "Los Montes Urales, Las montañas del Cáucaso, Los montes Balcanes",
+    "lore": ""
+  },
+  {
+    "id": "6-77",
+    "title": "¿Cuál es la ciudad más poblada de África?",
+    "options": "El Cairo,Nairobi,Ciudad del Cabo",
+    "lore": ""
+  },
+  {
+    "id": "6-78",
+    "title": "¿Cuál es la capital de Albania?",
+    "options": "Tirana,Pogradec, Ksamil",
+    "lore": ""
+  },
+  {
+    "id": "6-79",
+    "title": "¿En qué hemisferio se encuentra Jamaica?",
+    "options": "Emisferio Norte, Emisferio Sur",
+    "lore": ""
+  }
+]

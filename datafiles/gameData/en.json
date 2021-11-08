@@ -1,0 +1,30 @@
+[
+  {
+    "match": "start_game",
+    "value": "Start game"
+  },
+  {
+    "match": "settings",
+    "value": "Settings"
+  },
+  {
+    "match": "quit_game",
+    "value": "Quit game"
+  },
+  {
+    "match": "language",
+    "value": "Language"
+  },
+  {
+    "match": "back",
+    "value": "Back"
+  },
+  {
+    "match": "full_screen",
+    "value": "Full screen"
+  },
+  {
+    "match": "leave_quiz",
+    "value": "Leave quiz"
+  }
+]

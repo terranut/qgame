@@ -1,0 +1,398 @@
+[
+  {
+    "id": "4-0",
+    "title": "¿Qué ve el niño del sexto sentido?",
+    "options": "Muertos,Margaritas, Cucarachas,Fantasmas",
+    "lore": ""
+  },
+  {
+    "id": "4-1",
+    "title": "Como consigue Jack el billete para el titanic?",
+    "options": "Jugando al póker,Jugando al futbol, Jugando a la play, Apostando en carrera de caballos",
+    "lore": ""
+  },
+  {
+    "id": "4-2",
+    "title": "¿De cuantas películas hay de REC?",
+    "options": "4,3,5,7",
+    "lore": ""
+  },
+  {
+    "id": "4-3",
+    "title": "¿En qué se convirtió David el Gnomo al morir?",
+    "options": "En un árbol,En un cisne, En un finger spinner, En una almóndiga",
+    "lore": ""
+  },
+  {
+    "id": "4-4",
+    "title": "¿Qué número tenía por nombre la protagonista de Stranger Things?",
+    "options": "Eleven,Eight,Twenty,Nine",
+    "lore": ""
+  },
+  {
+    "id": "4-5",
+    "title": "¿Cómo se llamaba el campamento de castigo de Black Mirror?",
+    "options": "Oso blanco,Canto blanco, Ojo blanco, Caballo blanco",
+    "lore": ""
+  },
+  {
+    "id": "4-6",
+    "title": "¿Cuantas pruebas hay en el juego del calamar primera temporada?",
+    "options": "6,4,8,12",
+    "lore": ""
+  },
+  {
+    "id": "4-7",
+    "title": "¿Que edificio publico español asaltaban en la primera temporada de la Casa de papel?",
+    "options": "La Fábrica Nacional de Moneda,El banco de España, La Casa Blanca, La Moncloa",
+    "lore": ""
+  },
+  {
+    "id": "4-8",
+    "title": "¿Quien es el director de la película Apocalipto?",
+    "options": "Mel Gibson,Bruce Willis,Steven Spielberg",
+    "lore": ""
+  },
+  {
+    "id": "4-9",
+    "title": "¿Cuantas películas hay de Regreso al Futuro?",
+    "options": "3,2,5,7",
+    "lore": ""
+  },
+  {
+    "id": "4-10",
+    "title": "¿Que personaje vive en Fondo Bikini?",
+    "options": "Bob Esponja,Las tres Mellizas, Vickie el vikingo,Kipo",
+    "lore": ""
+  },
+  {
+    "id": "4-11",
+    "title": "¿Quien era uno de los actores de Futurama?",
+    "options": "Matt Groening, John Silverman,Seth MacFarlane",
+    "lore": ""
+  },
+  {
+    "id": "4-12",
+    "title": "¿De cual de las siguientes series NO es autor Seth MacFarlane? Padre de Familia,American Dad, Rick y Morty",
+    "options": "Rick y Morty,Padre de Familia,American Dad",
+    "lore": ""
+  },
+  {
+    "id": "4-13",
+    "title": "¿Como se llama la pareja del protagonista en Grease?",
+    "options": "Sandy, Maria, Jenifer",
+    "lore": ""
+  },
+  {
+    "id": "4-14",
+    "title": "¿Quién es el director de Pulp Fiction?",
+    "options": "Quentin Tarantino,Martin Scorsese, Tim Burton",
+    "lore": ""
+  },
+  {
+    "id": "4-15",
+    "title": "¿Como se llama el niño que acompaña a Indiana Jones en Indiana Jones y el templo maldito?",
+    "options": "Tapón, Tim tim, Tim tom,Wilson",
+    "lore": ""
+  },
+  {
+    "id": "4-16",
+    "title": "¿En cuantas películas de Tim Burton aparece Johnny Depp?",
+    "options": "8,12,12",
+    "lore": ""
+  },
+  {
+    "id": "4-17",
+    "title": "¿Cómo se llama el actor que encarna a Doc en Regreso al Futuro?",
+    "options": "Christopher Lloyd,Samuel L. Jackson, Tom Cruise",
+    "lore": ""
+  },
+  {
+    "id": "4-18",
+    "title": "¿Cómo se llama la novia de Shrek?",
+    "options": "Fiona,Marta, Wanda, Sofia",
+    "lore": ""
+  },
+  {
+    "id": "4-19",
+    "title": "¿Con cuantos enanitos vivía Blancanieves?",
+    "options": "7,5,6",
+    "lore": ""
+  },
+  {
+    "id": "4-20",
+    "title": "¿Cómo se llama el gato de la bruja Sabrina?",
+    "options": "Salem,Edgar, Philip,Úrsula",
+    "lore": ""
+  },
+  {
+    "id": "4-21",
+    "title": "¿En qué temporada muere Nairobi de la Casa de Papel?",
+    "options": "En la cuarta,En la segunda, En la tercera",
+    "lore": ""
+  },
+  {
+    "id": "4-22",
+    "title": "¿Cuantos eran los sobrinos del pato Donald?",
+    "options": "3,4,5",
+    "lore": ""
+  },
+  {
+    "id": "4-23",
+    "title": "¿En que año nació Fry de Futurama?",
+    "options": "1974, 2059, 3669",
+    "lore": ""
+  },
+  {
+    "id": "4-24",
+    "title": "¿Cuál fue la serie más vista en Netflix en el 2019?",
+    "options": "Stranger Things,La Casa de Papel,The Rain, Lost in Space",
+    "lore": ""
+  },
+  {
+    "id": "4-25",
+    "title": "¿Cuál fue la serie más vista en Netflix en el 2020?",
+    "options": "La Casa de Papel,You, Gambito de Dama",
+    "lore": ""
+  },
+  {
+    "id": "4-26",
+    "title": "¿Cuál fue el primer largometraje de Pixar?",
+    "options": "Toy Story,Ratatouille,Monsters,Walle",
+    "lore": ""
+  },
+  {
+    "id": "4-27",
+    "title": "¿Cuál fue la primer película de Disney?",
+    "options": "Blancanieves,Bambi, Dumbo",
+    "lore": ""
+  },
+  {
+    "id": "4-28",
+    "title": "¿Quién protagoniza Jungla de Cristal?",
+    "options": "Bruce Willis,Tom Cruise, Tom Holland",
+    "lore": ""
+  },
+  {
+    "id": "4-29",
+    "title": "¿De que país es originario el programa The Voice?",
+    "options": "Holanda, Reino Unido, Estados Unidos, Alemania",
+    "lore": ""
+  },
+  {
+    "id": "4-30",
+    "title": "¿Quién dirigió El club de los poetas muertos?",
+    "options": "Peter Weir,Gus Van Sant, Rober Behton",
+    "lore": ""
+  },
+  {
+    "id": "4-31",
+    "title": "¿Cómo se llama el horrible vecino de Toy Story?",
+    "options": "Sid,Max, Tommy",
+    "lore": ""
+  },
+  {
+    "id": "4-32",
+    "title": "¿Cómo se llamaban los ladrones de Solo en casa?",
+    "options": "Harry y Marv,Barry y Mark, Marvin y Jack",
+    "lore": ""
+  },
+  {
+    "id": "4-33",
+    "title": "¿Cómo se llamaban algunos de los amigos de Nobita?",
+    "options": "Suneo,Ishuka, Pequeño",
+    "lore": ""
+  },
+  {
+    "id": "4-34",
+    "title": "¿Quién interpretó a Hitler en El gran dictador?",
+    "options": "Charles Chaplin, Tom Cruise, Vincent Cassel",
+    "lore": ""
+  },
+  {
+    "id": "4-35",
+    "title": "¿Quién dirigió “Ciudadano Kane”?",
+    "options": "Orson Welles, Quentin Tarantino, Jean Renoir",
+    "lore": ""
+  },
+  {
+    "id": "4-36",
+    "title": "¿Cómo se llama la madre de Simba en la película de “El rey león”?",
+    "options": "Sarabi, Ebra, Nala, Nagala",
+    "lore": ""
+  },
+  {
+    "id": "4-37",
+    "title": "¿Cuál de los actores que ha interpretado a James Bond luchó contra el Dr. No?",
+    "options": "Sean Connery, Leonardo Dicaprio, Robert De Niro",
+    "lore": ""
+  },
+  {
+    "id": "4-38",
+    "title": "¿Cómo se llama el líder de los Autobots en la saga de películas de Transformers?",
+    "options": "Optimus Prime, Octopus, Autonauts",
+    "lore": ""
+  },
+  {
+    "id": "4-39",
+    "title": "¿La película El club de la lucha está basado en la novela homónima de qué autor?",
+    "options": "Chuck Palahniuk,Truman Capote, Mark Twain",
+    "lore": ""
+  },
+  {
+    "id": "4-40",
+    "title": "¿Cómo se llama el libro en el que se basa la película Blade Runner?",
+    "options": "¿Sueñan los robots con ovejas eléctricas?,The Darkest Night, Idependence",
+    "lore": ""
+  },
+  {
+    "id": "4-41",
+    "title": "¿De qué material eran los zapatos de Cenicienta?",
+    "options": "Cristal, Cerámica, Piel",
+    "lore": ""
+  },
+  {
+    "id": "4-42",
+    "title": "¿Cómo se llamaba el genio de Aladín?",
+    "options": "Genio, Alan, Edgar",
+    "lore": ""
+  },
+  {
+    "id": "4-43",
+    "title": "¿Cómo se llama el cangrejo de la Sirenita?",
+    "options": "Sebastian, Lucas, Christian",
+    "lore": ""
+  },
+  {
+    "id": "4-44",
+    "title": "¿Cómo se llama el robot amigo de Fry en Futurama?",
+    "options": "Bender, Lender, Fever",
+    "lore": ""
+  },
+  {
+    "id": "4-45",
+    "title": "¿Cómo se llama la hermana de Morty en Rick y Morty?",
+    "options": "Summer, Sheila, Marie, Jennifer",
+    "lore": ""
+  },
+  {
+    "id": "4-46",
+    "title": "¿Por qué se convierte Rick de Rick y Morty en un pepinillo?",
+    "options": "Para no ir a terapia, Para no ir a trabajar, Para no tener que limpiar",
+    "lore": ""
+  },
+  {
+    "id": "4-47",
+    "title": "¿Cómo se llama la antagonista en la película 101 dálmatas?",
+    "options": "Cruella de Vil,Maléfica, Scar",
+    "lore": ""
+  },
+  {
+    "id": "4-48",
+    "title": "¿Qué actor aparece en Harry Potter y Robin Hood: príncipe de los ladrones?",
+    "options": "Alan Rickman,Jack Black,Gerard Murphy",
+    "lore": ""
+  },
+  {
+    "id": "4-49",
+    "title": "¿Qué actor es protagonista en la película Waterworld?",
+    "options": "Kevin Costner,Kim Coates,Michael Jeter",
+    "lore": ""
+  },
+  {
+    "id": "4-50",
+    "title": "¿En qué popular serie de TV podemos ubicar a un personaje llamado Walter White?",
+    "options": "Breaking Bad,Prison Break,You",
+    "lore": ""
+  },
+  {
+    "id": "4-51",
+    "title": "¿Qué actriz interpreta a la madre de John Connor en Terminator 2?",
+    "options": "Linda Hamilton,Jennifer Lawrence,Blake Lively",
+    "lore": ""
+  },
+  {
+    "id": "4-52",
+    "title": "¿Cuantos animales componían la banda musical en los Trotamúsicos?",
+    "options": "4,5,6",
+    "lore": ""
+  },
+  {
+    "id": "4-53",
+    "title": "¿Qué profesión tenía Carmen Sandiego?",
+    "options": "Ladrona, Espía, Periodista",
+    "lore": ""
+  },
+  {
+    "id": "4-54",
+    "title": "¿Qué actor protagoniza Passengers?",
+    "options": "Chris Pratt,Laurence Fishburne, Stephen Hamel",
+    "lore": ""
+  },
+  {
+    "id": "4-55",
+    "title": "¿Cuáles son los apellidos de los cirujanos que protagonizan la serie 'Nip/Tuck'?",
+    "options": "McNamara y Troy,Cruz y Troy, Sánchez y Cruz",
+    "lore": ""
+  },
+  {
+    "id": "4-56",
+    "title": "¿A qué especie animal pertenece Pumba del Rey León?",
+    "options": "Facóquero, Cerdo, Tajacu, Jabalí barbudo",
+    "lore": ""
+  },
+  {
+    "id": "4-57",
+    "title": "¿A qué especie animal pertenece Rafiky del Rey León?",
+    "options": "Mandril, Macaco, Orangutan, Chimpancé",
+    "lore": ""
+  },
+  {
+    "id": "4-58",
+    "title": "¿Qué asignatura impartía Severus Snape en Harry Potter?",
+    "options": "Pociones, Artes Oscuras, Encantamientos",
+    "lore": ""
+  },
+  {
+    "id": "4-59",
+    "title": "¿Qué dibujaba la marca de la frente de Harry Potter?",
+    "options": "Un rayo, Una estrella, Una varita mágica",
+    "lore": ""
+  },
+  {
+    "id": "4-60",
+    "title": "¿De qué planeta es Spock, el personaje de Star Trek?",
+    "options": "Vulcano, Urano, Venus, Plutón",
+    "lore": ""
+  },
+  {
+    "id": "4-61",
+    "title": "¿Cómo se llama la nave espacial ficticia que aparece en la película Alien?",
+    "options": "Nostromo, Discovery, Enterprise",
+    "lore": ""
+  },
+  {
+    "id": "4-62",
+    "title": "¿Quién dirigió la trilogía de El Padrino?",
+    "options": "Francis Ford Coppola,Quentin Tarantino,Federico Fellini",
+    "lore": ""
+  },
+  {
+    "id": "4-63",
+    "title": "¿Por qué película superventas de los años 90 es conocido el director James Cameron?",
+    "options": "Titanic, Avatar,Aliens",
+    "lore": ""
+  },
+  {
+    "id": "4-64",
+    "title": "¿Cuál de los Siete Enanitos no tenía barba?",
+    "options": "Mudito,Sabio, Dormilón, Tímido",
+    "lore": ""
+  },
+  {
+    "id": "4-65",
+    "title": "¿Quién fue la primera voz de Mickey Mouse?",
+    "options": "Walt Disney,Cheech Marin,Andrew Stanton",
+    "lore": ""
+  }
+]

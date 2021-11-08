@@ -1,0 +1,410 @@
+[
+  {
+    "id": "3-0",
+    "title": "¿Que significan las siglas LOL?",
+    "options": "laughing out loud,last of line,london of lion",
+    "lore": ""
+  },
+  {
+    "id": "3-1",
+    "title": "¿Como se llama la tienda de aplicaciones en los teléfonos de Apple?",
+    "options": "App Store,Play Store,Market Store",
+    "lore": ""
+  },
+  {
+    "id": "3-2",
+    "title": "¿Que tipo de aplicación es Opera?",
+    "options": "Navegador web, Red social, Es un juego",
+    "lore": ""
+  },
+  {
+    "id": "3-3",
+    "title": "¿Cuantos son los FPS máximos que permite Youtube para reproducir un video?",
+    "options": "60,144,90,30",
+    "lore": ""
+  },
+  {
+    "id": "3-4",
+    "title": "¿Para que sirve el navegador Tor?",
+    "options": "Para navegar por la web anónimamente,Para ver pelis de adultos, Para jugar el Fornite",
+    "lore": ""
+  },
+  {
+    "id": "3-5",
+    "title": "¿Cuál es la velocidad máxima de transferencia de la fibra óptica en condiciones ideales?",
+    "options": "50Tbps,1000Gbps,100Mbps,1Tbps",
+    "lore": ""
+  },
+  {
+    "id": "3-6",
+    "title": "¿Cuál es la velocidad de transferencia del 5g?",
+    "options": "10Gbps,24Gbps, 12Gbps",
+    "lore": ""
+  },
+  {
+    "id": "3-7",
+    "title": "En sus inicios ¿cuál era el límite de caracteres por mensaje en Twitter?",
+    "options": "140, 240,280,320",
+    "lore": ""
+  },
+  {
+    "id": "3-8",
+    "title": "¿Qué significa trending?",
+    "options": "Un tema popular en la red, Cuando no te apetece ir a trabajar,Una canción de Mariah Carey",
+    "lore": ""
+  },
+  {
+    "id": "3-9",
+    "title": "¿Qué significan las siglas WTF?",
+    "options": "What the fuck,Waiting time forever, What the form",
+    "lore": ""
+  },
+  {
+    "id": "3-10",
+    "title": "¿Que red social es mas antigua? Facebook, Messenger o Fotolog",
+    "options": "Messenger,Facebook,Fotolog",
+    "lore": ""
+  },
+  {
+    "id": "3-11",
+    "title": "¿Qué tipo de aplicacion era Emule?",
+    "options": "Un programa de intercambio de archivos,Un procesador de textos, Un editor de video",
+    "lore": ""
+  },
+  {
+    "id": "3-12",
+    "title": "¿Qué significa la abreviatura OMG?",
+    "options": "Oh My God, Oh my game, Oh te quiero",
+    "lore": ""
+  },
+  {
+    "id": "3-13",
+    "title": "¿En qué año se lanzó Facebook?",
+    "options": "2004,1005,2006",
+    "lore": ""
+  },
+  {
+    "id": "3-14",
+    "title": "¿Para qué se usan los hashtags en redes sociales?",
+    "options": "Para etiquetar contenido,Para mencionar a alguien, Para denunciar contenido",
+    "lore": ""
+  },
+  {
+    "id": "3-15",
+    "title": "¿Para qué sirve la red social LinkedIn?",
+    "options": "Para perfiles profesionales,Para compartir fotografías, Para publicar vídeos",
+    "lore": ""
+  },
+  {
+    "id": "3-16",
+    "title": "¿Qué es DNS?",
+    "options": "El sistema de nombres de dominio, Un tipo de conexión a internet, Un tipo de router",
+    "lore": ""
+  },
+  {
+    "id": "3-17",
+    "title": "¿En qué año se fundó Netflix?",
+    "options": "1997,2005,2011",
+    "lore": ""
+  },
+  {
+    "id": "3-18",
+    "title": "¿Que es Reddit?",
+    "options": "Un agregador de noticias,Una web de noticias, Un foro de internet",
+    "lore": ""
+  },
+  {
+    "id": "3-19",
+    "title": "¿En qué año de lanzó Twitter?",
+    "options": "2006,2008,2010",
+    "lore": ""
+  },
+  {
+    "id": "3-20",
+    "title": "¿Cual es el formato de imagen más usado en la red?",
+    "options": "Jpg,Png, Gif, Meme",
+    "lore": ""
+  },
+  {
+    "id": "3-21",
+    "title": "¿Que significan las siglas NFT?",
+    "options": "Non fungible token, Not fany time, Non fast token",
+    "lore": ""
+  },
+  {
+    "id": "3-22",
+    "title": "¿En redes wifi, que es el SSID?",
+    "options": "El nombre de la red, La clave de acceso, El protocolo de transferencia",
+    "lore": ""
+  },
+  {
+    "id": "3-23",
+    "title": "¿En redes wifi, que es WPA2?",
+    "options": "Es un sistema de protección de la red,Se refiere a la velocidad de transferencia, Indica el alcance de la red",
+    "lore": ""
+  },
+  {
+    "id": "3-24",
+    "title": "¿En que año se lanzó Telegram?",
+    "options": "2013,2016, 2008",
+    "lore": ""
+  },
+  {
+    "id": "3-25",
+    "title": "¿Dime el nombre de alguna plataforma de streaming de videojuegos?",
+    "options": "Stadia, Amazon Prime, Pc Componentes",
+    "lore": ""
+  },
+  {
+    "id": "3-26",
+    "title": "¿Que es Prestashop?",
+    "options": "Gestor de contenido para tiendas,Una tienda online,Una red social, Una casa de préstamos",
+    "lore": ""
+  },
+  {
+    "id": "3-27",
+    "title": "¿Que es un host de internet?",
+    "options": "Un ordenador conectado que ofrece recursos, Un ordenador compartido,Un servicio de streaming",
+    "lore": ""
+  },
+  {
+    "id": "3-28",
+    "title": "¿En qué año apareció Wikipedia?",
+    "options": "2001,1995, 2005",
+    "lore": ""
+  },
+  {
+    "id": "3-29",
+    "title": "¿En que estado americano se creó Wikipedia?",
+    "options": "Florida,Alaska, Indiana, Virginia",
+    "lore": ""
+  },
+  {
+    "id": "3-30",
+    "title": "En sus inicios, ¿para que servia la web Softonic?",
+    "options": "Para descargar software,Para ver películas, Para comprar hardware",
+    "lore": ""
+  },
+  {
+    "id": "3-31",
+    "title": "¿Qué servicio web creó Kit Dotkom?",
+    "options": "Megavideo,Amazon, Youtube",
+    "lore": ""
+  },
+  {
+    "id": "3-32",
+    "title": "¿Cuál es el segundo idioma más usado en internet?",
+    "options": "Chino,Ingles, Español, Frances",
+    "lore": ""
+  },
+  {
+    "id": "3-33",
+    "title": "¿Cual es el idioma más usado en internet?",
+    "options": "Ingles, Chino, Ruso",
+    "lore": ""
+  },
+  {
+    "id": "3-34",
+    "title": "¿Cual fue la web más visitada en 2020?",
+    "options": "Google,Amazon, Youtube",
+    "lore": ""
+  },
+  {
+    "id": "3-35",
+    "title": "¿Qué popular servicio de internet fundó Jerry Yang?",
+    "options": "Yahoo,Instagram, TikTok",
+    "lore": ""
+  },
+  {
+    "id": "3-36",
+    "title": "¿Cómo se conoce en China a la red social TikTok?",
+    "options": "Douyin, Auyin, Nioyn",
+    "lore": ""
+  },
+  {
+    "id": "3-37",
+    "title": "¿En qué país se usa más la aplicación WeChat?",
+    "options": "China,India, Japón",
+    "lore": ""
+  },
+  {
+    "id": "3-38",
+    "title": "¿Quién estandarizó el uso del caracter @?",
+    "options": "Ray Tomlinson,Jeff Bezos, Satya Nadella",
+    "lore": ""
+  },
+  {
+    "id": "3-39",
+    "title": "¿Quién inventó el correo electrónico?",
+    "options": "Ray Tomlinson,Steve Jobs, Bill Gates",
+    "lore": ""
+  },
+  {
+    "id": "3-40",
+    "title": "¿En que año se lanzó Windows 10?",
+    "options": "2015,2010, 2020",
+    "lore": ""
+  },
+  {
+    "id": "3-41",
+    "title": "¿En qué año comenzó a funcionar el asistente de voz Siri?",
+    "options": "2011,2008,2015",
+    "lore": ""
+  },
+  {
+    "id": "3-42",
+    "title": "¿Qué tipo de formato tienen los archivos OGG?",
+    "options": "Formato de audio,Formato de imagen, Formato de vídeo",
+    "lore": ""
+  },
+  {
+    "id": "3-43",
+    "title": "¿Quien desarrolló el formato de video MOV?",
+    "options": "Apple,Google, Microsoft",
+    "lore": ""
+  },
+  {
+    "id": "3-44",
+    "title": "¿Qué representaba el primer GIF de la historia?",
+    "options": "Un avión, Un coche, Una pelota botando",
+    "lore": ""
+  },
+  {
+    "id": "3-45",
+    "title": "¿En qué año se creó el primer GIF de la historia?",
+    "options": "1987,1990, 1995",
+    "lore": ""
+  },
+  {
+    "id": "3-46",
+    "title": "¿Qué significa la S del protocolo HTTPS?",
+    "options": "Secure,Social, Shine",
+    "lore": ""
+  },
+  {
+    "id": "3-47",
+    "title": "¿Quién fue el predecesor de Google Plus?",
+    "options": "Wave, Youtube, Gmail",
+    "lore": ""
+  },
+  {
+    "id": "3-48",
+    "title": "¿Quién compró el servicio de correo electrónico Hotmail?",
+    "options": "Microsoft,Google, Apple",
+    "lore": ""
+  },
+  {
+    "id": "3-49",
+    "title": "¿Qué desarrolladora de juegos compró Microsoft en el año 2014?",
+    "options": "Mojang, Maxis, Bethesda",
+    "lore": ""
+  },
+  {
+    "id": "3-50",
+    "title": "¿En qué país se desarrolló el formato de audio MP3?",
+    "options": "Alemania,Francia, Reino Unido",
+    "lore": ""
+  },
+  {
+    "id": "3-51",
+    "title": "¿Qué idioma usa la distribución AZERTY?",
+    "options": "Francés,Italiano, Ruso",
+    "lore": ""
+  },
+  {
+    "id": "3-52",
+    "title": "¿Qué otras distribuciones de teclado existen además de QUERTY?",
+    "options": "QWERTZ ,QWERPZ, QWERTQ",
+    "lore": ""
+  },
+  {
+    "id": "3-53",
+    "title": "¿Qué significan las siglas PDF?",
+    "options": "Portable Document Format,Port Document Form,Portable Document Fast",
+    "lore": ""
+  },
+  {
+    "id": "3-54",
+    "title": "¿En qué país se crearon los primeros emojis?",
+    "options": "Japón,Corea, China",
+    "lore": ""
+  },
+  {
+    "id": "3-55",
+    "title": "¿A que parte del cuerpo se refiere el emoji de un melocotón?",
+    "options": "A los glúteos, A la cabeza,Al corazón",
+    "lore": ""
+  },
+  {
+    "id": "3-56",
+    "title": "¿En que año murió Steve Jobs?",
+    "options": "2011,2008,2012",
+    "lore": ""
+  },
+  {
+    "id": "3-57",
+    "title": "¿Qué sistema utilizó por primera vez un mouse de ordenador?",
+    "options": "Xerox,Macintosh, MS-DOS",
+    "lore": ""
+  },
+  {
+    "id": "3-58",
+    "title": "¿Cuál fue el primer producto vendido por internet?",
+    "options": "Una pizza, Una hamburguesa, Un smartphone",
+    "lore": ""
+  },
+  {
+    "id": "3-59",
+    "title": "¿Cuál fue el primer procesador de textos de la historia?",
+    "options": "Wordstart,Word, Excel, Access",
+    "lore": ""
+  },
+  {
+    "id": "3-60",
+    "title": "¿Qué tipo de software era Panda?",
+    "options": "Antivirus,Base de datos, Navegador de internet",
+    "lore": ""
+  },
+  {
+    "id": "3-61",
+    "title": "Si quiero hacer un streaming para Twich, ¿Qué software necesito para superponer otro contenido multimedia?",
+    "options": "OBS,Photoshop,After Effects",
+    "lore": ""
+  },
+  {
+    "id": "3-62",
+    "title": "¿Se puede hacer streaming de mis partidas en Steam sin instalar software adicional?",
+    "options": "Si, No",
+    "lore": ""
+  },
+  {
+    "id": "3-63",
+    "title": "¿En qué año se lanzó el S.O. Android?",
+    "options": "2008,2005,2011",
+    "lore": ""
+  },
+  {
+    "id": "3-64",
+    "title": "¿Para que sirve el software Adobe Premiere?",
+    "options": "Para editar vídeo,Para editar imágenes,Para hacer streaming",
+    "lore": ""
+  },
+  {
+    "id": "3-65",
+    "title": "¿Qué grupo estadounidense compró Macromedia?",
+    "options": "Adobe,Microsoft,Exxon Mobil",
+    "lore": ""
+  },
+  {
+    "id": "3-66",
+    "title": "¿Cuá es la máscota del sistema operativo Linux?",
+    "options": "Un pingüino,Una ardilla,Un mapache, Una cebra",
+    "lore": ""
+  },
+  {
+    "id": "3-67",
+    "title": "¿Cómo se define como el conjunto de los componentes físicos que intervienen en un sistema computacional?",
+    "options": "Hardware, Software, CPU",
+    "lore": ""
+  }
+]
