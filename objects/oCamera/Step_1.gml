@@ -1,8 +1,8 @@
 /// @description 
 full_screen = window_get_fullscreen()
-if(display_width != 1920 && display_height != 1080){
-	window_set_fullscreen(false)
-}
+//if(display_width != 1920 && display_height != 1080){
+//	window_set_fullscreen(false)
+//}
 
 if(display_width == 1920 && display_height == 1080){
 	
@@ -24,8 +24,10 @@ if(display_width == 1920 && display_height == 1080){
 	
 	display_set_gui_size(960,540);
 	display_set_gui_maximize(1,1,global.x_offset,global.y_offset)
-
+	
+	
 }
+
 
 
 

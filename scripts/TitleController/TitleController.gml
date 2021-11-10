@@ -1,13 +1,14 @@
 
-function TitleController() constructor{
+function TitleController():RoomController() constructor{
+	name = "TitleController";
 	grid = oGrid.grid;
 	warehousePigs = undefined;
 	
-	
-	
+
 	#region CONSTRUCTOR
 		layer_set_visible("Colliders",false)
 		warehousePigs = DATA.warehousePigs;
+		create();
 		span_pigs()
 	#endregion
 	
@@ -27,11 +28,6 @@ function TitleController() constructor{
 	}
 	
 	
-	static step = function(){
-	}
 	
-	static draw = function(){
-	}
-	static destroy = function(){}
 
 }

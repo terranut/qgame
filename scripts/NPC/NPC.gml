@@ -59,7 +59,7 @@ function NPC(){
 		y = instance.y;
 		var mouseX =  mouse_x 
 		var mouseY =  mouse_y 
-		
+	
 	
 		//CONTROL FOCUS
 		var sprW = sprite_get_width(instance.sprite_index);

@@ -7,14 +7,14 @@ function GuiMedalsRoom():GUI() constructor{
 
 	title = new Text((display_get_gui_width()/2),(display_get_gui_height()/2)-140,"SELECCIONA UNA OPCIÓN",c_white,global.font_title,fa_center,fa_middle)
 	rightArrow =  new SpriteButton((display_get_gui_width()/2)+240,250,spr_arrow_right,"Preview",function(){
-		oMedals.control.pig.silence()
+		with(oControllerRoom) control.pig.silence()
 		with(oMedalList){
 			if(currentPage <= ( array_length(medalList)/8 )) currentPage++;
 			event_user(0)
 		}
 	})
 	leftArrow = new SpriteButton((display_get_gui_width()/2)-250,250,spr_arrow_left,"Preview",function(){
-		oMedals.control.pig.silence()
+		with(oControllerRoom) control.pig.silence()
 		with(oMedalList){
 			if(currentPage == 0) exit;
 			currentPage--;

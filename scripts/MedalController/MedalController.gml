@@ -1,5 +1,6 @@
 
-function MedalController() constructor{
+function MedalController():RoomController() constructor{
+	name = "MedalControler";
 	pig = undefined;
 	medalList = undefined;
 	
@@ -8,16 +9,10 @@ function MedalController() constructor{
 		pig = new NPCAssistantPig(132,479,"Assistant",-1);
 		pig.speak(["Selecciona una medalla"]);
 		pig.state = pig.waiting_medal;
+		create()
 	#endregion
 
-	static draw = function(){}
-	//STEP WAREHOUSE
-	static step = function(){
 	
-	}
-	
-	//DESTROY WAREHOUSE
-	static destroy = function(){}
 
 
 }
