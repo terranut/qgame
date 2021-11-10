@@ -1,8 +1,9 @@
 /// @description 
-quiz = new Quiz();
+event_inherited()
+control = new Quiz();
 
 
-
+#macro QUIZ oQuiz.control
 
 
 

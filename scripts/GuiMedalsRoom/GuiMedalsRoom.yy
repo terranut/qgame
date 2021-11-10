@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Warehouse",
-    "path": "folders/Scripts/Warehouse.yy",
+    "name": "rooms",
+    "path": "folders/Scripts/GUI/Custom/rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Warehouse",
+  "name": "GuiMedalsRoom",
   "tags": [],
   "resourceType": "GMScript",
 }

@@ -10,7 +10,7 @@ function Text(_x,_y,_value = 0,_color = c_white,_font = global.font_gold,_hAlign
 	
 	static click = function(){};
 	
-	static draw = function(){
+	static draw_element = function(){
 		draw_set_halign(hAlign);
 		draw_set_valign(vAlign);
 		draw_set_color(color);

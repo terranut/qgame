@@ -15,8 +15,6 @@
   "layers": [
     {"assets":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"oGuiMedals","path":"objects/oGuiMedals/oGuiMedals.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":160.0,"resourceVersion":"1.0","name":"inst_5A57E415","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oMedalList","path":"objects/oMedalList/oMedalList.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,"resourceVersion":"1.0","name":"inst_6A7D159","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_564938AA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oMedals","path":"objects/oMedals/oMedals.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_2D43355E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Control","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -88,12 +86,10 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_5A57E415","path":"rooms/medals/medals.yy",},
     {"name":"inst_7AA702CF","path":"rooms/medals/medals.yy",},
     {"name":"inst_4EC2B4CC","path":"rooms/medals/medals.yy",},
     {"name":"inst_35DFAB6C","path":"rooms/medals/medals.yy",},
     {"name":"inst_113EE57F","path":"rooms/medals/medals.yy",},
-    {"name":"inst_6A7D159","path":"rooms/medals/medals.yy",},
     {"name":"inst_564938AA","path":"rooms/medals/medals.yy",},
     {"name":"inst_2D43355E","path":"rooms/medals/medals.yy",},
   ],

@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oControllerRoom",
+    "path": "objects/oControllerRoom/oControllerRoom.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

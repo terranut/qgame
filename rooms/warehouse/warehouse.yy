@@ -123,7 +123,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGrid","path":"objects/oGrid/oGrid.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-64.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_4F053ED5","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oWarehouse","path":"objects/oWarehouse/oWarehouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_38E1F030","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oGuiWarehouse","path":"objects/oGuiWarehouse/oGuiWarehouse.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-160.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_4157EF2F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-128.0,"y":32.0,"resourceVersion":"1.0","name":"inst_76935D55","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Control","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -353,7 +352,6 @@
     {"name":"inst_30AF9D7E","path":"rooms/warehouse/warehouse.yy",},
     {"name":"inst_4D669AB","path":"rooms/warehouse/warehouse.yy",},
     {"name":"inst_666712FB","path":"rooms/warehouse/warehouse.yy",},
-    {"name":"inst_4157EF2F","path":"rooms/warehouse/warehouse.yy",},
     {"name":"inst_76935D55","path":"rooms/warehouse/warehouse.yy",},
   ],
   "inheritCreationOrder": false,

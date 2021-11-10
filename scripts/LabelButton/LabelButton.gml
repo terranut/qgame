@@ -21,7 +21,7 @@ function LabelButton(_x,_y,_value,_helpText,_action,_font = global.font_gold,_co
 	
 	static draw_end = function(){}
 	
-	static draw = function(){
+	static draw_element = function(){
 		
 		var wrapperW = sprite_get_width(wrapper);
 		var wrapperH = sprite_get_height(wrapper);
@@ -40,7 +40,7 @@ function LabelButton(_x,_y,_value,_helpText,_action,_font = global.font_gold,_co
 	}
 	
 	
-	static step = function(){
+	static step_element = function(){
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
 		

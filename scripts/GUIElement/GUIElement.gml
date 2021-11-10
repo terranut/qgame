@@ -24,10 +24,14 @@ function GUIElement() constructor{
 		set_focus();
 	};
 	
-	static extra_step = function(){}
+
 	static step = function(){
+		if(!elementVisible) exit;
+		step_element()
+	}
+	
+	static step_element = function(){
 		
-		extra_step();
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
 		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);
@@ -38,8 +42,11 @@ function GUIElement() constructor{
 	
 	
 	
-	
-	static draw = function(){};
+	static draw = function(){
+		if(!elementVisible) exit;
+		draw_element()
+	};
+	static draw_element = function(){}
 	
 	static draw_end = function(){
 		if(has_focus() && userInput == "pad") draw_rectangle(x,y,x+width-1,y+height-1,1);

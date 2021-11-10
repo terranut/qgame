@@ -10,7 +10,7 @@ function WrapperSprite(_x,_y,_sprite,_width = 64, _height = 64,_wrapper = spr_wr
 	wrapper = _wrapper;
 	subImage = _subImage;
 	
-	static draw = function(){
+	static draw_element = function(){
 		var wrapperW = sprite_get_width(wrapper);
 		var wrapperH = sprite_get_height(wrapper);
 		draw_sprite_ext(wrapper,0,x,y,width/wrapperW,height/wrapperH,0,c_white,1);

@@ -21,6 +21,10 @@ function NPC(){
 	
 	//DRAW NPC
 	static draw = function(){
+		//draw_set_color(c_red)
+		//draw_text(x-16,y+16,string(x)+" "+string(y))
+		//resetFont()
+		
 		if(showAlert) draw_sprite(spr_alert,instance.image_index,x,y-sprite_get_height(instance.sprite_index)-5)
 		draw_sprite_ext(instance.sprite_index,instance.image_index,instance.x,instance.y,instance.image_xscale,1,0,c_white,1);
 		draw_frame();
@@ -53,11 +57,14 @@ function NPC(){
 		state();
 		x = instance.x;
 		y = instance.y;
+		var mouseX =  mouse_x 
+		var mouseY =  mouse_y 
+		
 	
 		//CONTROL FOCUS
 		var sprW = sprite_get_width(instance.sprite_index);
 		var sprH = sprite_get_height(instance.sprite_index);
-		if(mouse_check_button_released(mb_left) && point_in_rectangle(mouse_x,mouse_y,x-(sprW/2),y-sprH,x+(sprW/2),y)){
+		if(mouse_check_button_released(mb_left) && point_in_rectangle(mouseX,mouseY,x-(sprW/2),y-sprH,x+(sprW/2),y)){
 			if(focus) exit;
 			set_focus();
 		}

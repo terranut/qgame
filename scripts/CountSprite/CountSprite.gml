@@ -12,7 +12,7 @@ function CountSprite(_x,_y,_spr,_count,_helpText = "",_color = c_white,_font = g
 	width = sprite_get_width(sprite)+5+string_width(value);
 	resetFont()
 	
-	static draw = function(){
+	static draw_element = function(){
 	
 		var xOff = sprite_get_xoffset(sprite);
 		var yOff = sprite_get_yoffset(sprite);

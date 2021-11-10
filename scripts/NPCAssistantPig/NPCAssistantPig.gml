@@ -51,7 +51,7 @@ function NPCAssistantPig(_x,_y,_name = "Assistant",_xscale = 1):NPC() constructo
 	static counter = function(){
 		if(!talker.writing){
 			state = waiting;
-			oQuiz.quiz.check_counter();
+			QUIZ.check_counter();
 		}
 	};
 	

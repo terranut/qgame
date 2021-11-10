@@ -1,24 +1,16 @@
 
-function Warehouse() constructor{
-	
+function TitleController() constructor{
 	grid = oGrid.grid;
 	warehousePigs = undefined;
-
-		
+	
+	
+	
 	#region CONSTRUCTOR
-		state = waiting
-		layer_set_visible("Colliders",false);
+		layer_set_visible("Colliders",false)
 		warehousePigs = DATA.warehousePigs;
 		span_pigs()
 	#endregion
 	
-	
-	#region STATES
-		static waiting = function(){}
-	#endregion
-	
-	
-
 	static span_pigs = function(){
 		print("total pigs to span", ds_list_size(warehousePigs))
 		for(var i =0; i < ds_list_size(warehousePigs); i++){
@@ -35,14 +27,11 @@ function Warehouse() constructor{
 	}
 	
 	
-
-	//STEP WAREHOUSE
 	static step = function(){
-		state();
 	}
 	
-	//DESTROY WAREHOUSE
+	static draw = function(){
+	}
 	static destroy = function(){}
-
 
 }

@@ -9,7 +9,7 @@ function WrapperRectangle(_x,_y,_width = 100,_height = 100,_color = c_black,_alp
 	
 	static click = function(){}
 	
-	static draw = function(){
+	static draw_element = function(){
 		draw_set_color(color);
 		draw_set_alpha(alpha);
 		draw_rectangle(x,y,x+width,y+height,0)

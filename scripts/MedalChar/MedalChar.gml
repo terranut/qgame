@@ -10,7 +10,7 @@ function MedalChar(_x,_y,_value):GUIElement() constructor{
 	
 	static click = function(){};
 
-	static draw = function(){
+	static draw_element = function(){
 		//WRAPPER
 		var wrapperW = sprite_get_width(wrapper);
 		var wrapperH = sprite_get_height(wrapper);

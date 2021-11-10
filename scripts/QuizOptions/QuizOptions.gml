@@ -16,7 +16,7 @@ function QuizOptions():GUI() constructor{
 	create();
 		
 			
-	static extra_step = function(){
+	static step_element = function(){
 		instance.visible = !oMenu.open
 	}
 }

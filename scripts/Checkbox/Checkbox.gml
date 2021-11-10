@@ -14,7 +14,7 @@ function Checkbox(_x,_y,_name,_checked,_action):GUIElement() constructor{
 		set(action());
 	}
 	
-	static draw = function(){
+	static draw_element = function(){
 	
 		var sprW = sprite_get_width(spr_wrapper_4);
 		var sprH = sprite_get_height(spr_wrapper_4);

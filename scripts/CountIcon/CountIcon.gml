@@ -14,7 +14,7 @@ function CountIcon(_x,_y,_icon,_subImg,_count,_helpText = "",_width = 60, _heigh
 	
 	static click = function(){}
 	
-	static draw = function(){
+	static draw_element = function(){
 		var sprW = sprite_get_width(spr_wrapper_8);
 		var sprH = sprite_get_height(spr_wrapper_8);
 		

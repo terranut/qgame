@@ -1,5 +1,6 @@
 /// @description 
 medalListData = DATA.userData[? "Medals"]
+print(medalListData)
 medalList = [];
 currentPage = 0;
 

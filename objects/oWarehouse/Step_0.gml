@@ -1,6 +1,5 @@
-/// @description
-if(control) control.step();
-
+/// @description 
+event_inherited();
 #region CONTROL CAMERA
 var view_height = camera_get_view_height(view);
 var height_room = room_height;
@@ -15,3 +14,4 @@ camera_y += (cameraTargetY - camera_y) * 0.1;
 camera_y = clamp(camera_y,0,height_room-540);
 camera_set_view_pos(view,camera_x,camera_y);
 #endregion
+

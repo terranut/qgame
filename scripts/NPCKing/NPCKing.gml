@@ -37,21 +37,21 @@ function NPCKing(_x,_y):NPC() constructor{
 		static speakingIntro = function(){
 			if(talker.finish){
 				state = waiting;
-				oQuiz.quiz.next();
+				QUIZ.next();
 			}
 		}
 	
 		static speakFinish = function(){
 			if(talker.finish){
 				state = waiting;
-				oQuiz.quiz.results();
+				QUIZ.results();
 			}
 		}
 		
 		static speakingResult = function(){
 			if(talker.finish){
 				state = waiting;
-				oQuiz.quiz.next();
+				QUIZ.quiz.next();
 			}
 		}
 	
@@ -59,7 +59,7 @@ function NPCKing(_x,_y):NPC() constructor{
 		static readQuestion = function(){
 			if(!talker.writing){
 				state = waiting;
-				oQuiz.quiz.set_answer();
+				QUIZ.set_answer();
 			}
 		
 		}
@@ -67,7 +67,7 @@ function NPCKing(_x,_y):NPC() constructor{
 		static readCategory = function(){
 			if(talker.finish){
 				state = waiting;
-				oQuiz.quiz.get_question();
+				QUIZ.get_question();
 			}
 		
 		}
@@ -77,7 +77,7 @@ function NPCKing(_x,_y):NPC() constructor{
 				instance.visible = true;
 				layer_sequence_destroy(currentSequence);
 				state = waiting;
-				oQuiz.quiz.quiz_intro()
+				QUIZ.quiz_intro()
 			}else instance.visible = false;
 		}
 

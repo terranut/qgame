@@ -51,7 +51,7 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 	
 	static listening = function(){
 		if(keyboard_check_released(vk_space) && focus && string_length(answer) ){
-			if(talker.finish) oQuiz.quiz.check_answer(answer,self);
+			if(talker.finish) QUIZ.check_answer(answer,self);
 		}
 		if(string_length(answer) && focus && talker == undefined) speak([answer]);		
 	}

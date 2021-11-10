@@ -51,9 +51,9 @@ function DataFile() constructor{
 			preferences.user.language = ini_read_string("user","language","esp");
 			preferences.settings.sound = ini_read_real("settings","sound",0);
 			
-			window_set_fullscreen(preferences.user.full_screen)
-			if(preferences.user.font_classic) global.font_talker = global.font_classic_margin
-			else global.font_talker = font_m5
+			//window_set_fullscreen(preferences.user.full_screen)
+			//if(preferences.user.font_classic) global.font_talker = global.font_classic_margin
+			//else global.font_talker = font_m5
 			
 		}catch(error){
 			print(error)	

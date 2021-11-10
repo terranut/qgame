@@ -15,7 +15,7 @@ function IconButton(_x,_y,_icon,_helpText,_action,_width = 16, _height = 16):GUI
 		action();
 	}
 	
-	static draw = function(){
+	static draw_element = function(){
 		
 		if( mouse_check_button(mb_left) && has_focus() ) wrapper = spr_wrapper_4_pressed;
 		else wrapper = spr_wrapper_4;

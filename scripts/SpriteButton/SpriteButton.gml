@@ -14,13 +14,13 @@ function SpriteButton(_x,_y,_spr,_helpText,_action):GUIElement() constructor{
 		action();
 	}
 	
-	static draw = function(){
+	static draw_element = function(){
 		if(hover) draw_sprite(spr,1,x,y)
 		else draw_sprite(spr,0,x,y)
 		
 	}
 	
-	static step = function(){
+	static step_element = function(){
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
 		

@@ -20,7 +20,7 @@ function WrapperText(_x,_y,_value,
 	
 	static draw_begin = function(){};
 	
-	static draw = function(){
+	static draw_element = function(){
 		
 		var wrapperW = sprite_get_width(wrapper);
 		var wrapperH = sprite_get_height(wrapper);

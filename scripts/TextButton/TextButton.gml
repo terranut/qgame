@@ -19,7 +19,7 @@ function TextButton(_name,_x,_y,_action,_width = "auto",_icon = undefined,_font 
 		action();
 	}
 	
-	static draw = function(){
+	static draw_element = function(){
 		var alpha = 1;
 		if(disable) alpha = .5;
 		else alpha = 1;
@@ -47,7 +47,7 @@ function TextButton(_name,_x,_y,_action,_width = "auto",_icon = undefined,_font 
 		resetFont()
 	}
 	
-	static step = function(){
+	static step_element = function(){
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
 		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);

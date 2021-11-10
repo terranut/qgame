@@ -9,7 +9,7 @@ function Wrapper(_x,_y,_width,_height,_wrapper = spr_wrapper_1,_alpha = 1):GUIEl
 	
 	static click = function(){};
 	
-	static draw = function(){
+	static draw_element = function(){
 		
 		//WRAPPER
 		var wrapperW = sprite_get_width(wrapper);

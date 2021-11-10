@@ -10,7 +10,7 @@ function SimpleText(_x,_y,_value,_width = 100,_color = global.color_black,_font 
 	
 	static click = function(){};
 	
-	static draw = function(){
+	static draw_element = function(){
 		
 		draw_set_halign(hAlign);
 		draw_set_valign(vAlign);
