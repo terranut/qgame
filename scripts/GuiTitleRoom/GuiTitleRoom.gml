@@ -1,6 +1,6 @@
 
 function GuiTitleRoom():GUI() constructor{
-	print("GUI TIITLE ROOM")
+	name = "GUI TITLE ROOM";
 	drawGui = true;
 	width = 200;
 	height =190;

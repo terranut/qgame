@@ -14,7 +14,14 @@ function startRoom(){
 		case "Title":
 			var controllerRoom = new TitleController()	
 			controllerRoom.gui = new GuiTitleRoom()
-		
+		break;
+		case "Title2":
+			var controllerRoom = new TitleController()	
+			controllerRoom.gui = new GuiTitleRoom()
+		break;
+		case "Title3":
+			var controllerRoom = new TitleController()	
+			controllerRoom.gui = new GuiTitleRoom()
 		break;
 		
 		case "medals":
@@ -24,7 +31,8 @@ function startRoom(){
 		break;
 		
 		case "warehouse":
-			var controllerRoom = new WarehouseController()	
+			var controllerRoom = new WarehouseController()
+			controllerRoom.gui = new GuiWarehouse();
 		
 		break;
 		

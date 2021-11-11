@@ -51,7 +51,7 @@ function NPCKing(_x,_y):NPC() constructor{
 		static speakingResult = function(){
 			if(talker.finish){
 				state = waiting;
-				QUIZ.quiz.next();
+				QUIZ.next();
 			}
 		}
 	

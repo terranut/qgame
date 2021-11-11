@@ -1,5 +1,6 @@
 
 function Resources(_resourcesList):GUI() constructor{
+	name = "Resources";
 	width = 200;
 	height = 38;
 	x =	16

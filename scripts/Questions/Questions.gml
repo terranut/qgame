@@ -17,8 +17,10 @@ function Questions() constructor{
 		categories = readJson("categories" + ".json");	
 		medal = global.medalSelected;
 		
-		if(medal) build_medal();
-		else build_classic();
+		//if(medal) build_medal();
+		//else build_classic();
+		
+		 build_classic();
 		
 		
 	#endregion
@@ -43,6 +45,7 @@ function Questions() constructor{
 		var randCat = irandom(array_length(_categoriesToInclude)-1);
 		var questions = readJson(string(_categoriesToInclude[randCat]) + ".json");
 		var randQuestion = irandom(categories[_categoriesToInclude[randCat]].total)-1;
+		if(randQuestion < 0) randQuestion = 0;
 		var question = questions[randQuestion];
 		return question;
 	}
@@ -102,7 +105,7 @@ function Questions() constructor{
 	static build_classic = function(){
 		
 		print("CLASSIC");
-		totalQuestions = 100 ;
+		totalQuestions = 5 ;
 		categoriesToInclude = [0,1,2,3,4,5,6,7];
 		
 		categories = readJson("categories" + ".json");	

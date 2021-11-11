@@ -3,6 +3,7 @@ function DataFile() constructor{
 	warehousePigs = undefined;
 	userData = undefined;
 	preferences = undefined;
+	initialPigs = 50;
 	
 	
 	#region CONSTRUCTOR
@@ -51,9 +52,9 @@ function DataFile() constructor{
 			preferences.user.language = ini_read_string("user","language","esp");
 			preferences.settings.sound = ini_read_real("settings","sound",0);
 			
-			//window_set_fullscreen(preferences.user.full_screen)
-			//if(preferences.user.font_classic) global.font_talker = global.font_classic_margin
-			//else global.font_talker = font_m5
+			window_set_fullscreen(preferences.user.full_screen)
+			if(preferences.user.font_classic) global.font_talker = global.font_classic_margin
+			else global.font_talker = font_m5
 			
 		}catch(error){
 			print(error)	
@@ -80,7 +81,7 @@ function DataFile() constructor{
 		ds_map_add(map,"TotalQuestionsAnswered",0);
 		ds_map_add(map,"QuestionsAnswered",[]);
 		ds_map_add(map,"Medals",initial_medals());
-		ds_map_add(map,"MedalsUnlocked",["beginner","smarty_bronze","smarty_silver","smarty_gold"]);
+		ds_map_add(map,"MedalsUnlocked",["beginner_bronze","beginner_silver","beginner_gold","smarty_bronze"]);
 		var mapWrited = ds_map_write(map);
 		
 		var _file = file_text_open_write(working_directory + "userData.dat");
@@ -192,7 +193,7 @@ function DataFile() constructor{
 	
 	static initial_pigs = function(){
 		var pigs = ds_list_create();
-		var total = 20;
+		var total = initialPigs;
 		
 		var names = ds_list_create();
 		count = 0;
@@ -214,7 +215,9 @@ function DataFile() constructor{
 	
 	static initial_medals = function(){
 		return [
-			json_stringify({id:"beginner",name:"Beginner", value: 0, total: 10,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
+			json_stringify({id:"beginner_bronze",name:"Beginner Bronze", value: 0, total: 10,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
+			json_stringify({id:"beginner_silver",name:"Beginner Silver", value: 0, total: 15,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
+			json_stringify({id:"beginner_gold",name:"Beginner Gold", value: 0, total: 20,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
 			
 			json_stringify({id:"smarty_bronze",name:"Smarty Bronze", value: 0, total: 50,description:"Historia, Ciencias, Geografía, General",categories:[0,5,6,7],price:0}),
 			json_stringify({id:"smarty_silver",name:"Smarty Silver", value: 0, total: 80,description:"Historia, Ciencias, Geografía, General",categories:[0,5,6,7],price:0}),

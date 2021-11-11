@@ -5,7 +5,7 @@ function GuiMedalsRoom():GUI() constructor{
 	];
 	resourcesPanel = new Resources(resourcesList);
 
-	title = new Text((display_get_gui_width()/2),(display_get_gui_height()/2)-140,"SELECCIONA UNA OPCIÓN",c_white,global.font_title,fa_center,fa_middle)
+	title = new Text((display_get_gui_width()/2),(display_get_gui_height()/2)-140,"SELECCIONA UNA OPCIÓN",c_white,global.font_title_mini,fa_center,fa_middle)
 	rightArrow =  new SpriteButton((display_get_gui_width()/2)+240,250,spr_arrow_right,"Preview",function(){
 		with(oControllerRoom) control.pig.silence()
 		with(oMedalList){
@@ -41,6 +41,8 @@ function GuiMedalsRoom():GUI() constructor{
 		if(oMenu.open) startButton.disable = true;	
 		
 	}
+	
+	
 	
 
 

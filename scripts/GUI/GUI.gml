@@ -1,5 +1,6 @@
 
 function GUI(){
+	name = "GUI"
 	drawGui = true;
 	instance = undefined;
 	elements = [];
@@ -36,6 +37,7 @@ function GUI(){
 	
 	//DESTROY
 	static destroy = function(){
+		print("GUI DESTROY",name)
 		instance_destroy(instance)
 	}
 

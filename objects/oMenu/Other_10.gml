@@ -13,7 +13,7 @@ resume.x = resume.x + (width/2)-(resume.width/2);
 options = new TextButton("Options",x,y+46,function(){event_user(1)})
 options.x = options.x + (width/2)-(options.width/2)
 
-title = new TextButton("Title screen",x,y+80,function(){room_goto(Title)});
+title = new TextButton("Title screen",x,y+80,function(){room_goto(Main)});
 title.x = title.x + (width/2)-(title.width/2)
 
 quit = new TextButton("Quit",x,y+115,function(){game_end()})

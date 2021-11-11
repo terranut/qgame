@@ -1,8 +1,7 @@
 
 function WarehouseController():RoomController() constructor{
 	name = "WarehouseController";
-	grid = oGrid.grid;
-	warehousePigs = undefined;
+	
 	cameraTargetY  = 0;
 	#macro view view_camera[0]
 	
@@ -10,7 +9,6 @@ function WarehouseController():RoomController() constructor{
 		state = waiting
 		layer_set_visible("Colliders",false);
 		warehousePigs = DATA.warehousePigs;
-		span_pigs()
 		create();
 	#endregion
 	

@@ -17,7 +17,7 @@ function Quiz() constructor{
 	currentQuestion = undefined;
 	timerQuestions = 30;
 	
-	pigsToSpan = 4;
+	pigsToSpan = 8;
 	rightAnswers = 0;
 	wrongAnswers = 0;
 	soundRight = snd_right_answer;
