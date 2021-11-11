@@ -1,5 +1,6 @@
 
 function GUI(){
+	glow = false;
 	name = "GUI"
 	drawGui = true;
 	instance = undefined;

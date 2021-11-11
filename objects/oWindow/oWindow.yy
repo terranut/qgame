@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLight",
+    "path": "objects/oLight/oLight.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

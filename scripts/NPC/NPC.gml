@@ -9,6 +9,7 @@ function NPC(){
 	showAlert = false;
 	alertSound = snd_alert;
 	speakSpeed = 0.25;
+	lightColor = make_color_rgb(255,250,214)
 	
 	
 	infoWindow = undefined;

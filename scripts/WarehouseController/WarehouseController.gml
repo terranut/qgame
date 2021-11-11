@@ -51,6 +51,7 @@ function WarehouseController():RoomController() constructor{
 			camera_y += (cameraTargetY - camera_y) * 0.1;
 			camera_y = clamp(camera_y,0,height_room-540);
 			camera_set_view_pos(view,camera_x,camera_y);
+		
 		#endregion
 	}
 	

@@ -40,3 +40,4 @@ currentSequence = undefined;
 
 global.medalSelected = undefined;
 global.font_talker = font_m5
+global.glow = 0;

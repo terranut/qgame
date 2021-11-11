@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_candle",
-    "path": "sprites/spr_candle/spr_candle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oLight",
-    "path": "objects/oLight/oLight.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,18 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PNJ",
-    "path": "folders/Objects/PNJ.yy",
+    "name": "controllers",
+    "path": "folders/Objects/controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oCandle",
+  "name": "oLight",
   "tags": [],
   "resourceType": "GMObject",
 }

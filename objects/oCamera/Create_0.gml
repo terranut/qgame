@@ -1,5 +1,8 @@
 /// @description Camera
 
+lighting = surface_create(room_width,room_height);
+
+
 application_surface_draw_enable(false);
 base_width = 960;
 base_height = 540;

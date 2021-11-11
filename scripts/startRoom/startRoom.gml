@@ -6,7 +6,8 @@ function startRoom(){
 	instance_create_layer(0,0,"Control",oGrid);
 	layer_set_visible("Colliders",false);
 	layer_create(10,"Sequences")
-	
+		//instance_create_layer(0,0,"Control",oControllerLight);
+
 	var roomName = room_get_name(room);
 	
 

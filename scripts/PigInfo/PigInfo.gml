@@ -1,5 +1,6 @@
 
 function PigInfo(_x,_y,_name,_live,_right,_wrong,_spr = spr_pig_idle):GUI() constructor{
+	glow = true;
 	drawGui = false;
 	width = 70;
 	height = 40;

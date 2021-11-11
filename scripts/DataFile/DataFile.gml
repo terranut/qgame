@@ -25,6 +25,7 @@ function DataFile() constructor{
 		ini_write_real( "user" , "font_classic" ,0 );
 		ini_write_string( "user" , "language" ,"esp" );
 		ini_write_real( "settings" , "sound" ,1);
+		ini_write_real( "settings" , "glow" ,1);
 		ini_close ();
 		loadPreferences();
 		
@@ -40,7 +41,8 @@ function DataFile() constructor{
 				language: "esp",
 			},
 			settings:{
-				sound: 1	
+				sound: 1,
+				glow: 1,
 			}
 			
 		}
@@ -51,10 +53,12 @@ function DataFile() constructor{
 			preferences.user.font_classic = ini_read_real("user","font_classic",0);
 			preferences.user.language = ini_read_string("user","language","esp");
 			preferences.settings.sound = ini_read_real("settings","sound",0);
+			preferences.settings.glow = ini_read_real("settings","glow",0);
 			
 			window_set_fullscreen(preferences.user.full_screen)
 			if(preferences.user.font_classic) global.font_talker = global.font_classic_margin
 			else global.font_talker = font_m5
+			global.glow = preferences.settings.glow;
 			
 		}catch(error){
 			print(error)	
@@ -65,12 +69,14 @@ function DataFile() constructor{
 	static savePreferences = function(){
 		preferences.user.full_screen = window_get_fullscreen()
 		preferences.user.font_classic = (global.font_talker == global.font_classic_margin)
+		preferences.settings.glow = global.glow;
 		
 		ini_open("preferences.ini");
 		ini_write_real( "user" , "full_screen" ,preferences.user.full_screen );
 		ini_write_real( "user" , "font_classic" ,preferences.user.font_classic );
 		ini_write_string( "user" , "language" ,preferences.user.language );
 		ini_write_real( "settings" , "sound" ,preferences.settings.sound);
+		ini_write_real( "settings" , "glow" ,preferences.settings.glow);
 		ini_close ();
 	}
 	

@@ -18,9 +18,16 @@ font = new Checkbox(x+16,y+70,"Font classic",(global.font_talker == global.font_
 		DATA.savePreferences()
 		return (global.font_talker == global.font_classic_margin)
 });
+
+glow = new Checkbox(x+16,y+92,"Glow",global.glow,function(){
+		global.glow = !global.glow
+		DATA.savePreferences()
+		return (global.glow)
+});
+
 back = new TextButton("Back",x,y+height-42,function(){event_user(14)})
 back.x = back.x + (width/2)-(back.width/2)
 
 
 elements = [];
-array_push(elements,wrapper,fullScreen,font,back)
+array_push(elements,wrapper,fullScreen,font,glow,back)

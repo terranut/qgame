@@ -1,4 +1,9 @@
 /// @description 
+event_inherited()
+xOffset = 30
+yOffset = 30
+
+col = make_color_rgb(220,202,190);
 
 skyColor = make_color_rgb(152,203,216);
 width = sprite_get_width(sprite_index);
