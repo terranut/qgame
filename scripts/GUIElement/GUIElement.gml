@@ -14,15 +14,34 @@ function GUIElement() constructor{
 	disable = false;
 	name = "GUIElement";
 	
-	static has_focus = function(){  };
-	static set_focus = function(){  };
+	focusPig = undefined;
+	
+	
+	static has_focus = function(){ 
+		if(other.gui) return (other.gui.instance.elementInFocus == self) 
+		else return (other.elementInFocus == self) 
+	};
+		
+	static set_focus = function(){ 
+		with(oGuiController) elementInFocus = undefined;
+		
+		if(other.gui) other.gui.instance.elementInFocus = self  
+		else other.elementInFocus = self
+	};
 	static get = function() { return value; }
     static set = function(_value) { value = _value; }
 	
 	static click = function(){
 		if(disable) exit;
 		set_focus();
+		
+		if(focusPig != undefined && string_length(focusPig)) click_pig()
 	};
+	
+	static click_pig = function(){
+		print("click pig")
+		with(oNpcPig) if(npc.name == other.focusPig) npc.set_focus()	
+	}
 	
 
 	static step = function(){
@@ -45,11 +64,12 @@ function GUIElement() constructor{
 	static draw = function(){
 		if(!elementVisible) exit;
 		draw_element()
+		draw_end()
 	};
 	static draw_element = function(){}
 	
 	static draw_end = function(){
-		if(has_focus() && userInput == "pad") draw_rectangle(x,y,x+width-1,y+height-1,1);
+		//if(has_focus() && userInput == "pad") draw_rectangle(x,y,x+width-1,y+height-1,1);
 		if(hover && string_length(helpText)){
 			draw_set_color(c_white);
 			draw_set_font(font_m5);
@@ -61,6 +81,6 @@ function GUIElement() constructor{
 	static destroy = function(){};
 	
 	
-	static toString = function(){ return typeElement }
+	
 
 }

@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 69,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 39,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 70,
+  "height": 40,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"91a738d0-dea8-48bf-8fc9-5713bbb83d07","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"91a738d0-dea8-48bf-8fc9-5713bbb83d07","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"LayerId":{"name":"6afe17c9-18b4-4b7c-92b0-ab137b4fba44","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_wrapper_11","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","name":"91a738d0-dea8-48bf-8fc9-5713bbb83d07","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fc28d1ea-6831-4f0b-8701-0b779dc78841","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fc28d1ea-6831-4f0b-8701-0b779dc78841","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"LayerId":{"name":"ce1b7f62-260a-4c0d-aed5-3f5dc7d69ad0","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wrapper_11","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","name":"fc28d1ea-6831-4f0b-8701-0b779dc78841","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_wrapper_11","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f74de97e-3aa8-47b6-aa44-07fcf7e5036c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"91a738d0-dea8-48bf-8fc9-5713bbb83d07","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2864776e-710f-4b9f-aec5-23455b953678","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc28d1ea-6831-4f0b-8701-0b779dc78841","path":"sprites/spr_wrapper_11/spr_wrapper_11.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,13 +65,13 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6afe17c9-18b4-4b7c-92b0-ab137b4fba44","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ce1b7f62-260a-4c0d-aed5-3f5dc7d69ad0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
-    "left": 3,
-    "top": 3,
-    "right": 3,
-    "bottom": 3,
+    "left": 4,
+    "top": 4,
+    "right": 4,
+    "bottom": 4,
     "guideColour": [
       4294902015,
       4294902015,

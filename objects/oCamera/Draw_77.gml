@@ -13,12 +13,12 @@ if(global.glow){
 	draw_rectangle(0,0,camera_get_view_width(view_camera[0]),camera_get_view_height(view_camera[0]),false);
 	resetFont()
 	
-	gpu_set_blendmode(bm_add);
+	gpu_set_blendmode(bm_max);
 	with(oLight) {
 		draw_circle_colour(x+xOffset-camera_get_view_x(view),y+yOffset-camera_get_view_y(view),radius,col,c_black,false);
 	}
 	
-	gpu_set_blendmode(bm_max);
+	//gpu_set_blendmode(bm_max);
 	with(oNpc){
 		draw_set_alpha(.9)
 		if(npc.focus) draw_circle_colour(x-camera_get_view_x(view),y-10-camera_get_view_y(view),50,npc.lightColor,c_black,false);
@@ -26,9 +26,9 @@ if(global.glow){
 	}
 	
 	
-	with(oGuiController){
-		if(gui && gui.glow) draw_rectangle_colour(x+1 -camera_get_view_x(view),y+13-camera_get_view_y(view),x+(gui.width-2)-camera_get_view_x(view), (y+30)-camera_get_view_y(view), global.color_yellow,global.color_yellow, c_black, c_black, false);
-	}
+	//with(oGuiController){
+	//	if(gui && gui.glow) draw_rectangle_colour(x+1 -camera_get_view_x(view),y+13-camera_get_view_y(view),x+(gui.width-2)-camera_get_view_x(view), (y+30)-camera_get_view_y(view), global.color_yellow,global.color_yellow, c_black, c_black, false);
+	//}
 	
 	
 	gpu_set_blendmode(bm_normal);

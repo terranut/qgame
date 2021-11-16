@@ -26,17 +26,17 @@ function Quiz() constructor{
 	start();
 	static start = function(){
 		span_pigs();
-		loading = new Loading();
+		//loading = new Loading();
 		questions = new Questions();
 	
-		RESOURCES.set("alivePigs",pigsToSpan)
+		with(oGuiController) if(gui.name == "Resources") gui.set("alivePigs",pigsToSpan)
 	
-		setTimeout(function(){
-			loading.destroy();
+		//setTimeout(function(){
+			//loading.destroy();
 			startQuiz();
 			audio_stop_all()
 			audio_play_sound(choose(snd_bso0,snd_bso1,snd_bso2,snd_bso3),1,1);
-		},60);
+		//},60);
 		
 	}
 	static startQuiz = function(){
@@ -47,6 +47,7 @@ function Quiz() constructor{
 	}
 	
 	static quiz_intro = function(){
+		with(oGuiController) if(gui.name == "ToolBar") gui.open = true
 		
 		var startText = ["Bienvenido","Quedan "+string(questions.totalQuestions)+" preguntas para completar la medalla "+global.medalSelected.name]
 		king.speak(startText);
@@ -54,6 +55,9 @@ function Quiz() constructor{
 	}
 	
 	static next = function(){
+		
+		//HISTORICAL.erase()		
+		
 		if(questions.questions_remaining()){
 			currentQuestion = new Question( questions.get_question() );
 			print("QUESTION",currentQuestion)
@@ -140,7 +144,7 @@ function Quiz() constructor{
 			pig.add_lives();
 			rightAnswers++;
 			DATA.userData[? "Diamons"] += 10;
-			RESOURCES.set("diamons",DATA.userData[? "Diamons"]);
+			with(oGuiController) if(gui.name == "Resources") gui.set("diamons",DATA.userData[? "Diamons"]);
 						
 			audio_play_sound(soundRight,1,false);
 			array_push(kingText,choose("Muy bien "+pig.name,"Cerdo listo"));
@@ -169,8 +173,13 @@ function Quiz() constructor{
 		
 		//UPDATE GUI
 	
-		RESOURCES.set("alivePigs",ds_list_size(pigs))
-		RESOURCES.set("deadPigs",pigsToSpan - ds_list_size(pigs))
+		with(oGuiController){
+			if(gui.name == "Resources"){
+				gui.set("alivePigs",ds_list_size(other.pigs))
+				gui.set("deadPigs",other.pigsToSpan - ds_list_size(other.pigs))
+			}
+		}
+
 		MEDAL.add_value();
 		
 		//STATS

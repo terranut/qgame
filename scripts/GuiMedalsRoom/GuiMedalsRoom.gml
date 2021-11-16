@@ -38,7 +38,7 @@ function GuiMedalsRoom():GUI() constructor{
 			}else startButton.disable = false;
 		}else startButton.disable = true;
 
-		if(oMenu.open) startButton.disable = true;	
+		//if(oMenu.open) startButton.disable = true;	
 		
 	}
 	

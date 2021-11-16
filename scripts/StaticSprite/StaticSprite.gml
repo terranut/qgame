@@ -5,8 +5,9 @@ function StaticSprite(_x,_y,_spr,_subSpr = 0):GUIElement() constructor{
 	sprite = _spr;
 	subImage = _subSpr
 	width = sprite_get_width(sprite)
+	height = sprite_get_height(sprite)
 
-	static click = function(){}
+	
 	
 	static draw_element = function(){
 		var xOff = sprite_get_xoffset(sprite);

@@ -16,17 +16,19 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 		instance = instance_create_depth(x,y,100,oNpcPig);
 		instance.npc = self;
 		instance.image_xscale = choose(1,-1);
+		instance.image_yscale = 1;
 		instance.image_speed = choose(.8,.9,1);
 		state = waiting;
 	}
 	
 	static set_focus = function(){
 		audio_play_sound(snd_select_pig,1,false);
+		
 		with(oNpc) npc.remove_focus();
 		focus = true;
 		if(live <= 0) infoWindow = new PigInfo(x,y,name,live,correct,wrong,spr_skull);
 		else infoWindow = new PigInfo(x,y,name,live,correct,wrong,spr_pig_idle);
-		print(self)
+		//print(self)
 	}
 
 	static remove_focus = function(){ 

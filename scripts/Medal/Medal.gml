@@ -35,7 +35,8 @@ function Medal(_x,_y,_name = "Medal",_value = 0,_total = 0,_id = 0,_description 
 
 		
 	static extra_step = function(){
-		if(oMenu.open) exit;
+		if(disable) exit;
+		//if(oMenu.open) exit;
 		var mouseX = mouse_x;
 		var mouseY = mouse_y;
 		

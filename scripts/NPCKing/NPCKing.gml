@@ -17,12 +17,18 @@ function NPCKing(_x,_y):NPC() constructor{
 	}
 	static remove_focus = function(){ 
 		focus = false;
-		if(talker) talker.show = false
+		if(talker){
+			talker.show = false
+			showAlert = true;
+		}
 	}
 	static set_focus = function(){
 		with(oNpc) npc.remove_focus();
 		focus = true;
-		if(talker) talker.show = true
+		if(talker){
+			talker.show = true
+			showAlert = false;	
+		}
 	}
 	static draw_frame = function(){
 		imageIndexFrame = imageIndexFrame + (sprite_get_speed(spr_alert)/100)*2;

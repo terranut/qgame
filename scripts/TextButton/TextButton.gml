@@ -25,7 +25,7 @@ function TextButton(_name,_x,_y,_action,_width = "auto",_icon = undefined,_font 
 		else alpha = 1;
 		
 		//WRAPPER
-		if( mouse_check_button(mb_left) && has_focus() && !disable ) wrapper = spr_wrapper_4_pressed;
+		if( mouse_check_button(mb_left) && hover && !disable ) wrapper = spr_wrapper_4_pressed;
 		else wrapper = spr_wrapper_4;
 	
 		var wrapperW = sprite_get_width(wrapper);

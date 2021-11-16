@@ -27,7 +27,7 @@ function NPC(){
 		//resetFont()
 		
 		if(showAlert) draw_sprite(spr_alert,instance.image_index,x,y-sprite_get_height(instance.sprite_index)-5)
-		draw_sprite_ext(instance.sprite_index,instance.image_index,instance.x,instance.y,instance.image_xscale,1,0,c_white,1);
+		draw_sprite_ext(instance.sprite_index,instance.image_index,instance.x,instance.y,instance.image_xscale,instance.image_yscale,0,c_white,1);
 		draw_frame();
 		draw_talker()
 	}

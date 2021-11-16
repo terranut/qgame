@@ -10,7 +10,10 @@ function PigInfo(_x,_y,_name,_live,_right,_wrong,_spr = spr_pig_idle):GUI() cons
 	right = _right;
 	wrong = _wrong;
 	name = _name;
-	wrapperName = new Wrapper(x+1,y+13,width-2,13,spr_transparent)
+	wrapper = spr_wrapper_11
+	
+	
+	wrapperName = new Wrapper(x+4,y+13,width-10,13,spr_wrapper_15)
 	namePig = new Text(x+width/2,y+20,name,c_white,global.font_classic,fa_center,fa_middle);
 	heartBar = new HeartBar(x+8,y+7,live);
 	rightAnswers = new CountSprite(x+10,y+32,spr_done_icon,right,"Aciertos",c_white,global.font_classic);
@@ -24,7 +27,7 @@ function PigInfo(_x,_y,_name,_live,_right,_wrong,_spr = spr_pig_idle):GUI() cons
 	
 		
 	static step_element = function(){
-		instance.visible = !oMenu.open
+		//instance.visible = !oMenu.open
 	}
 	
 	

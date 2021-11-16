@@ -8,7 +8,7 @@ function Text(_x,_y,_value = 0,_color = c_white,_font = global.font_gold,_hAlign
 	hAlign = _hAlign;
 	vAlign = _vAlign;
 	
-	static click = function(){};
+
 	
 	static draw_element = function(){
 		draw_set_halign(hAlign);

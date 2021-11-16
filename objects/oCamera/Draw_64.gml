@@ -4,10 +4,9 @@
 
 
 
-draw_text(260,16,string(mouse_x)+" "+string(mouse_y))
+draw_text(room_width - 80,540 -16,string(mouse_x)+" "+string(mouse_y))
 
 
-draw_text(260,32,string(global.x_offset)+" "+string(global.y_offset))
 
 //draw_circle(mouseX,mouseY,3,1)
 

@@ -17,12 +17,12 @@ function Resources(_resourcesList):GUI() constructor{
 		xx += element.width+20
 		
 	}
-	create();
+	//create();
 
 	static set = function(_name,_value){
-		for(var i = 0; i < array_length(elements);i++){
-			if(elements[i].name == _name) elements[i].value = _value;
-		}
+		//for(var i = 0; i < array_length(elements);i++){
+		//	if(elements[i].name == _name) elements[i].value = _value;
+		//}
 	}
 	
 }
