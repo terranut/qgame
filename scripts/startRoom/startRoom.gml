@@ -9,7 +9,7 @@ function startRoom(){
 	var roomName = room_get_name(room);
 	var menu = new Menu()
 	
-	
+
 	
 	//GREYSCALE
 	layer_create(10,"Effects")
@@ -33,6 +33,7 @@ function startRoom(){
 	fx_set_parameters (_fx_struct, _params);
 	
 	
+		
 
 	
 	
@@ -80,6 +81,7 @@ function startRoom(){
 			resourcesPanel = new Resources(resourcesList);
 			
 			toolBar = new ToolBar()
+			
 			
 			
 			

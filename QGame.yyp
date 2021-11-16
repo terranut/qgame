@@ -128,6 +128,7 @@
     {"id":{"name":"Menu","path":"scripts/Menu/Menu.yy",},"order":8,},
     {"id":{"name":"spr_font_ru","path":"sprites/spr_font_ru/spr_font_ru.yy",},"order":3,},
     {"id":{"name":"Questions","path":"scripts/Questions/Questions.yy",},"order":4,},
+    {"id":{"name":"HelpText","path":"scripts/HelpText/HelpText.yy",},"order":11,},
     {"id":{"name":"snd_speak1","path":"sounds/snd_speak1/snd_speak1.yy",},"order":1,},
     {"id":{"name":"spr_skull","path":"sprites/spr_skull/spr_skull.yy",},"order":10,},
     {"id":{"name":"spr_wrapper_2","path":"sprites/spr_wrapper_2/spr_wrapper_2.yy",},"order":15,},

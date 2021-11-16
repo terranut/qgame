@@ -13,6 +13,7 @@ function GUIElement() constructor{
 	elementVisible = true;
 	disable = false;
 	name = "GUIElement";
+	elements = []
 	
 	focusPig = undefined;
 	
@@ -47,6 +48,15 @@ function GUIElement() constructor{
 	static step = function(){
 		if(!elementVisible) exit;
 		step_element()
+		
+
+		//STEPS ELEMENTS
+		if(array_length(elements)){
+			for(var i = 0; i<array_length(elements);i++){
+				elements[i].step()
+			}	
+		}
+		
 	}
 	
 	static step_element = function(){
@@ -65,6 +75,16 @@ function GUIElement() constructor{
 		if(!elementVisible) exit;
 		draw_element()
 		draw_end()
+		
+		
+		//DRAW ELEMENTS
+		if(array_length(elements)){
+			for(var i = 0; i<array_length(elements);i++){
+				elements[i].draw()
+			}	
+		}
+		
+		
 	};
 	static draw_element = function(){}
 	
@@ -78,7 +98,16 @@ function GUIElement() constructor{
 		}
 	}
 	
-	static destroy = function(){};
+	static destroy = function(){
+	
+		if(array_length(elements)){
+			for(var i = 0; i<array_length(elements);i++){
+				elements[i].destroy()
+			}	
+		}
+	
+	
+	};
 	
 	
 	

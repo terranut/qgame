@@ -20,6 +20,8 @@ function ToolBar():GUI() constructor{
 	alivePigs = new WrapperCountSprite(x+ 10 + diamons.get_width() + 12, y+5,spr_pig_static,"Pigs",10)
 	deadPigs = new WrapperCountSprite(x + diamons.get_width() + alivePigs.get_width() + 32 , y+5,spr_skull,"Dead pigs",4)
 	
+
+	
 	elements = [back,diamons,alivePigs,deadPigs]
 	create()
 	

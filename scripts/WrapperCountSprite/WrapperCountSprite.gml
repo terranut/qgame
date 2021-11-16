@@ -11,9 +11,12 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
 	
 	width = get_width()
 	height = 25;
-	
+	helpTextWrapper = new HelpText(x,y,width)
 	
 	static draw_element = function(){
+		
+		if(hover) alpha = .5
+		else alpha = 1;
 
 		var wrap = spr_wrapper_15
 		//WRAPPER
@@ -47,6 +50,16 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
 	}
 	
 	
+	
+	static click = function(){
+		if(helpTextWrapper.open){
+			helpTextWrapper.open = false
+		}else{
+			with(oGuiController) if(gui.name == "HelpText") gui.open = false;
+			helpTextWrapper.open = true
+		}
+		
+	}
 	
 	static get_width = function(){
 		var ww = 8
