@@ -1,26 +1,22 @@
 
-function HelpText(_x,_y,_width = 100):GUI() constructor{
+function HelpText(_x,_y,_width = 100,_value = "Text"):GUI(200) constructor{
 	name = "HelpText";
-	speed = 10
+	speed = 20
 	x = _x
-	y = -100
-	wrapper = spr_wrapper_15
+	y = -200
+	endPosition = [x,36]
+	wrapper = spr_wrapper_14
 	open = false
-	
 	width = _width;
-	height = 50
 	
-
-	initX = x;
-	initY = -50;
-	endX = 0;
-	endY = 34
+	value = _value
+	padding = 5;
 	
-	helpText = new WrapperText(x,y,"Texto de varias lineas como expicacion. Si puedes comprar con el sufi dinero puedes adquirir mas pig en sudanl paritda",spr_wrapper_15)
+	text = new SimpleText(x+padding+5,y+padding,value,width-5-padding*2,global.color_black,font_m5,fa_left,fa_top,14)
+	height = text.get_height() + padding * 2.5
+	helpTextWrapper = new Wrapper(x+padding,y+padding,width-padding*2,height-padding*2,spr_wrapper_18)
 	
-	
-	elements = []
+	elements = [helpTextWrapper,text]
 	create()
-	
 
 }

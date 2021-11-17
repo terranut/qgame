@@ -6,15 +6,12 @@ function GuiTitleRoom():GUI() constructor{
 	
 	x = 64;
 	y = (room_height/2) - (height/2)
-	
 	wrapper = spr_wrapper_14
-	
-	
+	//endPosition = [  64 , (room_height/2) - (height/2) ]
 	
 	titleText = "MILLIONS OF PIGS";
 	title = new Text(x+6,y-20,titleText,c_white,global.font_title_mini,fa_center,fa_middle)
 	title.x = title.x+(width/2) - (title.width/2)
-
 
 	var font = global.font_classic;
 	var ww = 120;

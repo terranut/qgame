@@ -86,6 +86,9 @@ function Talker(_array,_speakSound,_speakSpeed = 0.25) constructor{
 			if(show) draw_sprite_ext(sprite,0,x-border,y-border,xscale,yscale,0,c_white,1)
 
 			//DRAW TEXT
+			
+			//var lastChar = string_copy(_str,string_length(_str)-1,1)
+			
 			if(show) draw_text(x, y,  _str);
 
 			resetFont();

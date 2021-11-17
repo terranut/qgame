@@ -1,23 +1,14 @@
 
 function Menu():GUI() constructor{
 	name = "Menu";
-	drawGui = true;
-	
 	width = 150;
 	height = 160
 	open = false;
 	wrapper = undefined
-	dragable = false;
 	
 	x = (display_get_gui_width()/2) - (width/2)
 	y = -500
-
-	initX = x;
-	initY = y;
-	endX = (display_get_gui_width()/2) - (width/2)
-	endY = (display_get_gui_height()/2) - (height/2)
-
-
+	endPosition = [ (display_get_gui_width()/2) - (width/2) , (display_get_gui_height()/2) - (height/2) ]
 	
 	view_default();
 	create();

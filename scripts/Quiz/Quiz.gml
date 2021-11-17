@@ -29,7 +29,13 @@ function Quiz() constructor{
 		//loading = new Loading();
 		questions = new Questions();
 	
-		with(oGuiController) if(gui.name == "Resources") gui.set("alivePigs",pigsToSpan)
+		with(oGuiController){
+			if(gui.name == "ToolBar"){
+				gui.alivePigs.value = other.pigsToSpan
+				gui.deadPigs.value = 0
+				gui.diamons.value = DATA.userData[? "Diamons"]
+			}
+		}
 	
 		//setTimeout(function(){
 			//loading.destroy();
@@ -47,7 +53,7 @@ function Quiz() constructor{
 	}
 	
 	static quiz_intro = function(){
-		with(oGuiController) if(gui.name == "ToolBar") gui.open = true
+		//with(oGuiController) if(gui.name == "ToolBar") gui.open = true
 		
 		var startText = ["Bienvenido","Quedan "+string(questions.totalQuestions)+" preguntas para completar la medalla "+global.medalSelected.name]
 		king.speak(startText);
@@ -56,7 +62,13 @@ function Quiz() constructor{
 	
 	static next = function(){
 		
-		//HISTORICAL.erase()		
+		with(oGuiController){
+			if(gui.name == "PigAnswer"){
+				gui.open = false
+				alarm[0] = 60;
+			}
+		}
+			
 		
 		if(questions.questions_remaining()){
 			currentQuestion = new Question( questions.get_question() );
@@ -144,7 +156,7 @@ function Quiz() constructor{
 			pig.add_lives();
 			rightAnswers++;
 			DATA.userData[? "Diamons"] += 10;
-			with(oGuiController) if(gui.name == "Resources") gui.set("diamons",DATA.userData[? "Diamons"]);
+			with(oGuiController) if(gui.name == "ToolBar") gui.diamons.value = DATA.userData[? "Diamons"];
 						
 			audio_play_sound(soundRight,1,false);
 			array_push(kingText,choose("Muy bien "+pig.name,"Cerdo listo"));
@@ -174,11 +186,12 @@ function Quiz() constructor{
 		//UPDATE GUI
 	
 		with(oGuiController){
-			if(gui.name == "Resources"){
-				gui.set("alivePigs",ds_list_size(other.pigs))
-				gui.set("deadPigs",other.pigsToSpan - ds_list_size(other.pigs))
+			if(gui.name == "ToolBar"){
+				gui.alivePigs.value = ds_list_size(other.pigs)
+				gui.deadPigs.value = other.pigsToSpan - ds_list_size(other.pigs)
 			}
 		}
+	
 
 		MEDAL.add_value();
 		

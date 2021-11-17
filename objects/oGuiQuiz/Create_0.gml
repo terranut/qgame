@@ -12,7 +12,7 @@
 var medalSelected = global.medalSelected
 medal = new Medal(
 	16,
-	62,
+	296,
 	medalSelected.name,
 	medalSelected.value,
 	medalSelected.total,

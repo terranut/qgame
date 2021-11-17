@@ -2,20 +2,14 @@
 function WrapperText(_x,_y,_value,_wrapper = spr_wrapper_3):GUIElement() constructor{
 	x = _x;
 	y = _y;
-	width = 150;
-	height = 50;
+	width = 10;
+	height = 10;
 	value = _value;
 	wrapper = _wrapper
 	
-	
 	padding = 8;
 	
-	//content = new SimpleText(x+padding*2,y+padding+5,value,width-padding*2,c_white,font_m5,fa_left,fa_top,12)
-	//height = content.get_height()+padding + 26;
-	//back = new Wrapper(x,y,width,height,wrapper)
-	//backText = new Wrapper(x+padding,y+padding,width-padding*2,height-padding*2,innerWrapper,1)
 	
-	//elements = [back,backText,content]
 	
 	static draw_element = function(){
 		

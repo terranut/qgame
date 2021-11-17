@@ -9,8 +9,6 @@ function startRoom(){
 	var roomName = room_get_name(room);
 	var menu = new Menu()
 	
-
-	
 	//GREYSCALE
 	layer_create(10,"Effects")
 	var fx = fx_create("_filter_greyscale")
@@ -31,6 +29,7 @@ function startRoom(){
 	var _params = fx_get_parameters (_fx_struct);
 	_params.g_Radius = 0;
 	fx_set_parameters (_fx_struct, _params);
+	
 	
 	
 		
@@ -67,6 +66,10 @@ function startRoom(){
 		
 		default:
 			randomize();
+			
+			toolBar = new ToolBar()
+			toolBar.open = true
+			
 			layer_set_visible("Background",false);
 			instance_create_layer(0,0,"Control",oGuiQuiz);
 			instance_create_layer(0,0,"Control",oQuiz);
@@ -80,9 +83,7 @@ function startRoom(){
 			];
 			resourcesPanel = new Resources(resourcesList);
 			
-			toolBar = new ToolBar()
-			
-			
+	
 			
 			
 			

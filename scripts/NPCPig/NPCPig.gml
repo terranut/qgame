@@ -29,6 +29,12 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 		if(live <= 0) infoWindow = new PigInfo(x,y,name,live,correct,wrong,spr_skull);
 		else infoWindow = new PigInfo(x,y,name,live,correct,wrong,spr_pig_idle);
 		//print(self)
+		
+		if(string_length(answer)){
+			var pigAnswer = new PigAnswer(self)
+		}
+		showAlert = false;
+		
 	}
 
 	static remove_focus = function(){ 

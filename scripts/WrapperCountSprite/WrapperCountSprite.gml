@@ -1,5 +1,5 @@
 
-function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
+function WrapperCountSprite(_x,_y,_spr,_text,_value,_help = ""):GUIElement() constructor{
 	
 	x = _x;
 	y = _y;
@@ -11,7 +11,12 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
 	
 	width = get_width()
 	height = 25;
-	helpTextWrapper = new HelpText(x,y,width)
+	help = _help;
+	helpTextWrapper = undefined;
+	
+	if(string_length(help)){
+		helpTextWrapper = new HelpText(x,y,width+16,help)	
+	}
 	
 	static draw_element = function(){
 		
@@ -52,6 +57,7 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
 	
 	
 	static click = function(){
+		if(!helpTextWrapper) exit;
 		if(helpTextWrapper.open){
 			helpTextWrapper.open = false
 		}else{
@@ -69,7 +75,6 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value):GUIElement() constructor{
 		ww += string_width(text)+16
 		ww += sprite_get_width(spr)
 		ww += string_width(value) +8
-		print("ANCHO",ww)
 		return ww;
 		
 	}

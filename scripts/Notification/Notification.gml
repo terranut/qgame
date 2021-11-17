@@ -8,11 +8,7 @@ function Notification(_title = "MEDALLA OBTENIDA",_msg = "Has completado la meda
 	
 	x = -200
 	y = room_height - height -16
-	initX = x;
-	initY = y;
-	endX = 16
-	endY = room_height - height -16
-	
+	endPosition = [  16 , room_height - height -16 ]
 	
 	titleText = _title;
 	msgText = _msg;
