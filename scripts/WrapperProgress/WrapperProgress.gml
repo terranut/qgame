@@ -1,34 +1,24 @@
 
-function WrapperProgress(_x,_y,_spr,_value,_help = ""):GUIElement() constructor{
+function WrapperProgress(_x,_y,_spr,_value,_help = "",_colorBar = global.color_red,_maxValue = 100):GUIElement() constructor{
 	x = _x;
 	y = _y;
 	
 	spr = _spr;
 	value = _value;
-	
-	alpha = 1;
-	
 	width = 110
 	height = 25;
+	wrapper = spr_wrapper_15
 	help = _help;
 	helpTextWrapper = undefined;
 	helpTextWrapper = undefined;
+	colorBar = _colorBar;
+	maxValue = _maxValue;
 	
 	if(string_length(help)){
 		helpTextWrapper = new HelpText(x,y,width+16,help)	
 	}
 	
 	static draw_element = function(){
-		
-		if(hover) alpha = .5
-		else alpha = 1;
-
-		var wrap = spr_wrapper_15
-		//WRAPPER
-		var wrapperW = sprite_get_width(wrap);
-		var wrapperH = sprite_get_height(wrap);
-		draw_sprite_ext(wrap,0,x,y,width/wrapperW,height/wrapperH,0,c_white,alpha);
-		
 		
 		var ww = x + 10
 		var xOff = sprite_get_xoffset(spr);
@@ -57,16 +47,11 @@ function WrapperProgress(_x,_y,_spr,_value,_help = ""):GUIElement() constructor{
 		
 		var xx = _x
 		var yy = _y;
-		
 		var drawValue = true;
-		var maxValue = 100;
-		var colorBar = global.color_red
 		var colorText = c_white;
 		var font = global.font_gold
-		
 		var width = 50;
 		var height = 10
-		
 		var wrap = spr_progres_bar_void
 		
 		var wrapperW = sprite_get_width(wrap);
@@ -86,10 +71,6 @@ function WrapperProgress(_x,_y,_spr,_value,_help = ""):GUIElement() constructor{
 		draw_set_font(font);
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_middle);
-	
-	
-		//var text = string(value)+string(" ")+string(maxValue)
-		//if(drawValue) draw_text(xx+width/2,yy+(height/2)-1,text);
 
 		resetFont();	
 		

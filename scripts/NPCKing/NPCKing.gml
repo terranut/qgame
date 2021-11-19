@@ -27,8 +27,10 @@ function NPCKing(_x,_y):NPC() constructor{
 		focus = true;
 		if(talker){
 			talker.show = true
-			showAlert = false;	
+			showAlert = false;
 		}
+		
+		
 	}
 	static draw_frame = function(){
 		imageIndexFrame = imageIndexFrame + (sprite_get_speed(spr_alert)/100)*2;
@@ -67,7 +69,7 @@ function NPCKing(_x,_y):NPC() constructor{
 				state = waiting;
 				QUIZ.set_answer();
 			}
-		
+			
 		}
 	
 		static readCategory = function(){
@@ -75,7 +77,6 @@ function NPCKing(_x,_y):NPC() constructor{
 				state = waiting;
 				QUIZ.get_question();
 			}
-		
 		}
 	
 		static entering = function(){

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Custom",
-    "path": "folders/Scripts/GUI/Custom.yy",
+    "name": "Components",
+    "path": "folders/Scripts/GUI/Components.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Historical",
+  "name": "Timer",
   "tags": [],
   "resourceType": "GMScript",
 }

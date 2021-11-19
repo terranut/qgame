@@ -22,6 +22,7 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 	}
 	
 	static set_focus = function(){
+		if(focus) exit;
 		audio_play_sound(snd_select_pig,1,false);
 		
 		with(oNpc) npc.remove_focus();
@@ -31,7 +32,7 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 		//print(self)
 		
 		if(string_length(answer)){
-			var pigAnswer = new PigAnswer(self)
+			var quizCard = new QuizCard(spr_pig_static,name,answer,100,live)
 		}
 		showAlert = false;
 		
@@ -59,7 +60,7 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 	
 	static listening = function(){
 		if(keyboard_check_released(vk_space) && focus && string_length(answer) ){
-			if(talker.finish) QUIZ.check_answer(answer,self);
+			if(talker.finish) check_answer();
 		}
 		if(string_length(answer) && focus && talker == undefined) speak([answer]);		
 	}
@@ -88,7 +89,9 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 		}
 	}
 	
-	
+	static check_answer = function(){
+		QUIZ.check_answer(answer,self);
+	}
 	
 	static waiting_life = function(){
 		if(instance_exists(oItem)){
@@ -103,6 +106,8 @@ function NPCPig(_x,_y,_name = randName(),_live = 1,_correct = 0, _wrong = 0):NPC
 	}
 
 	#endregion
+	
+	
 	
 	static kill = function(){
 	

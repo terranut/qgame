@@ -38,6 +38,7 @@ function Question(_question) constructor{
 
 	//Devuelve respuestas restantes
 	static answers_remaining = function(){
+		print("answers remaining", ds_queue_size(queueAnswers))
 		return ds_queue_size(queueAnswers)
 	}
 	

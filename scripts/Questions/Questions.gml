@@ -17,10 +17,10 @@ function Questions() constructor{
 		categories = readJson("categories" + ".json");	
 		medal = global.medalSelected;
 		
-		//if(medal) build_medal();
-		//else build_classic();
+		if(medal) build_medal();
+		else build_classic();
 		
-		 build_classic();
+		 //build_classic();
 		
 		
 	#endregion

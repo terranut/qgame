@@ -7,8 +7,7 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value,_help = ""):GUIElement() con
 	spr = _spr;
 	value = _value;
 	text = _text;
-	alpha = 1;
-	
+	wrapper = spr_wrapper_15
 	width = get_width()
 	height = 25;
 	help = _help;
@@ -20,23 +19,12 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value,_help = ""):GUIElement() con
 	
 	static draw_element = function(){
 		
-		if(hover) alpha = .5
-		else alpha = 1;
-
-		var wrap = spr_wrapper_15
-		//WRAPPER
-		var wrapperW = sprite_get_width(wrap);
-		var wrapperH = sprite_get_height(wrap);
-		draw_sprite_ext(wrap,0,x,y,width/wrapperW,height/wrapperH,0,c_white,alpha);
-		
-		
 		var ww = x + 8
 		draw_set_font(global.font_classic_margin)
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_middle)
 		draw_set_color(c_white)
 		draw_text(ww,y+ height/2,text)
-		
 		
 		ww += string_width(text)+16
 		var xOff = sprite_get_xoffset(spr);
@@ -53,7 +41,6 @@ function WrapperCountSprite(_x,_y,_spr,_text,_value,_help = ""):GUIElement() con
 		resetFont()
 	
 	}
-	
 	
 	
 	static click = function(){

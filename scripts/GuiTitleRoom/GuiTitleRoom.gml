@@ -31,6 +31,7 @@ function GuiTitleRoom():GUI() constructor{
 	quit = new TextButton("Quit game",x,y+135,function(){game_end()},ww,7,font)
 	quit.x = quit.x + (width/2) - (quit.width/2)
 
+
 	elements = [title,start,warehouseButton,options,quit]
 	//elements = [title,wrapperBack]
 	create();

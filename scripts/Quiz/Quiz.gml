@@ -8,20 +8,21 @@ function Quiz() constructor{
 	pigsWithAnswer = ds_list_create();
 	selectedPig = 0;
 	king = undefined;
-	notaryPig = undefined;
 	doorKing = undefined;
 	grid = oGrid.grid;
 	state = function(){};
 	
 	questions = undefined;
 	currentQuestion = undefined;
-	timerQuestions = 30;
-	
+	seccondsByQuestion = 20
+	timerQuiz = 1000000 * seccondsByQuestion
 	pigsToSpan = 8;
 	rightAnswers = 0;
 	wrongAnswers = 0;
 	soundRight = snd_right_answer;
 	soundWrong = snd_wrong_answer;
+	
+	
 
 	start();
 	static start = function(){
@@ -34,6 +35,11 @@ function Quiz() constructor{
 				gui.alivePigs.value = other.pigsToSpan
 				gui.deadPigs.value = 0
 				gui.diamons.value = DATA.userData[? "Diamons"]
+				gui.questions.value = other.questions.totalQuestions
+				gui.scoreRight.maxValue =  other.questions.totalQuestions
+				gui.scoreWrong.maxValue =  other.questions.totalQuestions
+				gui.scoreRight.value = other.rightAnswers
+				gui.scoreWrong.value = other.wrongAnswers
 			}
 		}
 	
@@ -53,8 +59,6 @@ function Quiz() constructor{
 	}
 	
 	static quiz_intro = function(){
-		//with(oGuiController) if(gui.name == "ToolBar") gui.open = true
-		
 		var startText = ["Bienvenido","Quedan "+string(questions.totalQuestions)+" preguntas para completar la medalla "+global.medalSelected.name]
 		king.speak(startText);
 		king.state = king.speakingIntro;
@@ -62,21 +66,20 @@ function Quiz() constructor{
 	
 	static next = function(){
 		
-		with(oGuiController){
-			if(gui.name == "PigAnswer"){
-				gui.open = false
-				alarm[0] = 60;
-			}
-		}
-			
-		
 		if(questions.questions_remaining()){
 			currentQuestion = new Question( questions.get_question() );
 			print("QUESTION",currentQuestion)
 			DATA.save_log(currentQuestion)
-			if(!check_pigs()) exit;
-			king.speak(["Pregunta "+ string( global.medalSelected.value + 1 )+" sobre "+currentQuestion.category]);
-			king.state = king.readCategory;
+			
+			if(currentQuestion.answers_remaining() > ds_list_size(pigs)){
+				king.speak(["No hay suficientes cerdos para continuar","Has acertado "+string(rightAnswers)+" preguntas","Has fallado "+string(wrongAnswers)+" preguntas"]);
+				king.state = king.speakFinish;
+			}else{
+				king.speak(["Pregunta "+ string( global.medalSelected.value + 1 )+" sobre "+currentQuestion.category]);
+				king.state = king.readCategory;
+			}
+			
+			
 		}else{
 			king.speak(["Hemos terminado","Has acertado "+string(rightAnswers)+" preguntas","Has fallado "+string(wrongAnswers)+" preguntas"]);
 			king.state = king.speakFinish;
@@ -90,18 +93,10 @@ function Quiz() constructor{
 	}
 	
 	
-	static check_pigs = function(){
-		//Comprueba si quedan suficientes cerdos para repartir respuestas
-		if(currentQuestion.answers_remaining() > ds_list_size(pigs)){
-			king.speak(["No hay suficientes cerdos para continuar","Has acertado "+string(rightAnswers)+" preguntas","Has fallado "+string(wrongAnswers)+" preguntas"]);
-			king.state = king.speakFinish;
-			return false
-		}return true;
-	}
-	
 	static get_question = function(){
 		king.speak([currentQuestion.title]);
 		king.state = king.readQuestion;
+		var quizCard = new QuizCard(spr_king_head,"Eustace III",currentQuestion.title,150)
 	}
 	
 	static set_answer =  function(){
@@ -117,46 +112,32 @@ function Quiz() constructor{
 			randPig.alert();
 			randPig.answer = textAnswer;
 			randPig.state = randPig.listening
-			setTimeout(function(){set_answer()},choose(30,45,60))
+			setTimeout(function(){set_answer()},choose(10,20,30))
 		}else{
-			//Al terminar de repartir respuestas inicia el contador
-			//timerQuestions = 30;
-			//notaryPig.speak([timerQuestions]);
-			//notaryPig.state = notaryPig.counter;
+			with(oGuiController) if(gui.name == "ToolBar") gui.set_timer(other.seccondsByQuestion)
+			timerQuiz = 1000000 * seccondsByQuestion;
+			state = timing_count
 		}
 		
 		
 	}
 	
-	static check_counter = function(){
-		timerQuestions--;
-		if(timerQuestions == 0){
-			king.speak(["¡Tiempo!","Siguiente pregunta"]);
-			king.state = king.speakingIntro;
-			notaryPig.speak(["¡Tiempo!"]);
-			
-		}else{
-			setTimeout(function(){
-				notaryPig.speak([timerQuestions]);
-				notaryPig.state = notaryPig.counter;
-			},60)
-		}
-	}
 		
 	static check_answer = function(_answer,_pig){
 		var kingText = [];
+		
 		//Si aun quedan respuestas por repartir exit
 		if(ds_list_size(pigsWithAnswer) != currentQuestion.totalOptions) exit;
 		
 		var isCorrect = currentQuestion.check_answer(_answer);
 		var pig = _pig;
+		state = waiting;
 		
 		if(isCorrect){
 			var heart = new Heart(king.x,king.y-32,pig.x,pig.y-20);
 			pig.add_lives();
 			rightAnswers++;
 			DATA.userData[? "Diamons"] += 10;
-			with(oGuiController) if(gui.name == "ToolBar") gui.diamons.value = DATA.userData[? "Diamons"];
 						
 			audio_play_sound(soundRight,1,false);
 			array_push(kingText,choose("Muy bien "+pig.name,"Cerdo listo"));
@@ -171,34 +152,8 @@ function Quiz() constructor{
 		}
 		
 		if(pig.live <= 0) ds_list_delete(pigsWithAnswer,ds_list_find_index(pigsWithAnswer,pig));
-		//Devuelvo pigsWithAnswer a lista de pigs
-		for(var i = 0; i < ds_list_size(pigsWithAnswer); i++){
-			ds_list_add(pigs,pigsWithAnswer[| i]);	
-		}
-		ds_list_clear(pigsWithAnswer);
-				
-		with(oNpcPig){
-			npc.showAlert = false;
-			npc.answer = "";
-			npc.remove_focus();
-		}
-		
-		//UPDATE GUI
 	
-		with(oGuiController){
-			if(gui.name == "ToolBar"){
-				gui.alivePigs.value = ds_list_size(other.pigs)
-				gui.deadPigs.value = other.pigsToSpan - ds_list_size(other.pigs)
-			}
-		}
-	
-
-		MEDAL.add_value();
-		
-		//STATS
-		DATA.update_stats(currentQuestion)
-		DATA.save()
-		
+		restart()
 		king.speak(kingText);
 		king.state = king.speakingResult;
 
@@ -206,7 +161,7 @@ function Quiz() constructor{
 	
 	#region STATES
 	static waiting = function(){
-	
+		
 		#region Seleccion Pig con RIGH/LEFT
 			if (keyboard_check_pressed(vk_right)) selectedPig--;
 			else if(keyboard_check_pressed(vk_left)) selectedPig++;	
@@ -221,15 +176,77 @@ function Quiz() constructor{
 			}
 		#endregion
 		
-	
-	
 	}
+	
+	static timing_count = function(){
+		if(timerQuiz > 0) timerQuiz -= delta_time;
+		else if(timerQuiz < 0){
+			state = waiting
+			restart()
+				
+			king.speak(["¡Tiempo!","Pierdes 100 diamantes"]);
+			king.state = king.speakingResult;
+		}
+		
+	}
+	
+	
 	#endregion
+	
+	
+	static restart = function(){
+		
+		with(oGuiController) if(gui.name == "ToolBar") gui.set_timer(0)
+		//Devuelvo pigsWithAnswer a lista de pigs
+		for(var i = 0; i < ds_list_size(pigsWithAnswer); i++){
+			ds_list_add(pigs,pigsWithAnswer[| i]);	
+		}
+		ds_list_clear(pigsWithAnswer);
+				
+		with(oNpcPig){
+			npc.showAlert = false;
+			npc.answer = "";
+			npc.remove_focus();
+		}
+		
+		//UPDATE TOOLBAR
+		with(oGuiController){
+			if(gui.name == "ToolBar"){
+				gui.alivePigs.value = ds_list_size(other.pigs)
+				gui.deadPigs.value = other.pigsToSpan - ds_list_size(other.pigs)
+				gui.diamons.value = DATA.userData[? "Diamons"];
+				gui.scoreRight.value = other.rightAnswers
+				gui.scoreWrong.value = other.wrongAnswers
+			}
+		}
+		
+		//DESTROY CARDS
+		with(oGuiController){
+			if(gui.name == "QuizCard"){
+				gui.open = false
+				alarm[0] = 30;
+			}
+		}
+		
+	
+		
+		//STATS
+		DATA.update_stats(currentQuestion)
+		DATA.save()
+		
+	}
 	
 	//STEP QUIZ
 	static step = function(){
 		doTimedFunctions();
 		state();
+		
+		if(mouse_check_button_pressed(mb_right)){
+			keyboard_key_press(vk_space);
+			setTimeout(function(){keyboard_key_release(vk_space);},10)
+			
+		}
+		
 		
 		
 		//TODO REVISAR DEBUG

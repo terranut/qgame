@@ -14,6 +14,8 @@ function GUIElement() constructor{
 	disable = false;
 	name = "GUIElement";
 	elements = []
+	wrapper = undefined;
+	wrapperAlpha = 1;
 	
 	focusPig = undefined;
 	
@@ -49,6 +51,10 @@ function GUIElement() constructor{
 		if(!elementVisible) exit;
 		step_element()
 		
+		
+		var mouseX = device_mouse_x_to_gui(0)
+		var mouseY = device_mouse_y_to_gui(0)
+		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);
 
 		//STEPS ELEMENTS
 		if(array_length(elements)){
@@ -63,7 +69,6 @@ function GUIElement() constructor{
 		
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
-		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);
 		if(mouse_check_button_pressed(mb_left) && point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height)){
 			click();
 		}	
@@ -73,6 +78,7 @@ function GUIElement() constructor{
 	
 	static draw = function(){
 		if(!elementVisible) exit;
+		if(wrapper) draw_wrapper()
 		draw_element()
 		draw_end()
 		
@@ -87,6 +93,15 @@ function GUIElement() constructor{
 		
 	};
 	static draw_element = function(){}
+	
+	static draw_wrapper = function(){
+		if(hover) wrapperAlpha = .5
+		else wrapperAlpha = 1;
+		
+		var wrapperW = sprite_get_width(wrapper);
+		var wrapperH = sprite_get_height(wrapper);
+		draw_sprite_ext(wrapper,0,x,y,width/wrapperW,height/wrapperH,0,c_white,wrapperAlpha);	
+	}
 	
 	static draw_end = function(){
 		//if(has_focus() && userInput == "pad") draw_rectangle(x,y,x+width-1,y+height-1,1);

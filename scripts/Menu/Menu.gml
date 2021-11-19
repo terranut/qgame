@@ -75,6 +75,7 @@ function Menu():GUI() constructor{
 	
 	
 	static extra_step = function(){
+		
 		if(keyboard_check_pressed(vk_escape)){
 			toggle_menu()
 		}
@@ -90,8 +91,11 @@ function Menu():GUI() constructor{
 		open = !open;
 		if(open){
 			with(oGuiController) {
-				gui.disable = true;
-				visible = false				
+				if(gui.name != "ToolBar"){
+					gui.disable = true;
+					visible = false		
+				}
+				
 			}
 			instance.visible = true;
 			disable = false;

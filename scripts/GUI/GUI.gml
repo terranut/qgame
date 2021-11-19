@@ -37,6 +37,7 @@ function GUI(_depth = 100){
 		instance.drawGui = drawGui;
 		wrapperGui = new Wrapper(x,y,width,height,wrapper)
 		if(wrapper) array_insert(elements,0,wrapperGui)
+		print("NEW GUI",name)
 	}	
 	
 	
