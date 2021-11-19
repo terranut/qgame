@@ -1,5 +1,5 @@
 
-function Timer(_x,_y,_secconds = 00):GUIElement() constructor{
+function Timer(_x,_y,_secconds = 0):GUIElement() constructor{
 	x = _x;
 	y = _y;
 	width = 50;
@@ -36,10 +36,8 @@ function Timer(_x,_y,_secconds = 00):GUIElement() constructor{
 	static step_element = function(){
 		if(stopped) exit;
 		
-		
 		if(timer > 0) timer -= delta_time;
 		else stopped = true
-		
 		
 		if(timerStep > 0) timerStep--;
 		

@@ -37,7 +37,4 @@ function ToolBar():GUI() constructor{
 	}
 	
 	
-	
-	
-	
 }
