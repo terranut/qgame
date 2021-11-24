@@ -11,9 +11,7 @@ function QuizCard(_spr,_title,_value,_width = 100,_live = 0 ):GUI() constructor{
 	speed = 10
 	x = room_width - width - 32 
 	y = -200
-	hover = false;
 	
-	focus = false;
 	
 	#region CONSTRUCTOR
 		var exists = false;

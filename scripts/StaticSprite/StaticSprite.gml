@@ -1,5 +1,5 @@
 
-function StaticSprite(_x,_y,_spr,_subSpr = 0,_helpText = ""):GUIElement() constructor{
+function StaticSprite(_x,_y,_spr,_subSpr = 0,_helpText = "",_scale = 1,_alpha = 1):GUIElement() constructor{
 	x = _x;
 	y = _y;
 	sprite = _spr;
@@ -7,6 +7,8 @@ function StaticSprite(_x,_y,_spr,_subSpr = 0,_helpText = ""):GUIElement() constr
 	width = sprite_get_width(sprite)
 	height = sprite_get_height(sprite)
 	helpText = _helpText;
+	scale = _scale;
+	alpha = _alpha;
 
 	
 	
@@ -14,7 +16,7 @@ function StaticSprite(_x,_y,_spr,_subSpr = 0,_helpText = ""):GUIElement() constr
 		var xOff = sprite_get_xoffset(sprite);
 		var yOff = sprite_get_yoffset(sprite);
 		sprite_set_offset(sprite,sprite_get_width(sprite)/2,sprite_get_height(sprite)/2);
-		draw_sprite(sprite,subImage,x,y);
+		draw_sprite_ext(sprite,subImage,x,y,scale,scale,0,c_white,alpha)
 		sprite_set_offset(sprite,xOff,yOff);
 		
 	}

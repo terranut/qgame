@@ -7,19 +7,18 @@ function GuiMedalsRoom():GUI() constructor{
 
 	title = new Text((display_get_gui_width()/2),(display_get_gui_height()/2)-140,"SELECCIONA UNA OPCIÓN",c_white,global.font_title_mini,fa_center,fa_middle)
 	rightArrow =  new SpriteButton((display_get_gui_width()/2)+240,250,spr_arrow_right,"Preview",function(){
-		with(oControllerRoom) control.pig.silence()
-		with(oMedalList){
-			if(currentPage <= ( array_length(medalList)/8 )) currentPage++;
-			event_user(0)
+		with(oControllerRoom){
+			if(control.name == "MedalController"){
+				control.next_page()	
+			}
 		}
+		
 	})
 	leftArrow = new SpriteButton((display_get_gui_width()/2)-250,250,spr_arrow_left,"Preview",function(){
-		with(oControllerRoom) control.pig.silence()
-		with(oMedalList){
-			if(currentPage == 0) exit;
-			currentPage--;
-			if(currentPage < 0) currentPage = 0;
-			event_user(0)
+		with(oControllerRoom){
+			if(control.name == "MedalController"){
+				control.previus_page()	
+			}
 		}
 	})
 	startButton = new TextButton("Start quiz",0,400,function(){
@@ -32,14 +31,9 @@ function GuiMedalsRoom():GUI() constructor{
 	
 	
 	static  extra_step = function(){
-		if(global.medalSelected){
-			if(global.medalSelected.completed || global.medalSelected.locked ){
-				startButton.disable = true;
-			}else startButton.disable = false;
-		}else startButton.disable = true;
+		if(global.medalSelected) startButton.disable = true;
+		else startButton.disable = false;
 
-		//if(oMenu.open) startButton.disable = true;	
-		
 	}
 	
 	

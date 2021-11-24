@@ -9,7 +9,7 @@ function RoomController(){
 		print("CREATE ROOM CONTROLLER")
 		instance = instance_create_depth(0,0,100,oControllerRoom);
 		instance.control = self;
-		instance.name = name;
+		//instance.name = name;
 		warehousePigs = DATA.warehousePigs;
 		span_pigs();
 	}	

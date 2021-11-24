@@ -32,7 +32,9 @@ function GuiTitleRoom():GUI() constructor{
 	quit.x = quit.x + (width/2) - (quit.width/2)
 
 
-	elements = [title,start,warehouseButton,options,quit]
+	rounded = new Slider(32,32,"test")
+
+	elements = [title,start,warehouseButton,options,quit,rounded]
 	//elements = [title,wrapperBack]
 	create();
 

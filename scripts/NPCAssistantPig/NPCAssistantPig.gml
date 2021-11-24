@@ -37,15 +37,7 @@ function NPCAssistantPig(_x,_y,_name = "Assistant",_xscale = 1):NPC() constructo
 	
 	static waiting = function(){};
 	
-	static waiting_medal = function(){
-		if(global.medalSelected){
-			read_medal();
-			state = reading_medal;
-		}
-	};
-	
-	
-	static reading_medal = function(){}
+
 	
 	
 	static counter = function(){
@@ -57,27 +49,7 @@ function NPCAssistantPig(_x,_y,_name = "Assistant",_xscale = 1):NPC() constructo
 	
 	#endregion
 	
-	static read_medal = function(){
-		if(global.medalSelected.completed){
-			speak(["Ya has completado esta medalla"])	
-			exit;
-		}else if(global.medalSelected.locked){
-			speak(["Aun tienes que desbloquear esta medalla"])	
-			exit;
-		}else{
-			speak([
-				"Medalla "+
-				global.medalSelected.name+
-				" \n"+
-				global.medalSelected.description+
-				" \nHas completado "+
-				string(global.medalSelected.value)+
-				" de "+
-				string(global.medalSelected.total)
-			])
-		}
-		
-	}
+	
 	
 	
 	static animation_end = function(){}

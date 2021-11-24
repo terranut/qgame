@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 95,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 96,
+  "width": 32,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -24,9 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"103cbe33-8d86-41d0-ba76-b2048e46d9dd","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"103cbe33-8d86-41d0-ba76-b2048e46d9dd","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":{"name":"c63b7a58-18a7-44c2-9eb1-a37d5e7da637","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_medals","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"103cbe33-8d86-41d0-ba76-b2048e46d9dd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c7688d54-16b2-4a34-b36c-023f91794643","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c7688d54-16b2-4a34-b36c-023f91794643","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":{"name":"8ce43b44-e4b1-47a4-b4a8-6dadbfc2641b","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_medals","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"c7688d54-16b2-4a34-b36c-023f91794643","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9c6e5fef-d70c-482b-93fa-35383f0a6612","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9c6e5fef-d70c-482b-93fa-35383f0a6612","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":{"name":"8ce43b44-e4b1-47a4-b4a8-6dadbfc2641b","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_medals","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"9c6e5fef-d70c-482b-93fa-35383f0a6612","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5bf294c0-f2c7-4e42-bf33-a8ab07547bd0","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5bf294c0-f2c7-4e42-bf33-a8ab07547bd0","path":"sprites/spr_medals/spr_medals.yy",},"LayerId":{"name":"8ce43b44-e4b1-47a4-b4a8-6dadbfc2641b","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_medals","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","name":"5bf294c0-f2c7-4e42-bf33-a8ab07547bd0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_medals","path":"sprites/spr_medals/spr_medals.yy",},
@@ -36,12 +42,14 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 3.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"901d64c0-a841-449a-aaea-654c5dee7d00","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"103cbe33-8d86-41d0-ba76-b2048e46d9dd","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7538d0bd-3178-4690-9c48-ff402e5167c1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c7688d54-16b2-4a34-b36c-023f91794643","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e5c444cc-8a38-4f77-a217-c3a8977ef0f7","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9c6e5fef-d70c-482b-93fa-35383f0a6612","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"2360569c-3153-4aee-85b6-ebd25fa0e560","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5bf294c0-f2c7-4e42-bf33-a8ab07547bd0","path":"sprites/spr_medals/spr_medals.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +73,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c63b7a58-18a7-44c2-9eb1-a37d5e7da637","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ce43b44-e4b1-47a4-b4a8-6dadbfc2641b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

@@ -14,6 +14,8 @@ function GUI(_depth = 100){
 	open = true;
 	disable = false;
 	dragable = false;
+	hover = false;
+	focus = false;
 	x = 0
 	y = 0
 	
@@ -37,7 +39,7 @@ function GUI(_depth = 100){
 		instance.drawGui = drawGui;
 		wrapperGui = new Wrapper(x,y,width,height,wrapper)
 		if(wrapper) array_insert(elements,0,wrapperGui)
-		print("NEW GUI",name)
+		//print("NEW GUI",name)
 	}	
 	
 	
@@ -90,7 +92,7 @@ function GUI(_depth = 100){
 	
 	//DESTROY
 	static destroy = function(){
-		print("GUI DESTROY",name)
+		//print("GUI DESTROY",name)
 		instance_destroy(instance)
 	}
 	
