@@ -8,10 +8,9 @@ function IconButton(_x,_y,_icon,_helpText,_action,_width = 16, _height = 16):GUI
 	wrapper = spr_wrapper_4;
 	icon = _icon;
 	helpText = _helpText;
-
+	soundClick = snd_click_button
 	
 	static click = function(){
-		
 		action();
 	}
 	
@@ -27,19 +26,6 @@ function IconButton(_x,_y,_icon,_helpText,_action,_width = 16, _height = 16):GUI
 		
 		if(width == 16) draw_sprite_ext(spr_icons,icon,x+8,y+7,1,1,0,c_white,1) 
 		else draw_sprite_ext(spr_icons,icon,x+width/2,y+7,1,1,0,c_white,1)
-	
-		
-	}
-	
-	static step = function(){
-		var mouseX = device_mouse_x_to_gui(0)
-		var mouseY = device_mouse_y_to_gui(0)
-		
-		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);
-		if( mouse_check_button(mb_left) && hover) set_focus();
-		if(mouse_check_button_released(mb_left) && point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height)){
-			click();
-		}	
 	}
 	
 

@@ -61,8 +61,6 @@ function GUI(_depth = 100){
 			if(instance.y > initY) instance.y -= speed
 		
 		}
-	
-			
 		
 		if(!disable){
 			for(var i = 0; i < array_length(elements); i++){

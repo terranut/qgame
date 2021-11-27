@@ -4,9 +4,10 @@ function MedalController():RoomController() constructor{
 	pig = undefined;
 	medalList = undefined;
 	medalListData = DATA.userData[? "Medals"]
+	print("MEDAL CONTROLLER",medalListData)
 	
 	//PAGINATION
-	gridSize = 120;
+	gridSize = 110;
 	gridWidth = 4;
 	gridHeight = 2;
 	gridX = (room_width/2) - ((gridWidth*gridSize)/2)
@@ -26,6 +27,7 @@ function MedalController():RoomController() constructor{
 	
 	
 	static build_page = function(){
+		var padding = 10;
 		var medalIndex = 0;
 		medalIndex += 7 * currentPage;
 		
@@ -38,7 +40,7 @@ function MedalController():RoomController() constructor{
 				var yy = (h*gridSize)+gridY;
 				if (array_length(medalListData)-1 >= medalIndex){
 					var medalData = medalListData[medalIndex];
-					var medal = new MedalCard(xx+10,yy+10,medalData)
+					var medal = new MedalCard(xx+padding,yy+padding,medalData)
 					medalIndex++;
 				}
 			}
@@ -46,7 +48,17 @@ function MedalController():RoomController() constructor{
 		
 	}
 	
-	static draw = function(){}
+	static draw = function(){
+		
+		//for (var h = 0; h < gridHeight; h++){
+		//	for (var w = 0; w < gridWidth; w++){
+		//		var xx = (w*gridSize)+gridX;
+		//		var yy = (h*gridSize)+gridY;
+		//		draw_rectangle(xx,yy,xx+gridSize,yy+gridSize,1);
+		//	}
+		//}
+	
+	}
 	
 	static step = function(){}
 	

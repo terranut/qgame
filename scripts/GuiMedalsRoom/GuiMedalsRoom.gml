@@ -6,7 +6,7 @@ function GuiMedalsRoom():GUI() constructor{
 	resourcesPanel = new Resources(resourcesList);
 
 	title = new Text((display_get_gui_width()/2),(display_get_gui_height()/2)-140,"SELECCIONA UNA OPCIÓN",c_white,global.font_title_mini,fa_center,fa_middle)
-	rightArrow =  new SpriteButton((display_get_gui_width()/2)+240,250,spr_arrow_right,"Preview",function(){
+	rightArrow =  new SpriteButton((display_get_gui_width()/2)+235,260,spr_arrow_right,"Preview",function(){
 		with(oControllerRoom){
 			if(control.name == "MedalController"){
 				control.next_page()	
@@ -14,7 +14,7 @@ function GuiMedalsRoom():GUI() constructor{
 		}
 		
 	})
-	leftArrow = new SpriteButton((display_get_gui_width()/2)-250,250,spr_arrow_left,"Preview",function(){
+	leftArrow = new SpriteButton((display_get_gui_width()/2)-250,260,spr_arrow_left,"Preview",function(){
 		with(oControllerRoom){
 			if(control.name == "MedalController"){
 				control.previus_page()	
@@ -30,10 +30,14 @@ function GuiMedalsRoom():GUI() constructor{
 	create();
 	
 	
-	static  extra_step = function(){
-		if(global.medalSelected) startButton.disable = true;
-		else startButton.disable = false;
-
+	static extra_step = function(){
+		
+		if(!global.medalSelected) exit;
+		if(global.medalSelected.is_locked()) startButton.disable = true;
+		else{
+			if(global.medalSelected.is_completed()) startButton.disable = true;
+			else startButton.disable = false;
+		}
 	}
 	
 	

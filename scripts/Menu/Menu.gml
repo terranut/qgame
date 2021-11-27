@@ -19,7 +19,8 @@ function Menu():GUI() constructor{
 		width = 150;
 		height = 160;
 		
-		wrapperMenu = new Wrapper(x,y,width,height,spr_wrapper_9)
+		wrapperMenu = new Wrapper(x,y,width,height,spr_wrapper_15)
+		wrapperInner = new Wrapper(x+5,y+5,width-10,height-10,spr_wrapper_14)
 		resume = new TextButton("Resume",x,y+12,function(){
 			toggle_menu()
 		})
@@ -33,7 +34,7 @@ function Menu():GUI() constructor{
 
 		quit = new TextButton("Quit",x,y+115,function(){game_end()})
 		quit.x = quit.x + (width/2)-(quit.width/2)
-		elements = [wrapperMenu,resume,options,title,quit];
+		elements = [wrapperMenu,wrapperInner,resume,options,title,quit];
 		
 	}
 	
@@ -45,7 +46,7 @@ function Menu():GUI() constructor{
 		y = (display_get_gui_height()/2) - (height/2)
 
 
-		wrapper = new Wrapper(x,y,width,height,spr_wrapper_9)
+		wrapper = new Wrapper(x,y,width,height,spr_wrapper_14)
 		
 		
 		elements = []

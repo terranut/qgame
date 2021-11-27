@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Custom",
-    "path": "folders/Scripts/GUI/Custom.yy",
+    "name": "DATA",
+    "path": "folders/Scripts/DATA.yy",
   },
   "resourceVersion": "1.0",
   "name": "Medal",

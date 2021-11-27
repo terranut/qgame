@@ -3,8 +3,7 @@ global.debug = false;
 //GENERAL SETTINGS
 global.settings = readJson("settings.json");
 
-//TRANSLATES
-global.displayValues = readJson(global.settings.lang + ".json");
+
 
 //LOADING
 global.showLoading = false;
@@ -22,6 +21,7 @@ global.font_title_mini = font_add_sprite_ext(spr_font_title_mini,"ABCDEFGHIJKLMN
 	#macro YELLOW make_colour_rgb (247, 236, 155)
 	
 	global.color_brown = make_colour_rgb (136, 92, 60);
+	global.color_white = make_colour_rgb (255, 250, 214);
 	global.color_darkgreen = make_colour_rgb (0, 107, 69);
 	global.color_darkblue = make_colour_rgb (16, 24, 32);
 	global.color_black = make_colour_rgb (63, 56, 81);

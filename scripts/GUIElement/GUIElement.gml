@@ -13,11 +13,12 @@ function GUIElement() constructor{
 	elementVisible = true;
 	disable = false;
 	name = "GUIElement";
-	elements = []
 	wrapper = undefined;
 	wrapperAlpha = 1;
 	
-	focusPig = undefined;
+	soundHover = undefined;
+	soundClick = undefined;
+	onButton = false;
 	
 	
 	static has_focus = function(){ 
@@ -27,7 +28,6 @@ function GUIElement() constructor{
 		
 	static set_focus = function(){ 
 		with(oGuiController) elementInFocus = undefined;
-		
 		if(other.gui) other.gui.instance.elementInFocus = self  
 		else other.elementInFocus = self
 	};
@@ -37,42 +37,40 @@ function GUIElement() constructor{
 	static click = function(){
 		if(disable) exit;
 		set_focus();
-		
-		if(focusPig != undefined && string_length(focusPig)) click_pig()
 	};
-	
-	static click_pig = function(){
-		print("click pig")
-		with(oNpcPig) if(npc.name == other.focusPig) npc.set_focus()	
-	}
 	
 
 	static step = function(){
 		if(!elementVisible) exit;
-		step_element()
-		
-		
+	
 		var mouseX = device_mouse_x_to_gui(0)
 		var mouseY = device_mouse_y_to_gui(0)
 		hover = point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height);
+		step_element()
 
-		//STEPS ELEMENTS
-		if(array_length(elements)){
-			for(var i = 0; i<array_length(elements);i++){
-				elements[i].step()
-			}	
+		
+		if(mouse_check_button_released(mb_left) && point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height)){
+			//SOUND CLICK
+			if(soundClick != undefined){
+				if(!audio_is_playing(soundClick)) audio_play_sound(soundClick,1,0)	
+			}
+			click();
+		}			
+
+		
+		//SOUND HOVER
+		if(soundHover){
+			if(hover && !onButton){
+				onButton = true
+				audio_play_sound(soundHover,1,0)	
+			}
+			if(!hover) onButton = false
 		}
+		
 		
 	}
 	
-	static step_element = function(){
-		
-		var mouseX = device_mouse_x_to_gui(0)
-		var mouseY = device_mouse_y_to_gui(0)
-		if(mouse_check_button_pressed(mb_left) && point_in_rectangle(mouseX,mouseY,x,y,x+width,y+height)){
-			click();
-		}	
-	}
+	static step_element = function(){}
 	
 	
 	
@@ -81,15 +79,7 @@ function GUIElement() constructor{
 		if(wrapper) draw_wrapper()
 		draw_element()
 		draw_end()
-		
-		
-		//DRAW ELEMENTS
-		if(array_length(elements)){
-			for(var i = 0; i<array_length(elements);i++){
-				elements[i].draw()
-			}	
-		}
-		
+
 		
 	};
 	static draw_element = function(){}
@@ -114,12 +104,6 @@ function GUIElement() constructor{
 	}
 	
 	static destroy = function(){
-	
-		if(array_length(elements)){
-			for(var i = 0; i<array_length(elements);i++){
-				elements[i].destroy()
-			}	
-		}
 	
 	
 	};

@@ -87,8 +87,9 @@ function DataFile() constructor{
 		ds_map_add(map,"TotalQuestionsAnswered",0);
 		ds_map_add(map,"QuestionsAnswered",[]);
 		ds_map_add(map,"Medals",initial_medals());
-		ds_map_add(map,"MedalsUnlocked",["beginner_bronze","beginner_silver","beginner_gold","smarty_bronze"]);
 		var mapWrited = ds_map_write(map);
+		
+		
 		
 		var _file = file_text_open_write(working_directory + "userData.dat");
 		file_text_write_string(_file, mapWrited);
@@ -103,12 +104,11 @@ function DataFile() constructor{
 		ds_map_add(map,"Diamons",userData[? "Diamons"]);
 		ds_map_add(map,"TotalQuestionsAnswered",userData[? "TotalQuestionsAnswered"]);
 		ds_map_add(map,"QuestionsAnswered",userData[? "QuestionsAnswered"]);
-		ds_map_add(map,"MedalsUnlocked",userData[? "MedalsUnlocked"]);
 		
 		//MEDALS
 		var medalList = [];
 		for(var i = 0; i < array_length(userData[? "Medals"]);i++){
-			array_push(medalList, json_stringify(userData[? "Medals"][i]))
+			array_push(medalList, userData[? "Medals"][i].stringify())
 		}
 		ds_map_add(map,"Medals",medalList);
 					
@@ -132,7 +132,9 @@ function DataFile() constructor{
 			//MEDALS
 			var medalList = [];
 			for(var i = 0; i < array_length(userData[? "Medals"]);i++){
-				array_push(medalList, json_parse(userData[? "Medals"][i]))
+				var medal = new Medal()
+				medal.set(userData[? "Medals"][i])
+				array_push(medalList, medal)
 			}
 			ds_map_set(userData,"Medals",medalList);
 			
@@ -220,29 +222,26 @@ function DataFile() constructor{
 	}
 	
 	static initial_medals = function(){
+		
+		//Devuelve array de strings
 		return [
-			json_stringify({id:"beginner_bronze",name:"Beginner Bronze", value: 0, total: 10,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
-			json_stringify({id:"beginner_silver",name:"Beginner Silver", value: 0, total: 15,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
-			json_stringify({id:"beginner_gold",name:"Beginner Gold", value: 0, total: 20,description:"Todas las categorías",categories:[0,1,2,3,4,5,6,7],price:0}),
-			
-			json_stringify({id:"smarty_bronze",name:"Smarty Bronze", value: 0, total: 50,description:"Historia, Ciencias, Geografía, General",categories:[0,5,6,7],price:0}),
-			json_stringify({id:"smarty_silver",name:"Smarty Silver", value: 0, total: 80,description:"Historia, Ciencias, Geografía, General",categories:[0,5,6,7],price:0}),
-			json_stringify({id:"smarty_gold",name:"Smarty Gold", value: 0, total: 100,description:"Historia, Ciencias, Geografía, General",categories:[0,5,6,7],price:0}),
-			
-			json_stringify({id:"chronicler",name:"Chronicler", value: 0, total: 50,description:"Historia",categories:[0],price:500}),
-			json_stringify({id:"master_chronicler",name:"Master Chronicler", value: 0, total: 80,description:"Historia",categories:[0],price:500}),
-			
-			json_stringify({id:"gamer",name:"Gamer", value: 0, total: 50,description:"Videojuegos",categories:[1],price:500}),
-			
-			json_stringify({id:"technologist",name:"Technologist", value: 0, total: 50,description:"Tecnología",categories:[3],price:500}),
-			
-			json_stringify({id:"scientific",name:"Scientific", value: 0, total: 50,description:"Ciencia",categories:[5],price:500}),
-			
-			json_stringify({id:"astronomer",name:"Astronomer", value: 0, total: 50,description:"Ciencia",categories:[2],price:500}),
-			json_stringify({id:"master_astronomer",name:"Master Astronomer", value: 0, total: 80,description:"Ciencia",categories:[2],price:500}),
-			
-			json_stringify({id:"cinephile",name:"Cinephile", value: 0, total: 50,description:"Cine y TV",categories:[4],price:500}),
-		]	
+			new Medal("beginner_bronze","Beginner Bronze",10,10,"Todas las categorías",[0,1,2,3,4,5,6,7],0,0).stringify(),
+			new Medal("beginner_silver","Beginner Silver",0,15,"Todas las categorías",[0,1,2,3,4,5,6,7],0,0).stringify(),
+			new Medal("beginner_gold","Beginner Gold",0,20,"Todas las categorías",[0,1,2,3,4,5,6,7],0,0).stringify(),
+			new Medal("smarty_bronze","Smarty Bronze",0,50,"Historia, Ciencias, Geografía, General",[0,5,6,7],500,0).stringify(),
+			new Medal("smarty_silver","Smarty Silver",0,80,"Historia, Ciencias, Geografía, General",[0,5,6,7],500,0).stringify(),
+			new Medal("smarty_gold","Smarty Gold",0,100,"Historia, Ciencias, Geografía, General",[0,5,6,7],500,0).stringify(),
+			new Medal("chronicler","Chronicler",0,50,"Historia",[0],500,1).stringify(),
+			new Medal("master_chronicler","Master Chronicler",0,80,"Historia",[0],500,1).stringify(),
+			new Medal("gamer","Gamer",0,50,"Videojuegos",[1],500,1).stringify(),
+			new Medal("technologist","Technologist",0,50,"Tecnología e Internet",[3],500,1).stringify(),
+			new Medal("scientific","Scientific",0,50,"Ciencia",[5],500,1).stringify(),
+			new Medal("astronomer","Astronomer",0,50,"Astronomía",[2],500,1).stringify(),
+			new Medal("master_astronomer","Master Astronomer",0,80,"Astronomía",[2],500,1).stringify(),
+			new Medal("cinephile","Cinephile",0,50,"Cine y TV",[5],500,1).stringify(),
+		]
+		
+
 	}
 
 	static update_pig = function(_pig){

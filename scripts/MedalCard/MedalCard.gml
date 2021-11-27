@@ -2,19 +2,19 @@ function MedalCard(_x,_y,_medalData):GUI() constructor{
 	name = "MedalCard";
 	x = _x;
 	y = _y;
-	width = 100
-	height = 100;
+	width = 90
+	height = 90;
 	wrapper = spr_wrapper_14;
 	medal = _medalData;
+	speak = [];
+	
 	
 	
 	medalName = new SimpleText(x+(width/2), y+18, medal.name,90,c_white,global.font_classic,fa_center,fa_middle,12)
-	medalWrap = new StaticSprite(x,y,spr_medals,1,medal.name)
-	medalWrap.x = x + (width/2)
-	medalWrap.y = y + (height/2)
-	bar = new LargeProgressBar(x,y+height - 20,90,16,medal.value,"Progress",medal.total,global.color_red,c_white,true)
+	medalSpr = new StaticSprite(x+(width/2),y+(height/2),spr_crown_small,0)
+	bar = new LargeProgressBar(x,y+height - 20,70,16,medal.value,"Progress",medal.total,global.color_red,c_white,true)
 	bar.x = x + (width/2) - (bar.width/2)
-	elements =[medalName,medalWrap,bar];
+	elements =[medalName,medalSpr,bar];
 	
 	create();
 
@@ -34,23 +34,13 @@ function MedalCard(_x,_y,_medalData):GUI() constructor{
 			focus = true;
 			global.medalSelected = medal;
 			
-			with(oControllerRoom){
-				if(control.name == "MedalController"){
-					control.pig.speak([
-						"Medalla " + other.medal.name+
-						" \n"+
-						other.medal.description+
-						" \nHas completado "+
-						string(other.medal.value)+
-						" de "+
-						string(other.medal.total)
-					])
-					
-				}
-				
+			if(medal.locked == 1) speak = ["Aún no has desbloqueado esta medalla"]
+			else{
+				if(medal.value == medal.total) speak = ["Ya has completado esta medalla"];
+				else speak = ["Medalla " + medal.name+" \n"+medal.description+" \nHas completado "+string(medal.value)+" de "+string(medal.total)]	
 			}
 			
-			
+			with(oControllerRoom) if(control.name == "MedalController") control.pig.speak(other.speak)
 			print(medal)
 		}
 	
